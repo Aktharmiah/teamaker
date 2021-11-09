@@ -8,4 +8,5 @@ Produce a web application that has a team with a list of members. Each member of
 - A junior must be 3 times more likely to make the tea than a senior
 - A intermediate must be 2 times more likely to make the tea than a senior
 - A team member cannot make the tea 2 times in a row.
+
 Please provide documentation on how to run the application.
