@@ -1,6 +1,6 @@
-# LiveMore Python/Django Task
+# LiveMore React/Django Task
 
-The test is to create a small web based app that uses Django or an API using Django Rest Framework and a Javascript Framework. Regularly commit to the repo and write tests.
+The test is to create a small web based app that uses an API using Django Rest Framework and a Javascript Framework. Regularly commit to the repo and write tests.
 
 ## Requirements - Tea making selection
 Produce a web application that has a team with a list of members. Each member of the team must have a skill level of either junior, intermediate or senior. The application must allow the user to randomly select the next team member to make the tea during a working day. The tea making selection algorithm must use these rules.
