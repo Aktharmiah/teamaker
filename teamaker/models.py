@@ -4,6 +4,8 @@ from abc import ABC
 from django.db import models
 from django.db.models.deletion import CASCADE
 
+from django.contrib.auth.models import AbstractUser
+
 
 class Teams(models.Model):
 
@@ -26,11 +28,11 @@ class Teams(models.Model):
         pass
 
 
-class Team_members(models.Model):
+class User( AbstractUser ):
     '''
         Team members model    
     '''
-
+    
     class Skill_level(ABC):
         '''
             An abstract class that helps use numberical skill level values in a more readable way.
@@ -50,17 +52,17 @@ class Team_members(models.Model):
 
     #====== FIELDS ==========================
 
-    first_name = models.TextField(
-        verbose_name="First name", 
-        blank=False, 
-        null=False
-    )
+    # first_name = models.TextField(
+    #     verbose_name="First name", 
+    #     blank=False, 
+    #     null=False
+    # )
 
-    surname = models.TextField(
-        verbose_name="Surname", 
-        blank=False, 
-        null=False
-    )
+    # surname = models.TextField(
+    #     verbose_name="Surname", 
+    #     blank=False, 
+    #     null=False
+    # )
 
     skill_level = models.PositiveIntegerField(
         max_length=1, 

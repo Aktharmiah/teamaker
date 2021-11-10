@@ -9,7 +9,7 @@ class TeamsForm(ModelForm):
         fields = ['team_name', 'team_description']
 
 
-class TeamMemberForm(ModelForm):
+class UserForm(ModelForm):
 
     teamChoiceQueryset = models.Teams.objects.all()
 
@@ -20,5 +20,5 @@ class TeamMemberForm(ModelForm):
     )
 
     class Meta:
-        model = models.Team_members
-        fields = ['first_name', 'surname', 'skill_level', 'team']
+        model = models.User
+        fields = ['first_name', 'last_name', 'skill_level', 'team']

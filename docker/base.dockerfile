@@ -5,6 +5,8 @@ RUN apt-get update --fix-missing
 RUN apt-get -y install apache2 
 RUN apt-get -y install apache2-dev
 
+RUN apt-get -y install gdal-bin
+
 #should auto enable after installation -- just just in case
 RUN apt-get -y install libapache2-mod-wsgi-py3 
 
