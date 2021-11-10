@@ -1,0 +1,70 @@
+version: "3.9"
+
+services:
+      
+    web:
+        
+        container_name: lmc_web
+        image: lmc/base
+
+        entrypoint: "apachectl -D FOREGROUND"
+
+        depends_on: 
+        - db
+            
+        expose: 
+        - "80"
+        
+        #hostPort:containerPort
+        ports:
+        - 8080:80
+
+        volumes: 
+
+        #The main app payload
+        - ../:${APP_ENTRYPOINT}      
+                
+        #sync host machine timezone with container
+        - "/etc/timezone:/etc/timezone:ro"
+        - "/etc/localtime:/etc/localtime:ro"
+
+        #Apache global and vhost settings
+        - ./apache2/apache2.conf:/etc/apache2/apache2.conf 
+        - ./apache2/sites-available/lmc.conf:/etc/apache2/sites-available/lmc.conf 
+
+        # On build setup - this script runs inside the container and is triggered by the run.sh script
+        - ./apache2/docker-onbuild.sh:/docker-onbuild.sh  
+ 
+        #log
+        - ./log/apache2:/var/log/apache2
+
+        environment: 
+            APP_ENTRYPOINT: ${APP_ENTRYPOINT}
+            WSGIDIR: ${APP_ENTRYPOINT}/${WSGIDIR}
+            WSGIFILE: ${WSGIFILE}
+
+            #Make the postgres credentils available to django as well so that it can be accessed
+            POSTGRES_DB: ${POSTGRES_DB}
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}          
+    db:
+        container_name: lmc_db
+
+        # Postgress v10 postgis v2.5
+        image: postgis/postgis:10-2.5
+
+        environment:
+            POSTGRES_DB: ${POSTGRES_DB}
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+
+        ports: 
+        - 5432:5432
+
+        volumes: 
+        - lmc_dbdata:/var/lib/postgresql/data
+
+  
+    
+volumes: 
+    lmc_dbdata :

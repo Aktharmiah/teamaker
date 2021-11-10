@@ -1,0 +1,328 @@
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 19:53:48.240106 2021] [mpm_event:notice] [pid 8:tid 140719236386112] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 19:53:48.240301 2021] [core:notice] [pid 8:tid 140719236386112] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 19:54:41.728818 2021] [core:warn] [pid 8:tid 140387005607232] AH00098: pid file /var/run/apache2/apache2.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Nov 09 19:54:41.730706 2021] [mpm_event:notice] [pid 8:tid 140387005607232] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 19:54:41.730772 2021] [core:notice] [pid 8:tid 140387005607232] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 19:54:55.993305 2021] [authz_core:error] [pid 9:tid 140386911647488] [client 172.18.0.1:49682] AH01630: client denied by server configuration: /var/www/html
+[Tue Nov 09 19:54:56.100540 2021] [authz_core:error] [pid 9:tid 140386987321088] [client 172.18.0.1:49682] AH01630: client denied by server configuration: /var/www/html, referer: http://localhost:8080/
+[Tue Nov 09 19:54:57.945745 2021] [authz_core:error] [pid 9:tid 140386903254784] [client 172.18.0.1:49682] AH01630: client denied by server configuration: /var/www/html
+[Tue Nov 09 19:54:58.296518 2021] [authz_core:error] [pid 9:tid 140386894862080] [client 172.18.0.1:49682] AH01630: client denied by server configuration: /var/www/html
+[Tue Nov 09 19:54:58.462866 2021] [authz_core:error] [pid 9:tid 140386886469376] [client 172.18.0.1:49682] AH01630: client denied by server configuration: /var/www/html
+[Tue Nov 09 19:54:58.665954 2021] [authz_core:error] [pid 9:tid 140386878076672] [client 172.18.0.1:49682] AH01630: client denied by server configuration: /var/www/html
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 20:00:11.673376 2021] [mpm_event:notice] [pid 9:tid 140346323569984] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:00:11.673577 2021] [core:notice] [pid 9:tid 140346323569984] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 20:04:02.064739 2021] [mpm_event:notice] [pid 8:tid 140554478144832] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:04:02.064954 2021] [core:notice] [pid 8:tid 140554478144832] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 20:08:35.886177 2021] [mpm_event:notice] [pid 8:tid 140053079014720] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:08:35.886387 2021] [core:notice] [pid 8:tid 140053079014720] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 20:09:48.825662 2021] [mpm_event:notice] [pid 9:tid 140187235003712] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:09:48.825871 2021] [core:notice] [pid 9:tid 140187235003712] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 20:13:40.773153 2021] [mpm_event:notice] [pid 8:tid 139697485802816] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:13:40.773348 2021] [core:notice] [pid 8:tid 139697485802816] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 20:15:00.541299 2021] [mpm_event:notice] [pid 8:tid 140341419875648] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:15:00.541525 2021] [core:notice] [pid 8:tid 140341419875648] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 20:15:01.260735 2021] [mpm_event:notice] [pid 8:tid 140341419875648] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 20:15:01.275526 2021] [mpm_event:notice] [pid 8:tid 140341419875648] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:15:01.276910 2021] [core:notice] [pid 8:tid 140341419875648] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 20:15:13.315660 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342] mod_wsgi (pid=91): Failed to exec Python script file '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 20:15:13.315763 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342] mod_wsgi (pid=91): Exception occurred processing WSGI script '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 20:15:13.326188 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342] Traceback (most recent call last):
+[Tue Nov 09 20:15:13.326397 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "/var/www/lmc/wsgi.py", line 9, in <module>
+[Tue Nov 09 20:15:13.326418 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]     application = get_wsgi_application()
+[Tue Nov 09 20:15:13.326454 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "/usr/local/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Nov 09 20:15:13.326470 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]     django.setup(set_prefix=False)
+[Tue Nov 09 20:15:13.326516 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "/usr/local/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+[Tue Nov 09 20:15:13.326531 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Nov 09 20:15:13.326564 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+[Tue Nov 09 20:15:13.326579 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]     self._setup(name)
+[Tue Nov 09 20:15:13.326611 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+[Tue Nov 09 20:15:13.326626 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]     self._wrapped = Settings(settings_module)
+[Tue Nov 09 20:15:13.326658 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+[Tue Nov 09 20:15:13.326674 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Nov 09 20:15:13.326706 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+[Tue Nov 09 20:15:13.326721 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Nov 09 20:15:13.326752 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Tue Nov 09 20:15:13.326786 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Tue Nov 09 20:15:13.326818 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+[Tue Nov 09 20:15:13.326850 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[Tue Nov 09 20:15:13.326931 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Tue Nov 09 20:15:13.326967 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Tue Nov 09 20:15:13.327000 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342]   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+[Tue Nov 09 20:15:13.327054 2021] [wsgi:error] [pid 91:tid 140341309269760] [remote 172.23.0.1:34342] ModuleNotFoundError: No module named 'root'
+[Tue Nov 09 20:15:14.779058 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350] mod_wsgi (pid=91): Failed to exec Python script file '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 20:15:14.779190 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350] mod_wsgi (pid=91): Exception occurred processing WSGI script '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 20:15:14.779493 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350] Traceback (most recent call last):
+[Tue Nov 09 20:15:14.779600 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "/var/www/lmc/wsgi.py", line 9, in <module>
+[Tue Nov 09 20:15:14.779612 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]     application = get_wsgi_application()
+[Tue Nov 09 20:15:14.779630 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "/usr/local/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Nov 09 20:15:14.779639 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]     django.setup(set_prefix=False)
+[Tue Nov 09 20:15:14.779656 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "/usr/local/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+[Tue Nov 09 20:15:14.779665 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Nov 09 20:15:14.779681 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+[Tue Nov 09 20:15:14.779690 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]     self._setup(name)
+[Tue Nov 09 20:15:14.779706 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+[Tue Nov 09 20:15:14.779714 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]     self._wrapped = Settings(settings_module)
+[Tue Nov 09 20:15:14.779730 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+[Tue Nov 09 20:15:14.779739 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Nov 09 20:15:14.779754 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+[Tue Nov 09 20:15:14.779763 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Nov 09 20:15:14.779779 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Tue Nov 09 20:15:14.779796 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Tue Nov 09 20:15:14.779813 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+[Tue Nov 09 20:15:14.779830 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[Tue Nov 09 20:15:14.779908 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Tue Nov 09 20:15:14.779931 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Tue Nov 09 20:15:14.779949 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350]   File "<frozen importlib._bootstrap>", line 984, in _find_and_load_unlocked
+[Tue Nov 09 20:15:14.779980 2021] [wsgi:error] [pid 91:tid 140341284091648] [remote 172.23.0.1:34350] ModuleNotFoundError: No module named 'root'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 20:17:50.250285 2021] [mpm_event:notice] [pid 8:tid 140626415254848] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:17:50.250493 2021] [core:notice] [pid 8:tid 140626415254848] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 20:17:50.828849 2021] [mpm_event:notice] [pid 8:tid 140626415254848] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 20:17:50.843496 2021] [mpm_event:notice] [pid 8:tid 140626415254848] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:17:50.844725 2021] [core:notice] [pid 8:tid 140626415254848] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 20:18:06.221460 2021] [wsgi:error] [pid 92:tid 140626338219776] [remote 172.24.0.1:53404] Not Found: /static/admin/css/fonts.css
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 20:33:38.169837 2021] [mpm_event:notice] [pid 8:tid 139826009206080] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:33:38.170020 2021] [core:notice] [pid 8:tid 139826009206080] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 20:33:38.475665 2021] [mpm_event:notice] [pid 8:tid 139826009206080] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 20:33:38.497614 2021] [mpm_event:notice] [pid 8:tid 139826009206080] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:33:38.497667 2021] [core:notice] [pid 8:tid 139826009206080] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 20:34:20.949054 2021] [mpm_event:notice] [pid 8:tid 140252868803904] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:34:20.949254 2021] [core:notice] [pid 8:tid 140252868803904] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 20:36:03.698050 2021] [mpm_event:notice] [pid 8:tid 139628428684608] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:36:03.698252 2021] [core:notice] [pid 8:tid 139628428684608] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 20:36:04.210780 2021] [mpm_event:notice] [pid 8:tid 139628428684608] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 20:36:04.225262 2021] [mpm_event:notice] [pid 8:tid 139628428684608] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 20:36:04.225308 2021] [core:notice] [pid 8:tid 139628428684608] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 20:36:13.178608 2021] [wsgi:error] [pid 90:tid 139628284507904] [remote 172.27.0.1:60222] Not Found: /static/admin/css/fonts.css
+[Tue Nov 09 20:36:14.758454 2021] [wsgi:error] [pid 90:tid 139628284507904] [remote 172.27.0.1:60222] Not Found: /static/admin/css/fonts.css
+[Tue Nov 09 20:36:15.638280 2021] [wsgi:error] [pid 90:tid 139628284507904] [remote 172.27.0.1:60222] Not Found: /static/admin/css/fonts.css
+[Tue Nov 09 20:36:16.778440 2021] [wsgi:error] [pid 90:tid 139628284507904] [remote 172.27.0.1:60236] Not Found: /static/admin/css/fonts.css
+[Tue Nov 09 20:36:16.801828 2021] [wsgi:error] [pid 90:tid 139628393613056] [remote 172.27.0.1:60236] Not Found: /favicon.ico
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 21:38:31.324939 2021] [mpm_event:notice] [pid 7:tid 140670980439360] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 21:38:31.325130 2021] [core:notice] [pid 7:tid 140670980439360] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 21:38:31.584796 2021] [mpm_event:notice] [pid 7:tid 140670980439360] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 21:38:31.601411 2021] [mpm_event:notice] [pid 7:tid 140670980439360] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 21:38:31.601459 2021] [core:notice] [pid 7:tid 140670980439360] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 21:39:58.054742 2021] [mpm_event:notice] [pid 10:tid 140698619485504] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 21:39:58.054937 2021] [core:notice] [pid 10:tid 140698619485504] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 21:40:02.821696 2021] [mpm_event:notice] [pid 10:tid 140698619485504] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 21:40:02.835796 2021] [mpm_event:notice] [pid 10:tid 140698619485504] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 21:40:02.835846 2021] [core:notice] [pid 10:tid 140698619485504] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 21:40:36.353256 2021] [wsgi:error] [pid 95:tid 140698475308800] [remote 172.29.0.1:47834] Not Found: /static/admin/css/fonts.css
+[Tue Nov 09 21:40:36.372278 2021] [wsgi:error] [pid 95:tid 140698592806656] [remote 172.29.0.1:47834] Not Found: /favicon.ico
+[Tue Nov 09 21:40:41.505666 2021] [wsgi:error] [pid 95:tid 140698592806656] [remote 172.29.0.1:47846] Not Found: /static/admin/css/base.css
+[Tue Nov 09 21:40:41.530939 2021] [wsgi:error] [pid 95:tid 140698475308800] [remote 172.29.0.1:47864] Not Found: /static/admin/css/nav_sidebar.css
+[Tue Nov 09 21:40:41.544950 2021] [wsgi:error] [pid 95:tid 140698483701504] [remote 172.29.0.1:47860] Not Found: /static/admin/js/nav_sidebar.js
+[Tue Nov 09 21:40:41.557828 2021] [wsgi:error] [pid 95:tid 140698492094208] [remote 172.29.0.1:47856] Not Found: /static/admin/css/login.css
+[Tue Nov 09 21:40:41.563124 2021] [wsgi:error] [pid 95:tid 140698500486912] [remote 172.29.0.1:47852] Not Found: /static/admin/css/responsive.css
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 21:47:16.640200 2021] [mpm_event:notice] [pid 8:tid 140269301607744] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 21:47:16.640399 2021] [core:notice] [pid 8:tid 140269301607744] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 21:47:18.742668 2021] [mpm_event:notice] [pid 8:tid 140269301607744] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 21:47:18.758728 2021] [mpm_event:notice] [pid 8:tid 140269301607744] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 21:47:18.758774 2021] [core:notice] [pid 8:tid 140269301607744] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 21:48:01.331314 2021] [wsgi:error] [pid 94:tid 140269182609152] [remote 172.30.0.1:48976] Not Found: /static/admin/css/fonts.css
+[Tue Nov 09 21:48:03.634266 2021] [wsgi:error] [pid 94:tid 140269182609152] [remote 172.30.0.1:48976] Not Found: /static/admin/css/fonts.css
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 22:04:39.211589 2021] [mpm_event:notice] [pid 8:tid 139880351595840] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 22:04:39.211792 2021] [core:notice] [pid 8:tid 139880351595840] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 22:04:40.883335 2021] [mpm_event:notice] [pid 8:tid 139880351595840] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 22:04:40.918903 2021] [mpm_event:notice] [pid 8:tid 139880351595840] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 22:04:40.918957 2021] [core:notice] [pid 8:tid 139880351595840] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 22:04:51.430448 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586] mod_wsgi (pid=92): Failed to exec Python script file '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 22:04:51.430515 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586] mod_wsgi (pid=92): Exception occurred processing WSGI script '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 22:04:51.513636 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586] Traceback (most recent call last):
+[Tue Nov 09 22:04:51.514108 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "/var/www/lmc/wsgi.py", line 9, in <module>
+[Tue Nov 09 22:04:51.514155 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]     application = get_wsgi_application()
+[Tue Nov 09 22:04:51.514232 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "/usr/local/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Nov 09 22:04:51.514267 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]     django.setup(set_prefix=False)
+[Tue Nov 09 22:04:51.514347 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "/usr/local/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+[Tue Nov 09 22:04:51.514384 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Nov 09 22:04:51.514458 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+[Tue Nov 09 22:04:51.514488 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]     self._setup(name)
+[Tue Nov 09 22:04:51.514558 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+[Tue Nov 09 22:04:51.514590 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]     self._wrapped = Settings(settings_module)
+[Tue Nov 09 22:04:51.514669 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+[Tue Nov 09 22:04:51.514703 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Nov 09 22:04:51.514784 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+[Tue Nov 09 22:04:51.514816 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Nov 09 22:04:51.514890 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Tue Nov 09 22:04:51.514969 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Tue Nov 09 22:04:51.515048 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+[Tue Nov 09 22:04:51.515216 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+[Tue Nov 09 22:04:51.515302 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+[Tue Nov 09 22:04:51.515385 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[Tue Nov 09 22:04:51.515464 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "/var/www/lmc/settings.py", line 115, in <module>
+[Tue Nov 09 22:04:51.515496 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]     from settings.database import *
+[Tue Nov 09 22:04:51.515569 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "/var/www/settings/database.py", line 9, in <module>
+[Tue Nov 09 22:04:51.515600 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]     'NAME': os.environ["POSTGRES_DB"] ,
+[Tue Nov 09 22:04:51.515674 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]   File "/usr/local/lib/python3.9/os.py", line 679, in __getitem__
+[Tue Nov 09 22:04:51.515708 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586]     raise KeyError(key) from None
+[Tue Nov 09 22:04:51.515834 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52586] KeyError: 'POSTGRES_DB'
+[Tue Nov 09 22:04:53.055088 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596] mod_wsgi (pid=92): Failed to exec Python script file '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 22:04:53.055167 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596] mod_wsgi (pid=92): Exception occurred processing WSGI script '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 22:04:53.055642 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596] Traceback (most recent call last):
+[Tue Nov 09 22:04:53.055790 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "/var/www/lmc/wsgi.py", line 9, in <module>
+[Tue Nov 09 22:04:53.055803 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]     application = get_wsgi_application()
+[Tue Nov 09 22:04:53.055827 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "/usr/local/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Nov 09 22:04:53.055838 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]     django.setup(set_prefix=False)
+[Tue Nov 09 22:04:53.055862 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "/usr/local/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+[Tue Nov 09 22:04:53.058739 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Nov 09 22:04:53.058824 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+[Tue Nov 09 22:04:53.058837 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]     self._setup(name)
+[Tue Nov 09 22:04:53.058861 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+[Tue Nov 09 22:04:53.058872 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]     self._wrapped = Settings(settings_module)
+[Tue Nov 09 22:04:53.058897 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+[Tue Nov 09 22:04:53.058908 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Nov 09 22:04:53.058984 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+[Tue Nov 09 22:04:53.058996 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Nov 09 22:04:53.059019 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Tue Nov 09 22:04:53.059044 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Tue Nov 09 22:04:53.059068 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+[Tue Nov 09 22:04:53.059092 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+[Tue Nov 09 22:04:53.059118 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+[Tue Nov 09 22:04:53.059141 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[Tue Nov 09 22:04:53.059166 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "/var/www/lmc/settings.py", line 115, in <module>
+[Tue Nov 09 22:04:53.059176 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]     from settings.database import *
+[Tue Nov 09 22:04:53.059198 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "/var/www/settings/database.py", line 9, in <module>
+[Tue Nov 09 22:04:53.059208 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]     'NAME': os.environ["POSTGRES_DB"] ,
+[Tue Nov 09 22:04:53.059231 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]   File "/usr/local/lib/python3.9/os.py", line 679, in __getitem__
+[Tue Nov 09 22:04:53.059242 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596]     raise KeyError(key) from None
+[Tue Nov 09 22:04:53.059292 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52596] KeyError: 'POSTGRES_DB'
+[Tue Nov 09 22:04:54.091915 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600] mod_wsgi (pid=92): Failed to exec Python script file '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 22:04:54.091994 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600] mod_wsgi (pid=92): Exception occurred processing WSGI script '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 22:04:54.092553 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600] Traceback (most recent call last):
+[Tue Nov 09 22:04:54.092718 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "/var/www/lmc/wsgi.py", line 9, in <module>
+[Tue Nov 09 22:04:54.092734 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]     application = get_wsgi_application()
+[Tue Nov 09 22:04:54.092764 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "/usr/local/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Nov 09 22:04:54.092778 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]     django.setup(set_prefix=False)
+[Tue Nov 09 22:04:54.092807 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "/usr/local/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+[Tue Nov 09 22:04:54.092819 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Nov 09 22:04:54.092846 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+[Tue Nov 09 22:04:54.092890 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]     self._setup(name)
+[Tue Nov 09 22:04:54.092922 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+[Tue Nov 09 22:04:54.092936 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]     self._wrapped = Settings(settings_module)
+[Tue Nov 09 22:04:54.092965 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+[Tue Nov 09 22:04:54.092978 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Nov 09 22:04:54.093002 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+[Tue Nov 09 22:04:54.093013 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Nov 09 22:04:54.093041 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Tue Nov 09 22:04:54.093072 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Tue Nov 09 22:04:54.093103 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+[Tue Nov 09 22:04:54.093134 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+[Tue Nov 09 22:04:54.093164 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+[Tue Nov 09 22:04:54.093193 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[Tue Nov 09 22:04:54.093221 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "/var/www/lmc/settings.py", line 115, in <module>
+[Tue Nov 09 22:04:54.093234 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]     from settings.database import *
+[Tue Nov 09 22:04:54.093261 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "/var/www/settings/database.py", line 9, in <module>
+[Tue Nov 09 22:04:54.093274 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]     'NAME': os.environ["POSTGRES_DB"] ,
+[Tue Nov 09 22:04:54.093303 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]   File "/usr/local/lib/python3.9/os.py", line 679, in __getitem__
+[Tue Nov 09 22:04:54.093316 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600]     raise KeyError(key) from None
+[Tue Nov 09 22:04:54.093363 2021] [wsgi:error] [pid 92:tid 139880324916992] [remote 172.31.0.1:52600] KeyError: 'POSTGRES_DB'
+[Tue Nov 09 22:04:54.545781 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606] mod_wsgi (pid=92): Failed to exec Python script file '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 22:04:54.545836 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606] mod_wsgi (pid=92): Exception occurred processing WSGI script '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 22:04:54.546183 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606] Traceback (most recent call last):
+[Tue Nov 09 22:04:54.546282 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "/var/www/lmc/wsgi.py", line 9, in <module>
+[Tue Nov 09 22:04:54.546291 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]     application = get_wsgi_application()
+[Tue Nov 09 22:04:54.546331 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "/usr/local/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Nov 09 22:04:54.546340 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]     django.setup(set_prefix=False)
+[Tue Nov 09 22:04:54.546355 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "/usr/local/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+[Tue Nov 09 22:04:54.546362 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Nov 09 22:04:54.546377 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+[Tue Nov 09 22:04:54.546384 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]     self._setup(name)
+[Tue Nov 09 22:04:54.546399 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+[Tue Nov 09 22:04:54.546406 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]     self._wrapped = Settings(settings_module)
+[Tue Nov 09 22:04:54.546421 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+[Tue Nov 09 22:04:54.546429 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Nov 09 22:04:54.546443 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+[Tue Nov 09 22:04:54.546450 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Nov 09 22:04:54.546465 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Tue Nov 09 22:04:54.546481 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Tue Nov 09 22:04:54.546497 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+[Tue Nov 09 22:04:54.546512 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+[Tue Nov 09 22:04:54.546528 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+[Tue Nov 09 22:04:54.546543 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[Tue Nov 09 22:04:54.546559 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "/var/www/lmc/settings.py", line 115, in <module>
+[Tue Nov 09 22:04:54.546566 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]     from settings.database import *
+[Tue Nov 09 22:04:54.546580 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "/var/www/settings/database.py", line 9, in <module>
+[Tue Nov 09 22:04:54.546587 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]     'NAME': os.environ["POSTGRES_DB"] ,
+[Tue Nov 09 22:04:54.546602 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]   File "/usr/local/lib/python3.9/os.py", line 679, in __getitem__
+[Tue Nov 09 22:04:54.546609 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606]     raise KeyError(key) from None
+[Tue Nov 09 22:04:54.546648 2021] [wsgi:error] [pid 92:tid 139880207419136] [remote 172.31.0.1:52606] KeyError: 'POSTGRES_DB'
+[Tue Nov 09 22:06:40.196943 2021] [mpm_event:notice] [pid 8:tid 139880351595840] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 22:06:40.308377 2021] [mpm_event:notice] [pid 8:tid 139880351595840] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 22:06:40.308432 2021] [core:notice] [pid 8:tid 139880351595840] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 22:06:43.464170 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794] mod_wsgi (pid=177): Failed to exec Python script file '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 22:06:43.464289 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794] mod_wsgi (pid=177): Exception occurred processing WSGI script '/var/www/lmc/wsgi.py'.
+[Tue Nov 09 22:06:43.466687 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794] Traceback (most recent call last):
+[Tue Nov 09 22:06:43.466867 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "/var/www/lmc/wsgi.py", line 9, in <module>
+[Tue Nov 09 22:06:43.466885 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]     application = get_wsgi_application()
+[Tue Nov 09 22:06:43.466913 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "/usr/local/lib/python3.9/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+[Tue Nov 09 22:06:43.466926 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]     django.setup(set_prefix=False)
+[Tue Nov 09 22:06:43.466953 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "/usr/local/lib/python3.9/site-packages/django/__init__.py", line 19, in setup
+[Tue Nov 09 22:06:43.466965 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]     configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+[Tue Nov 09 22:06:43.466992 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 82, in __getattr__
+[Tue Nov 09 22:06:43.467004 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]     self._setup(name)
+[Tue Nov 09 22:06:43.467030 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 69, in _setup
+[Tue Nov 09 22:06:43.467042 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]     self._wrapped = Settings(settings_module)
+[Tue Nov 09 22:06:43.467068 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "/usr/local/lib/python3.9/site-packages/django/conf/__init__.py", line 170, in __init__
+[Tue Nov 09 22:06:43.467080 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]     mod = importlib.import_module(self.SETTINGS_MODULE)
+[Tue Nov 09 22:06:43.467107 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+[Tue Nov 09 22:06:43.467119 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]     return _bootstrap._gcd_import(name[level:], package, level)
+[Tue Nov 09 22:06:43.467145 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Tue Nov 09 22:06:43.467172 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Tue Nov 09 22:06:43.467200 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+[Tue Nov 09 22:06:43.467227 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+[Tue Nov 09 22:06:43.467304 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+[Tue Nov 09 22:06:43.467334 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[Tue Nov 09 22:06:43.467362 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "/var/www/lmc/settings.py", line 115, in <module>
+[Tue Nov 09 22:06:43.467374 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]     from settings.database import *
+[Tue Nov 09 22:06:43.467400 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "/var/www/settings/database.py", line 9, in <module>
+[Tue Nov 09 22:06:43.467412 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]     'NAME': os.environ["POSTGRES_DB"] ,
+[Tue Nov 09 22:06:43.467438 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]   File "/usr/local/lib/python3.9/os.py", line 679, in __getitem__
+[Tue Nov 09 22:06:43.467450 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794]     raise KeyError(key) from None
+[Tue Nov 09 22:06:43.467497 2021] [wsgi:error] [pid 177:tid 139880324916992] [remote 172.31.0.1:52794] KeyError: 'POSTGRES_DB'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 22:07:29.069892 2021] [mpm_event:notice] [pid 8:tid 139801592057152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 22:07:29.070106 2021] [core:notice] [pid 8:tid 139801592057152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 22:07:30.662241 2021] [mpm_event:notice] [pid 8:tid 139801592057152] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 22:07:30.675300 2021] [mpm_event:notice] [pid 8:tid 139801592057152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 22:07:30.675347 2021] [core:notice] [pid 8:tid 139801592057152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 22:07:38.428384 2021] [wsgi:error] [pid 92:tid 139801464665856] [remote 192.168.16.1:35904] Not Found: /static/admin/css/fonts.css
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 22:16:32.315315 2021] [mpm_event:notice] [pid 9:tid 140657446182208] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 22:16:32.315521 2021] [core:notice] [pid 9:tid 140657446182208] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 22:16:36.416980 2021] [mpm_event:notice] [pid 9:tid 140657446182208] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 22:16:36.433299 2021] [mpm_event:notice] [pid 9:tid 140657446182208] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 22:16:36.433341 2021] [core:notice] [pid 9:tid 140657446182208] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Tue Nov 09 22:17:47.761086 2021] [mpm_event:notice] [pid 8:tid 139805655752000] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 22:17:47.761279 2021] [core:notice] [pid 8:tid 139805655752000] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 22:17:52.971982 2021] [mpm_event:notice] [pid 8:tid 139805655752000] AH00494: SIGHUP received.  Attempting to restart
+[Tue Nov 09 22:17:52.985799 2021] [mpm_event:notice] [pid 8:tid 139805655752000] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Tue Nov 09 22:17:52.985849 2021] [core:notice] [pid 8:tid 139805655752000] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Nov 09 22:17:58.262189 2021] [wsgi:error] [pid 97:tid 139805511575296] [remote 192.168.48.1:54860] Not Found: /static/admin/css/fonts.css
+[Tue Nov 09 22:17:59.869357 2021] [wsgi:error] [pid 97:tid 139805511575296] [remote 192.168.48.1:54860] Not Found: /static/admin/css/fonts.css
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Wed Nov 10 00:18:09.020705 2021] [mpm_event:notice] [pid 7:tid 140413070085440] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Wed Nov 10 00:18:09.020927 2021] [core:notice] [pid 7:tid 140413070085440] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Nov 10 00:18:10.850480 2021] [mpm_event:notice] [pid 7:tid 140413070085440] AH00494: SIGHUP received.  Attempting to restart
+[Wed Nov 10 00:18:10.864162 2021] [mpm_event:notice] [pid 7:tid 140413070085440] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Wed Nov 10 00:18:10.864205 2021] [core:notice] [pid 7:tid 140413070085440] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Nov 10 00:18:39.686125 2021] [wsgi:error] [pid 90:tid 140412984657664] [remote 192.168.128.1:44736] Not Found: /static/admin/css/fonts.css
+[Wed Nov 10 00:18:39.709903 2021] [wsgi:error] [pid 90:tid 140412967872256] [remote 192.168.128.1:44736] Not Found: /favicon.ico
+[Wed Nov 10 00:18:59.763675 2021] [wsgi:error] [pid 90:tid 140412967872256] [remote 192.168.128.1:44788] Not Found: /static/admin/css/fonts.css
+[Wed Nov 10 00:19:16.427525 2021] [wsgi:error] [pid 90:tid 140412967872256] [remote 192.168.128.1:44814] Not Found: /static/admin/css/fonts.css

@@ -10,3 +10,33 @@ Produce a web application that has a team with a list of members. Each member of
 - A team member cannot make the tea 2 times in a row.
 
 Please provide documentation on how to run the application.
+
+
+
+========================================================================================================
+
+ASSUMPTIONS:
+
+1) You are running Linux
+2) You are happy to free up port 5432 (default PostGres port). The `run.sh` script comman will attempt to do with and you may be prompted for your `sudo` password
+
+
+REQUIREMENTS:
+
+1) Docker minimum version 20.10.10
+2) Docker compose minimum version version 1.29.2 
+
+
+INSTALLATION INSTRUCTIONS:
+
+1) `cd` into the js directory and run `npm install` to install the necessary Node packages
+2) It may be necessary to `cd` into the docker directory and run `chmod 755 ./run.sh` 
+3) `cd` into the docker directory and run `run --build` to build docker images for the first time.
+
+RUNNING THE APP
+
+1) `cd` into the docker directory and run `run`. This step can be omitted if you've already run `run --build`
+
+This will launch the Docker containers. Wait for the launch process to finish.
+
+2) Point your browser to http://localhost:8080 to launch the app

@@ -1,0 +1,6 @@
+172.18.0.1 - - [09/Nov/2021:19:54:55 +0000] "GET / HTTP/1.1" 403 493 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
+172.18.0.1 - - [09/Nov/2021:19:54:56 +0000] "GET /favicon.ico HTTP/1.1" 403 492 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
+172.18.0.1 - - [09/Nov/2021:19:54:57 +0000] "GET / HTTP/1.1" 403 492 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
+172.18.0.1 - - [09/Nov/2021:19:54:58 +0000] "GET / HTTP/1.1" 403 492 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
+172.18.0.1 - - [09/Nov/2021:19:54:58 +0000] "GET / HTTP/1.1" 403 492 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
+172.18.0.1 - - [09/Nov/2021:19:54:58 +0000] "GET / HTTP/1.1" 403 492 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
