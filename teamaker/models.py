@@ -8,9 +8,10 @@ from django.contrib.auth.models import AbstractUser
 
 class Teams(models.Model):
 
-    team_name = models.TextField(
+    team_name = models.CharField(
         verbose_name='Name of the team', 
         blank=False, null=False,
+        max_length=200,
         help_text='Provide a name for your team'
     )
 
@@ -21,7 +22,7 @@ class Teams(models.Model):
     )
 
     def __str__(self):
-        return __class__.__name__
+        return self.team_name
 
     class Meta:
         pass
@@ -51,17 +52,13 @@ class User( AbstractUser ):
 
     #====== FIELDS ==========================
 
-    # first_name = models.TextField(
-    #     verbose_name="First name", 
-    #     blank=False, 
-    #     null=False
-    # )
+    USERNAME_FIELD  = 'email'
+    EMAIL_FIELD     = 'email'
+    REQUIRED_FIELDS =  ['first_name']
 
-    # surname = models.TextField(
-    #     verbose_name="Surname", 
-    #     blank=False, 
-    #     null=False
-    # )
+    email           = models.EmailField(verbose_name='email address', unique=True)
+    username        = models.CharField(max_length=1, help_text='Not used', default='', unique=False, null=True, blank=True)
+
 
     skill_level = models.PositiveIntegerField(
         max_length=1, 

@@ -14,6 +14,16 @@ from . import models_forms
 
 from django.core.exceptions import ObjectDoesNotExist
 
+
+class TeamSerializer(serializers.ModelSerializer):
+    '''
+        Simple model serializer to serialize data from team
+    '''
+    
+    class Meta:
+        model = models.Teams
+        fields = '__all__'
+
 class TeamMembersSerializer(serializers.ModelSerializer):
     '''
         Simple model serializer to serialize data from User model
@@ -21,7 +31,7 @@ class TeamMembersSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = models.User
-        fields = ['first_name', 'surname', 'skill_level', 'team']
+        fields = ['first_name', 'last_name', 'email', 'skill_level', 'team']
 
 # # ViewSets define the view behavior.
 # class TeamMembersViewSet(viewsets.ModelViewSet):
@@ -33,6 +43,9 @@ class UserDetails(APIView):
     """
         Retrieve, update or delete a single team member.
     """
+
+    authentication_classes = [] #disables authentication
+    permission_classes = [] #disables permission
 
     def get_queryset(self, pk):
         try:
@@ -61,11 +74,13 @@ class UserDetails(APIView):
         queryset.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
-
 class UserList(APIView):
     """
-        List all snippets, or create a new snippet.
+        List all snippets, or create a new team member.
     """
+
+    authentication_classes = [] #disables authentication
+    permission_classes = [] #disables permission
 
     def get_queryset(self):
         try:
@@ -92,61 +107,114 @@ class UserList(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-def index(request):
+class TeamDetails(APIView):
+    """
+        Retrieve, update or delete a single team member.
+    """
 
-    return render(request, 'index.html')
+    authentication_classes = [] #disables authentication
+    permission_classes = [] #disables permission
+
+    def get_queryset(self, pk):
+        try:
+            return models.User.objects.get(pk=pk)
+        except models.User.DoesNotExist:
+            raise Http404
+
+    def get(self, request, pk, format=None):
+        
+        queryset = self.get_queryset(pk)
+        serializer = TeamSerializer(queryset)
+        return Response(serializer.data)
+
+    def put(self, request, pk, format=None):
+
+        queryset = self.get_queryset(pk)
+        serializer = TeamSerializer(queryset, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def delete(self, request, pk, format=None):
+        
+        queryset = self.get_queryset(pk)
+        queryset.delete()
+        return Response(status=status.HTTP_204_NO_CONTENT)
+
+class TeamList(APIView):
+    """
+        List all snippets, or create a new team member.
+    """
+
+    authentication_classes = [] #disables authentication
+    permission_classes = [] #disables permission
+
+    def get_queryset(self):
+        try:
+            return models.User.objects.all()
+        except models.User.DoesNotExist:
+            raise Http404
+
+    def get(self, request, format=None):
+
+        snippets = self.get_queryset()
+        serializer = TeamSerializer(snippets, many=True)
+        
+        return Response(serializer.data)
+
+    def post(self, request, format=None):
+
+        serializer = TeamSerializer(data=request.data)
+
+        if serializer.is_valid():
+            serializer.save()
+
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-def checkTeamExistance():
-
-    teamsQueryset = models.Teams.objects.all()
-
-    if teamsQueryset.count == 0:
-
-        return ObjectDoesNotExist
-
-    return True
-
-
-def userFormSelector(request):
-
-    '''
-        This view determines wheter at least one team exists, If not then the user will be redirected to
-        the teams form. Otherwise they will be redirected to the user form
-    
-    '''
-
-    try:
-
-        checkTeamExistance
-
-    except:
-
-        return reverse("teamaker:")
 
 
 
 class TeamFormView(FormView):
 
     form_class = models_forms.TeamsForm   
-    template_name = 'teamaker/forms/user.html'
-    success_url = 'teamaker/forms/user_created.html'
+    template_name = 'teamaker/forms/teams.html'
+    success_url = '#'
 
-    def form_valid(self, form):
-        # This method is called when valid form data has been POSTed.
-        # It should return an HttpResponse.
-        form.send_email()
-        return super().form_valid(form)
+    # def form_valid(self, form):
+    #     # This method is called when valid form data has been POSTed.
+    #     # It should return an HttpResponse.
+    #     form.send_email()
+    #     return super().form_valid(form)
 
 
 class UserFormView(FormView):
 
     form_class = models_forms.UserForm   
-    template_name = 'teamaker/forms/user.html'
-    success_url = 'teamaker/forms/user_created.html'
+    template_name = 'teamaker/forms/members.html'
+    success_url = '#'
 
-    def form_valid(self, form):
-        # This method is called when valid form data has been POSTed.
-        # It should return an HttpResponse.
-        form.send_email()
-        return super().form_valid(form)
+    # def form_valid(self, form):
+    #     # This method is called when valid form data has been POSTed.
+    #     # It should return an HttpResponse.
+    #     form.send_email()
+    #     return super().form_valid(form)
+        
+
+def index(request):
+
+    return render(request, 'index.html')
+
+
+# def checkTeamExistance():
+
+#     teamsQueryset = models.Teams.objects.all()
+
+#     if teamsQueryset.count == 0:
+
+#         return ObjectDoesNotExist
+
+#     return True

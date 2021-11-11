@@ -1,3 +1,5 @@
+import { resolve } from "path/posix";
+
 /**
  * A fetch function that also triggers a custom 'fetch' event
  * 
@@ -26,6 +28,33 @@
       })
   
     }); 
+}
+
+
+/**
+ * Gets a page from the server
+ * @param {*} e 
+ */
+
+export function getPage(url){
+
+  return Promise((resolve, reject)=>{
+
+    fetch(url)
+    .then(res=>res.text())
+    .then(text=>{
+
+      console.log("text received", text);
+
+      resolve(text)
+
+    })
+    .catch(e=>reject(e))
+
+
+  })
+
+
 }
   
   

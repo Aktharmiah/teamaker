@@ -1,8 +1,9 @@
  #!/bin/sh
 
-
 echo "Shutting down running docker containers...."
 docker-compose down
+
+
 
 #Check for the --build flag. If it is provided then build the main docker image (the one with django in it)
 #This is intened for inital (setup runs)
@@ -32,3 +33,8 @@ else
 
 fi
 
+
+
+#restart postgres
+#echo "Starting postgres on port "$PGPORT
+#docker exec lmc_db bash -c "pg_ctl restart -w"

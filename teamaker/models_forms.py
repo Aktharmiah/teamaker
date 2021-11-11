@@ -11,14 +11,12 @@ class TeamsForm(ModelForm):
 
 class UserForm(ModelForm):
 
-    teamChoiceQueryset = models.Teams.objects.all()
-
     #Here we want to get the team names dynamically from a queryset instead of a static choice list
     team = forms.ModelChoiceField(
-        queryset=teamChoiceQueryset,
+        queryset= models.Teams.objects.all(),
         required=True
     )
 
     class Meta:
         model = models.User
-        fields = ['first_name', 'last_name', 'skill_level', 'team']
+        fields = ['first_name', 'last_name', 'email', 'skill_level', 'team']
