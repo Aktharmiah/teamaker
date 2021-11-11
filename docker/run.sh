@@ -1,12 +1,7 @@
  #!/bin/sh
 
 
-#Check if the docker base image exists. If not then create it
-
- echo "Shutting down postgres on host machine..."
- sudo service postgresql stop
-
-
+echo "Shutting down running docker containers...."
 docker-compose down
 
 #Check for the --build flag. If it is provided then build the main docker image (the one with django in it)
@@ -17,11 +12,6 @@ if [ "$1" == "--build" ]; then
     "
     docker build -f base.dockerfile -t lmc/base .   
 
-
-else
-    echo "Using existing docker images
-    "
-    docker-compose up -d
 fi
 
 

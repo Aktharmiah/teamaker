@@ -2343,3 +2343,81 @@ AH00112: Warning: DocumentRoot [/var/www/html] does not exist
 [Wed Nov 10 22:32:52.859801 2021] [wsgi:error] [pid 4239:tid 139839492245248] [remote 172.20.0.1:35558] Not Found: /favicon.ico
 [Wed Nov 10 22:51:19.096758 2021] [wsgi:error] [pid 4239:tid 139839475459840] [remote 172.20.0.1:37754] Not Found: /favicon.ico
 [Wed Nov 10 22:59:24.707583 2021] [wsgi:error] [pid 4239:tid 139839492245248] [remote 172.20.0.1:38766] Not Found: /favicon.ico
+[Wed Nov 10 23:06:32.736552 2021] [mpm_event:notice] [pid 8:tid 139839619636544] AH00494: SIGHUP received.  Attempting to restart
+[Wed Nov 10 23:06:33.139926 2021] [mpm_event:notice] [pid 8:tid 139839619636544] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Wed Nov 10 23:06:33.140045 2021] [core:notice] [pid 8:tid 139839619636544] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Nov 10 23:06:41.163336 2021] [mpm_event:notice] [pid 8:tid 139839619636544] AH00494: SIGHUP received.  Attempting to restart
+[Wed Nov 10 23:06:41.236521 2021] [mpm_event:notice] [pid 8:tid 139839619636544] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Wed Nov 10 23:06:41.236584 2021] [core:notice] [pid 8:tid 139839619636544] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Nov 10 23:06:41.377799 2021] [mpm_event:notice] [pid 8:tid 139839619636544] AH00494: SIGHUP received.  Attempting to restart
+[Wed Nov 10 23:06:41.446591 2021] [mpm_event:notice] [pid 8:tid 139839619636544] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Wed Nov 10 23:06:41.446648 2021] [core:notice] [pid 8:tid 139839619636544] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Nov 10 23:06:42.716649 2021] [mpm_event:notice] [pid 8:tid 139839619636544] AH00494: SIGHUP received.  Attempting to restart
+[Wed Nov 10 23:06:42.781117 2021] [mpm_event:notice] [pid 8:tid 139839619636544] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Wed Nov 10 23:06:42.781220 2021] [core:notice] [pid 8:tid 139839619636544] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Nov 10 23:09:49.782863 2021] [mpm_event:notice] [pid 8:tid 139839619636544] AH00494: SIGHUP received.  Attempting to restart
+[Wed Nov 10 23:09:49.841097 2021] [mpm_event:notice] [pid 8:tid 139839619636544] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Wed Nov 10 23:09:49.841162 2021] [core:notice] [pid 8:tid 139839619636544] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Nov 10 23:11:33.137253 2021] [wsgi:error] [pid 4701:tid 139839592957696] [remote 172.20.0.1:40142] Not Found: /favicon.ico
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Thu Nov 11 15:23:19.171108 2021] [mpm_event:notice] [pid 8:tid 140332360047936] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 15:23:19.171920 2021] [core:notice] [pid 8:tid 140332360047936] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 15:23:20.400333 2021] [mpm_event:notice] [pid 8:tid 140332360047936] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 15:23:20.410859 2021] [mpm_event:notice] [pid 8:tid 140332360047936] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 15:23:20.410921 2021] [core:notice] [pid 8:tid 140332360047936] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 15:25:36.004516 2021] [mpm_event:notice] [pid 8:tid 140332360047936] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 15:25:36.069607 2021] [mpm_event:notice] [pid 8:tid 140332360047936] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 15:25:36.071249 2021] [core:notice] [pid 8:tid 140332360047936] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 15:25:47.671498 2021] [mpm_event:notice] [pid 8:tid 140332360047936] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 15:25:47.741041 2021] [mpm_event:notice] [pid 8:tid 140332360047936] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 15:25:47.742724 2021] [core:notice] [pid 8:tid 140332360047936] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 15:25:58.729997 2021] [mpm_event:notice] [pid 8:tid 140332360047936] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 15:25:58.797737 2021] [mpm_event:notice] [pid 8:tid 140332360047936] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 15:25:58.797805 2021] [core:notice] [pid 8:tid 140332360047936] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Thu Nov 11 15:31:14.606145 2021] [mpm_event:notice] [pid 9:tid 139872403791168] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 15:31:14.606380 2021] [core:notice] [pid 9:tid 139872403791168] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 15:31:15.970121 2021] [mpm_event:notice] [pid 9:tid 139872403791168] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 15:31:15.984196 2021] [mpm_event:notice] [pid 9:tid 139872403791168] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 15:31:15.984256 2021] [core:notice] [pid 9:tid 139872403791168] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 15:33:36.084726 2021] [wsgi:error] [pid 93:tid 139872377112320] [remote 172.19.0.1:60646] Not Found: /favicon.ico
+[Thu Nov 11 15:33:58.827874 2021] [wsgi:error] [pid 93:tid 139872377112320] [remote 172.19.0.1:60722] Not Found: /teamaker/users/
+[Thu Nov 11 15:33:58.976952 2021] [wsgi:error] [pid 93:tid 139872268007168] [remote 172.19.0.1:60722] Not Found: /favicon.ico
+[Thu Nov 11 15:34:45.199038 2021] [wsgi:error] [pid 93:tid 139872268007168] [remote 172.19.0.1:60810] Not Found: /teamaker/members-list/
+[Thu Nov 11 15:34:45.306033 2021] [wsgi:error] [pid 93:tid 139872377112320] [remote 172.19.0.1:60810] Not Found: /favicon.ico
+[Thu Nov 11 15:34:55.074597 2021] [wsgi:error] [pid 93:tid 139872284792576] [remote 172.19.0.1:60848] Not Found: /public/rest_framework/css/default.css
+[Thu Nov 11 15:34:55.082385 2021] [wsgi:error] [pid 93:tid 139872268007168] [remote 172.19.0.1:60834] Not Found: /public/rest_framework/css/bootstrap.min.css
+[Thu Nov 11 15:34:55.094309 2021] [wsgi:error] [pid 93:tid 139872276399872] [remote 172.19.0.1:60844] Not Found: /public/rest_framework/css/prettify.css
+[Thu Nov 11 15:34:55.130528 2021] [wsgi:error] [pid 93:tid 139872301577984] [remote 172.19.0.1:60848] Not Found: /public/rest_framework/js/csrf.js
+[Thu Nov 11 15:34:55.146759 2021] [wsgi:error] [pid 93:tid 139872377112320] [remote 172.19.0.1:60840] Not Found: /public/rest_framework/css/bootstrap-tweaks.css
+[Thu Nov 11 15:34:55.170296 2021] [wsgi:error] [pid 93:tid 139872293185280] [remote 172.19.0.1:60856] Not Found: /public/rest_framework/js/ajax-form.js
+[Thu Nov 11 15:34:55.179996 2021] [wsgi:error] [pid 93:tid 139872268007168] [remote 172.19.0.1:60844] Not Found: /public/rest_framework/js/prettify-min.js
+[Thu Nov 11 15:34:55.182031 2021] [wsgi:error] [pid 93:tid 139872259614464] [remote 172.19.0.1:60852] Not Found: /public/rest_framework/js/jquery-3.5.1.min.js
+[Thu Nov 11 15:34:55.187553 2021] [wsgi:error] [pid 93:tid 139872284792576] [remote 172.19.0.1:60834] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Thu Nov 11 15:34:55.188236 2021] [wsgi:error] [pid 93:tid 139872276399872] [remote 172.19.0.1:60848] Not Found: /public/rest_framework/js/default.js
+[Thu Nov 11 15:34:55.206147 2021] [wsgi:error] [pid 93:tid 139872301577984] [remote 172.19.0.1:60840] Not Found: /public/rest_framework/js/ajax-form.js
+[Thu Nov 11 15:34:55.225428 2021] [wsgi:error] [pid 93:tid 139872276399872] [remote 172.19.0.1:60840] Not Found: /public/rest_framework/js/csrf.js
+[Thu Nov 11 15:34:55.242966 2021] [wsgi:error] [pid 93:tid 139872301577984] [remote 172.19.0.1:60840] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Thu Nov 11 15:34:55.265155 2021] [wsgi:error] [pid 93:tid 139872276399872] [remote 172.19.0.1:60840] Not Found: /public/rest_framework/js/prettify-min.js
+[Thu Nov 11 15:34:55.286159 2021] [wsgi:error] [pid 93:tid 139872301577984] [remote 172.19.0.1:60840] Not Found: /public/rest_framework/js/default.js
+[Thu Nov 11 15:34:55.310412 2021] [wsgi:error] [pid 93:tid 139872276399872] [remote 172.19.0.1:60840] Not Found: /favicon.ico
+[Thu Nov 11 15:35:19.916725 2021] [mpm_event:notice] [pid 9:tid 139872403791168] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 15:35:21.435491 2021] [mpm_event:notice] [pid 9:tid 139872403791168] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 15:35:21.435575 2021] [core:notice] [pid 9:tid 139872403791168] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 15:35:43.421639 2021] [mpm_event:notice] [pid 9:tid 139872403791168] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 15:35:43.481252 2021] [mpm_event:notice] [pid 9:tid 139872403791168] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 15:35:43.481314 2021] [core:notice] [pid 9:tid 139872403791168] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 15:36:33.713982 2021] [mpm_event:notice] [pid 9:tid 139872403791168] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 15:36:33.780893 2021] [mpm_event:notice] [pid 9:tid 139872403791168] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 15:36:33.780964 2021] [core:notice] [pid 9:tid 139872403791168] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 15:46:05.212360 2021] [wsgi:error] [pid 348:tid 139872259614464] [remote 172.19.0.1:33816] Not Found: /favicon.ico
+[Thu Nov 11 16:58:09.394815 2021] [wsgi:error] [pid 348:tid 139872377112320] [remote 172.19.0.1:42576] Not Found: /favicon.ico
+[Thu Nov 11 17:18:18.094661 2021] [wsgi:error] [pid 348:tid 139872259614464] [remote 172.19.0.1:44862] Not Found: /favicon.ico
+[Thu Nov 11 17:27:53.162417 2021] [wsgi:error] [pid 348:tid 139872377112320] [remote 172.19.0.1:45958] Not Found: /favicon.ico
+[Thu Nov 11 17:35:36.250209 2021] [wsgi:error] [pid 348:tid 139872259614464] [remote 172.19.0.1:46868] Not Found: /favicon.ico
+[Thu Nov 11 17:47:08.629212 2021] [wsgi:error] [pid 348:tid 139872377112320] [remote 172.19.0.1:48138] Not Found: /favicon.ico
+[Thu Nov 11 18:05:15.234461 2021] [wsgi:error] [pid 348:tid 139872259614464] [remote 172.19.0.1:50132] Not Found: /favicon.ico
+[Thu Nov 11 18:14:44.388011 2021] [wsgi:error] [pid 348:tid 139872377112320] [remote 172.19.0.1:51186] Not Found: /favicon.ico
+[Thu Nov 11 18:28:29.743959 2021] [wsgi:error] [pid 348:tid 139872259614464] [remote 172.19.0.1:52894] Not Found: /favicon.ico
+[Thu Nov 11 18:41:01.365251 2021] [wsgi:error] [pid 348:tid 139872377112320] [remote 172.19.0.1:54306] Not Found: /favicon.ico
+[Thu Nov 11 19:11:52.671063 2021] [wsgi:error] [pid 348:tid 139872259614464] [remote 172.19.0.1:57908] Not Found: /favicon.ico

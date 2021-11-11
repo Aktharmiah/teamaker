@@ -21,9 +21,8 @@ urlpatterns = [
     
     path('', views.index, name='home' ),
     path('admin/', admin.site.urls, name='admin'),
-    # path('', include(router.urls)),
     path('teamaker/', include(teamakerUrls, namespace='teamaker')),
-    # path('api/', include('rest_framework.urls', namespace='api'))
+
 ]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 

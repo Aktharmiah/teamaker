@@ -20,6 +20,9 @@ if [ "$1" == "--build" ]; then
 
 fi
 
+echo "Starting postgres on port "$PGPORT
+
+pg_ctl restart -w
 
 
 echo "Starting Apache...."

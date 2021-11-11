@@ -1,8 +1,5 @@
 from django.urls import path, include
-
 from . import views
-# import TeamMembersDetailsView, TeamMembersListView
-
 
 app_label = 'teamaker'
 app_name = 'teamaker'

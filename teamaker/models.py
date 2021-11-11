@@ -1,4 +1,3 @@
-
 #abstract base class
 from abc import ABC
 from django.db import models
@@ -39,7 +38,7 @@ class User( AbstractUser ):
             The vaiables in this class may be used in queries instead of numberical values
         '''
         JUNIOR = 1
-        INTERMEDIATE = 1
+        INTERMEDIATE = 2
         SENIOR = 3    
 
     #This tuple defines the choices available for the skill level field, which is a numerical value
