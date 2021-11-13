@@ -5413,3 +5413,664 @@ AH00112: Warning: DocumentRoot [/var/www/html] does not exist
 [Sat Nov 13 00:07:35.565416 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
 [Sat Nov 13 00:07:35.631710 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
 [Sat Nov 13 00:07:35.631781 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:09:19.125899 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:09:19.187937 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:09:19.188003 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:10:33.011586 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:10:33.089786 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:10:33.089855 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:08:06.677563 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:08:06.854515 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:08:06.854598 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:08:49.896049 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:08:49.964565 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:08:49.964642 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:13:30.866360 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:13:30.934729 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:13:30.934791 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:14:28.413411 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:14:28.477422 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:14:28.478628 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:15:48.254365 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:15:48.316164 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:15:48.316250 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:17:56.032050 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:17:56.095576 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:17:56.095652 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:17:58.972774 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:17:59.036158 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:17:59.038345 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:20:14.471155 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:20:14.532632 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:20:14.535132 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:20:26.980085 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:20:27.041775 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:20:27.041865 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:20:34.019958 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:20:34.082524 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:20:34.082590 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:21:33.853998 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:21:33.916457 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:21:33.916529 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:21:43.710947 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:21:43.774533 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:21:43.774621 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:21:53.344209 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:21:53.410982 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:21:53.412429 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:22:42.978074 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:22:43.043320 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:22:43.043405 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:22:47.506072 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:22:47.579236 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:22:47.582449 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:23:29.206086 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:23:29.271559 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:23:29.272759 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:23:54.273996 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:23:54.339036 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:23:54.339111 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:23:57.945076 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:23:58.009171 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:23:58.009269 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:24:30.429111 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:24:30.497436 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:24:30.497507 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:25:57.706455 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:25:57.767349 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:25:57.767423 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:26:13.431210 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:26:13.493664 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:26:13.493735 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:26:29.110400 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:26:29.172980 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:26:29.173054 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:26:38.910017 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:26:38.972372 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:26:38.972444 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:26:44.660194 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:26:44.724438 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:26:44.724562 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:26:50.324742 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:26:50.387565 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:26:50.387639 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:27:15.397185 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:27:15.456559 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:27:15.456632 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:27:18.711614 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:27:18.773850 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:27:18.773934 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:27:34.023990 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:27:34.085768 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:27:34.085839 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:29:22.944297 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:29:23.005378 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:29:23.005464 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:31:49.307089 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:31:49.368962 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:31:49.369031 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:32:24.108672 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:32:24.167859 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:32:24.167932 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:32:34.720268 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:32:34.781394 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:32:34.782741 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:32:59.917724 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:32:59.981409 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:32:59.981500 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:36:42.062501 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:36:42.124548 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:36:42.124628 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:36:45.043308 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:36:45.105022 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:36:45.105090 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:36:57.836715 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:36:57.896208 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:36:57.896298 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:37:50.739091 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:37:50.799735 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:37:50.799795 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:37:57.553802 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:37:57.619250 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:37:57.619323 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:38:04.951228 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:38:05.010078 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:38:05.010164 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:38:09.392792 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:38:09.453068 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:38:09.453144 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:38:14.005323 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:38:14.068028 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:38:14.068101 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:38:18.059610 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:38:18.126272 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:38:18.126351 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:39:18.579073 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:39:18.640937 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:39:18.641008 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:39:24.879308 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:39:24.949743 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:39:24.949816 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:39:28.994929 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:39:29.056903 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:39:29.056997 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:39:41.770510 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:39:41.831122 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:39:41.831187 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:40:33.232852 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:40:33.294958 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:40:33.295030 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:40:40.680472 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:40:40.745872 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:40:40.747189 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:40:58.449990 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:40:58.514672 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:40:58.514749 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:41:11.243745 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:41:11.304305 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:41:11.304379 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:42:43.040600 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:42:43.100768 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:42:43.100838 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:42:55.252275 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:42:55.320204 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:42:55.320302 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:43:19.370945 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:43:19.433653 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:43:19.433728 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:44:49.122348 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:44:49.181691 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:44:49.181762 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:45:21.994601 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:45:22.055847 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:45:22.055974 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:45:57.798120 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:45:57.860160 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:45:57.860251 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:46:02.053905 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:46:02.121712 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:46:02.122856 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:46:27.910735 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:46:27.971867 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:46:27.971935 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:46:35.068684 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:46:35.132017 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:46:35.132079 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:47:47.395563 2021] [wsgi:error] [pid 26723:tid 139848058312448] [remote 172.22.0.1:43588] Not Found: /public/teamaker/index.js
+[Sat Nov 13 14:47:47.535323 2021] [wsgi:error] [pid 26723:tid 139848066705152] [remote 172.22.0.1:43588] Not Found: /favicon.ico
+[Sat Nov 13 14:48:00.391804 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618] Internal Server Error: /teamaker/teams/
+[Sat Nov 13 14:48:00.391986 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618] Traceback (most recent call last):
+[Sat Nov 13 14:48:00.392002 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/fields.py", line 457, in get_attribute
+[Sat Nov 13 14:48:00.392053 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     return get_attribute(instance, self.source_attrs)
+[Sat Nov 13 14:48:00.392065 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/fields.py", line 97, in get_attribute
+[Sat Nov 13 14:48:00.392075 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     instance = getattr(instance, attr)
+[Sat Nov 13 14:48:00.392085 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618] AttributeError: 'User' object has no attribute 'team_name'
+[Sat Nov 13 14:48:00.392095 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618] 
+[Sat Nov 13 14:48:00.392105 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618] During handling of the above exception, another exception occurred:
+[Sat Nov 13 14:48:00.392115 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618] 
+[Sat Nov 13 14:48:00.392124 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618] Traceback (most recent call last):
+[Sat Nov 13 14:48:00.392133 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Sat Nov 13 14:48:00.392143 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     response = get_response(request)
+[Sat Nov 13 14:48:00.392153 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Sat Nov 13 14:48:00.392163 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Sat Nov 13 14:48:00.392173 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Sat Nov 13 14:48:00.392184 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     return view_func(*args, **kwargs)
+[Sat Nov 13 14:48:00.392194 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+[Sat Nov 13 14:48:00.392203 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     return self.dispatch(request, *args, **kwargs)
+[Sat Nov 13 14:48:00.392214 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+[Sat Nov 13 14:48:00.392240 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     response = self.handle_exception(exc)
+[Sat Nov 13 14:48:00.392252 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Sat Nov 13 14:48:00.392263 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     self.raise_uncaught_exception(exc)
+[Sat Nov 13 14:48:00.392273 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Sat Nov 13 14:48:00.392284 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     raise exc
+[Sat Nov 13 14:48:00.392295 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+[Sat Nov 13 14:48:00.392305 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     response = handler(request, *args, **kwargs)
+[Sat Nov 13 14:48:00.392331 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/var/www/teamaker/views.py", line 164, in get
+[Sat Nov 13 14:48:00.392343 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     return Response(serializer.data)
+[Sat Nov 13 14:48:00.392352 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 745, in data
+[Sat Nov 13 14:48:00.392364 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     ret = super().data
+[Sat Nov 13 14:48:00.392374 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 246, in data
+[Sat Nov 13 14:48:00.392385 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     self._data = self.to_representation(self.instance)
+[Sat Nov 13 14:48:00.392396 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 663, in to_representation
+[Sat Nov 13 14:48:00.392407 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     return [
+[Sat Nov 13 14:48:00.392419 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 664, in <listcomp>
+[Sat Nov 13 14:48:00.392431 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     self.child.to_representation(item) for item in iterable
+[Sat Nov 13 14:48:00.392441 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 502, in to_representation
+[Sat Nov 13 14:48:00.392452 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     attribute = field.get_attribute(instance)
+[Sat Nov 13 14:48:00.392464 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]   File "/usr/local/lib/python3.9/site-packages/rest_framework/fields.py", line 490, in get_attribute
+[Sat Nov 13 14:48:00.392475 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618]     raise type(exc)(msg)
+[Sat Nov 13 14:48:00.392486 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618] AttributeError: Got AttributeError when attempting to get a value for field `team_name` on serializer `TeamSerializer`.
+[Sat Nov 13 14:48:00.392498 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618] The serializer field might be named incorrectly and not match any attribute or key on the `User` instance.
+[Sat Nov 13 14:48:00.392510 2021] [wsgi:error] [pid 26723:tid 139848175810304] [remote 172.22.0.1:43618] Original exception text was: 'User' object has no attribute 'team_name'.
+[Sat Nov 13 14:48:26.866803 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:48:27.070596 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:48:27.071884 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:48:45.141306 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:48:45.200696 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:48:45.200771 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:49:34.965796 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:49:35.027557 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:49:35.027682 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:49:38.601905 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:49:38.663535 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:49:38.663610 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:50:04.643688 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:50:04.708852 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:50:04.708929 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:50:09.664166 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:50:09.726666 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:50:09.727946 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:51:55.267272 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:51:55.328574 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:51:55.328643 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:53:31.691280 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:53:31.754522 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:53:31.754598 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:53:55.553374 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:53:55.619242 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:53:55.620373 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:54:07.457618 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:54:07.523002 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:54:07.523063 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:54:34.088242 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:54:34.154049 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:54:34.154110 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:54:44.207531 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:54:44.269351 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:54:44.270486 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:54:48.670331 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:54:48.729454 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:54:48.729534 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:55:25.042871 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:55:25.103106 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:55:25.103176 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:56:03.387372 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:56:03.450231 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:56:03.450300 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:56:11.512135 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:56:11.573872 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:56:11.573967 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:56:17.217631 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:56:17.279535 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:56:17.279597 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:56:24.568624 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:56:24.627391 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:56:24.627465 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:57:17.995427 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:57:18.055804 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:57:18.055906 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:57:24.319094 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:57:24.382187 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:57:24.382263 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:58:02.932714 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:58:02.991542 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:58:02.991609 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:58:34.106575 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:58:34.165100 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:58:34.165165 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:59:14.275451 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:59:14.341213 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:59:14.342062 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:59:18.137953 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:59:18.216283 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:59:18.216359 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:59:18.386881 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:59:18.658863 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:59:18.658946 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:59:32.758525 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:59:32.820013 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:59:32.820087 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 14:59:36.631684 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 14:59:36.697352 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 14:59:36.697427 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:01:09.488116 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:01:09.548336 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:01:09.548406 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:01:10.284337 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:01:10.349747 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:01:10.351021 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:01:22.804344 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:01:22.866942 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:01:22.867009 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:01:37.110532 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:01:37.174260 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:01:37.174342 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:01:43.335474 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:01:43.630565 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:01:43.630731 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:01:51.774887 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:01:51.838791 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:01:51.838888 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:02:45.313119 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:02:45.375787 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:02:45.375860 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:02:51.742529 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:02:51.804854 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:02:51.804916 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:03:35.077098 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:03:35.148127 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:03:35.148210 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:03:38.449623 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:03:38.509120 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:03:38.509195 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:03:54.919806 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:03:54.983321 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:03:54.983404 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:03:57.520982 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:03:57.592384 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:03:57.592466 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:04:02.904469 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:04:02.965807 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:04:02.965873 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:04:43.920026 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:04:43.991716 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:04:43.991787 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:05:23.734213 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:05:23.797504 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:05:23.797573 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:05:32.313991 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:05:32.377685 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:05:32.377773 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:05:41.815924 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:05:41.882414 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:05:41.882485 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:05:58.818915 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:05:58.884038 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:05:58.885161 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:06:03.894670 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:06:03.956563 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:06:03.956626 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:07:04.271086 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:07:04.329705 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:07:04.329775 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:07:38.508189 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:07:38.571943 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:07:38.572018 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:08:03.489930 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:08:03.552056 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:08:03.552264 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:08:13.318530 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:08:13.382405 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:08:13.382487 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:08:16.902392 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:08:16.961700 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:08:16.961775 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:09:29.357252 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:09:29.419411 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:09:29.419480 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:09:34.986950 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:09:35.050842 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:09:35.052091 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:10:08.422729 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:10:08.493591 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:10:08.493666 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:10:53.180334 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:10:53.245607 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:10:53.245671 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:11:23.410958 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:11:23.469034 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:11:23.469102 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:12:19.715396 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:12:19.779264 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:12:19.779334 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:12:35.405639 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:12:35.467729 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:12:35.467800 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:12:46.089822 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:12:46.148136 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:12:46.148206 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:13:14.674572 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:13:14.735470 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:13:14.735538 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:13:40.754378 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:13:40.818721 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:13:40.823787 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:14:23.489140 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:14:23.547289 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:14:23.547368 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:15:00.686781 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:15:00.750084 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:15:00.750229 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:15:40.875925 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:15:40.938612 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:15:40.938681 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:15:45.022187 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:15:45.089167 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:15:45.090830 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:18:08.390633 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:18:08.456302 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:18:08.457406 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:18:20.606544 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:18:20.670758 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:18:20.670832 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:18:23.866421 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:18:23.926763 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:18:23.926840 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:19:20.572451 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:19:20.638248 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:19:20.638319 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:19:44.261061 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:19:44.323667 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:19:44.323736 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:19:47.943815 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:19:48.004823 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:19:48.004920 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:19:54.245485 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:19:54.303996 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:19:54.304059 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:19:57.183607 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:19:57.243422 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:19:57.243502 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:21:04.990956 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:21:05.071351 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:21:05.071434 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:21:14.005934 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:21:14.107266 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:21:14.107345 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:21:17.634730 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:21:17.705625 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:21:17.705718 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:21:28.481559 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:21:28.540930 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:21:28.540999 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:22:20.392901 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:22:20.460008 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:22:20.460078 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:22:48.564600 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:22:48.630502 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:22:48.630573 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:23:17.102334 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:23:17.166682 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:23:17.166748 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:23:21.878651 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:23:21.941946 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:23:21.942019 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:23:59.239099 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:23:59.302869 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:23:59.302936 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:25:12.485061 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:25:12.549141 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:25:12.549211 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:25:22.803096 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:25:22.866235 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:25:22.866325 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:25:32.807136 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:25:32.869768 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:25:32.869835 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:25:57.872896 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:25:57.934383 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:25:57.934493 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:26:01.326339 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:26:01.394979 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:26:01.395064 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:26:13.428347 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:26:13.487859 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:26:13.487935 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:26:15.995418 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:26:16.062074 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:26:16.062160 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:26:41.638488 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:26:41.698663 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:26:41.698731 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:26:47.640064 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:26:47.704697 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:26:47.704761 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:26:50.930712 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:26:50.993918 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:26:50.993988 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:28:22.063613 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:28:22.123067 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:28:22.123136 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:28:29.148742 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:28:29.212128 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:28:29.212203 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:28:54.854478 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:28:54.913574 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:28:54.913649 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:28:57.808406 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:28:57.874736 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:28:57.874804 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:30:08.737551 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:30:08.801981 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:30:08.802110 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:30:12.719029 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:30:12.783240 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:30:12.783326 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:30:57.481479 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:30:57.547232 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:30:57.548441 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:31:03.264088 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:31:03.345961 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:31:03.346037 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:31:19.147802 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:31:19.206636 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:31:19.206707 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:31:23.049257 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:31:23.109640 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:31:23.109721 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:31:28.260688 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:31:28.321737 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:31:28.321811 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:32:04.176799 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:32:04.235223 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:32:04.235290 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:32:08.019425 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:32:08.085859 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:32:08.085934 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:33:01.973143 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:33:02.034425 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:33:02.034517 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:33:13.882985 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:33:13.949504 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:33:13.949998 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:33:49.240912 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:33:49.304827 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:33:49.304895 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:33:54.078329 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:33:54.141003 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:33:54.141076 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:34:20.380250 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:34:20.443842 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:34:20.443928 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:34:39.228093 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:34:39.288407 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:34:39.288475 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:34:42.279644 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:34:42.347061 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:34:42.348183 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:34:47.089946 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:34:47.151902 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:34:47.151975 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:34:47.541130 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:34:47.609545 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:34:47.609610 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:34:50.105398 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:34:50.166261 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:34:50.166332 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:40:31.180365 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:40:31.242303 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:40:31.242380 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:40:41.053361 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:40:41.115911 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:40:41.116002 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:41:19.071238 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:41:19.136824 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:41:19.136893 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:41:48.166993 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:41:48.229966 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:41:48.230043 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:42:27.047757 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:42:27.110070 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:42:27.110142 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:43:08.502017 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:43:08.566114 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:43:08.566182 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:43:10.500320 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:43:10.562663 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:43:10.563695 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:43:30.936883 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:43:31.000176 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:43:31.000318 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:43:52.970463 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:43:53.033722 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:43:53.033819 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:44:10.624615 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:44:10.685226 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:44:10.685285 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:44:50.935948 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:44:50.995910 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:44:50.995979 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:45:00.075283 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:45:00.139886 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:45:00.139955 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:45:46.969440 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:45:47.031913 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:45:47.032009 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:46:21.138273 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:46:21.203000 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:46:21.203070 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:46:26.026481 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:46:26.084633 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:46:26.084702 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:46:35.693191 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:46:35.754070 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:46:35.754150 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:47:09.682106 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:47:09.742015 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:47:09.742082 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:47:32.035996 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:47:32.100347 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:47:32.100422 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:47:40.518951 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:47:40.584851 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:47:40.584920 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:47:44.401795 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:47:44.460318 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:47:44.460383 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:49:43.347402 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:49:43.409766 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:49:43.409833 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:49:48.057561 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:49:48.141284 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:49:48.142488 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:51:02.174940 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:51:02.234712 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:51:02.234785 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:51:07.040453 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:51:07.101069 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:51:07.101134 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:51:40.392710 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:51:40.458309 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:51:40.458383 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:51:43.073799 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:51:43.136214 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:51:43.136432 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:51:48.027447 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:51:48.089535 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:51:48.089606 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:52:38.560740 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:52:38.618773 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:52:38.618846 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 15:52:40.857422 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 15:52:40.918505 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 15:52:40.918582 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

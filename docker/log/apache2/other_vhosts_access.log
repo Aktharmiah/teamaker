@@ -1907,3 +1907,8 @@ localhost:80 172.22.0.1 - - [12/Nov/2021:22:50:38 +0000] "GET /teamaker/forms/te
 localhost:80 172.22.0.1 - - [12/Nov/2021:22:51:03 +0000] "GET /teamaker/forms/team HTTP/1.1" 200 1089 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
 localhost:80 172.22.0.1 - - [12/Nov/2021:22:51:03 +0000] "GET /public/teamaker/index.js HTTP/1.1" 404 2961 "http://localhost:8080/teamaker/forms/team" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
 localhost:80 172.22.0.1 - - [12/Nov/2021:22:51:10 +0000] "POST /teamaker/teams/?format=json HTTP/1.1" 201 393 "http://localhost:8080/teamaker/forms/team" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
+localhost:80 172.22.0.1 - - [13/Nov/2021:14:47:46 +0000] "GET /public/teamaker/index.js HTTP/1.1" 404 2962 "http://localhost:8080/teamaker/forms/team" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
+localhost:80 172.22.0.1 - - [13/Nov/2021:14:47:47 +0000] "GET /favicon.ico HTTP/1.1" 404 2739 "http://localhost:8080/teamaker/forms/team" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
+localhost:80 172.22.0.1 - - [13/Nov/2021:14:47:46 +0000] "GET /teamaker/forms/team HTTP/1.1" 200 1095 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
+localhost:80 172.22.0.1 - - [13/Nov/2021:14:47:50 +0000] "GET /teamaker/forms/team HTTP/1.1" 200 1092 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"
+localhost:80 172.22.0.1 - - [13/Nov/2021:14:48:00 +0000] "GET /teamaker/teams/?format=json HTTP/1.1" 500 128393 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:94.0) Gecko/20100101 Firefox/94.0"

@@ -2,6 +2,7 @@ from django.http import Http404
 from django.urls import reverse
 
 from django.shortcuts import render
+from django.views.decorators.csrf import csrf_exempt
 
 from django.views.generic.edit import FormView
 
@@ -95,6 +96,7 @@ class UserList(APIView):
         
         return Response(serializer.data)
 
+    @csrf_exempt
     def post(self, request, format=None):
 
         serializer = TeamMembersSerializer(data=request.data)
@@ -117,8 +119,8 @@ class TeamDetails(APIView):
 
     def get_queryset(self, pk):
         try:
-            return models.User.objects.get(pk=pk)
-        except models.User.DoesNotExist:
+            return models.Teams.objects.get(pk=pk)
+        except models.Teams.DoesNotExist:
             raise Http404
 
     def get(self, request, pk, format=None):
@@ -152,8 +154,8 @@ class TeamList(APIView):
 
     def get_queryset(self):
         try:
-            return models.User.objects.all()
-        except models.User.DoesNotExist:
+            return models.Teams.objects.all()
+        except models.Teams.DoesNotExist:
             raise Http404
 
     def get(self, request, format=None):
@@ -163,6 +165,7 @@ class TeamList(APIView):
         
         return Response(serializer.data)
 
+    @csrf_exempt
     def post(self, request, format=None):
 
         serializer = TeamSerializer(data=request.data)
