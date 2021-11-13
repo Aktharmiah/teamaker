@@ -4254,3 +4254,1162 @@ AH00112: Warning: DocumentRoot [/var/www/html] does not exist
 [Thu Nov 11 22:11:34.551062 2021] [wsgi:error] [pid 7953:tid 140629202192128] [remote 172.21.0.1:54576] Not Found: /public/teamaker/index.js
 [Thu Nov 11 22:11:36.699304 2021] [wsgi:error] [pid 7953:tid 140629202192128] [remote 172.21.0.1:54576] Not Found: /public/teamaker/index.js
 [Thu Nov 11 22:11:37.026350 2021] [wsgi:error] [pid 7953:tid 140629202192128] [remote 172.21.0.1:54576] Not Found: /public/teamaker/index.js
+[Thu Nov 11 22:13:05.274216 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 22:13:05.613662 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 22:13:05.613735 2021] [core:notice] [pid 8:tid 140629228870976] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 22:13:05.871766 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 22:13:05.930774 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 22:13:05.930840 2021] [core:notice] [pid 8:tid 140629228870976] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 22:13:10.030793 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 22:13:10.091820 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 22:13:10.091894 2021] [core:notice] [pid 8:tid 140629228870976] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 22:13:10.342289 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 22:13:10.411242 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 22:13:10.411327 2021] [core:notice] [pid 8:tid 140629228870976] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 22:13:10.726650 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 22:13:10.796127 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 22:13:10.796192 2021] [core:notice] [pid 8:tid 140629228870976] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 22:13:11.630772 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 22:13:11.705835 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 22:13:11.705909 2021] [core:notice] [pid 8:tid 140629228870976] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 22:13:12.010077 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 22:13:12.084105 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 22:13:12.084172 2021] [core:notice] [pid 8:tid 140629228870976] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 22:13:12.263205 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 22:13:12.324443 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 22:13:12.324507 2021] [core:notice] [pid 8:tid 140629228870976] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 22:13:14.208852 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 22:13:14.287137 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 22:13:14.292605 2021] [core:notice] [pid 8:tid 140629228870976] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 22:13:14.557186 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 22:13:14.650885 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 22:13:14.650966 2021] [core:notice] [pid 8:tid 140629228870976] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 22:13:14.808943 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 11 22:13:14.869981 2021] [mpm_event:notice] [pid 8:tid 140629228870976] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 11 22:13:14.870043 2021] [core:notice] [pid 8:tid 140629228870976] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 11 22:14:36.992576 2021] [wsgi:error] [pid 8937:tid 140629202192128] [remote 172.21.0.1:54944] Not Found: /favicon.ico
+[Thu Nov 11 22:17:43.603383 2021] [wsgi:error] [pid 8937:tid 140629084694272] [remote 172.21.0.1:55364] Not Found: /favicon.ico
+[Thu Nov 11 22:19:22.340393 2021] [wsgi:error] [pid 8937:tid 140629084694272] [remote 172.21.0.1:55572] Not Found: /favicon.ico
+[Thu Nov 11 22:19:48.020942 2021] [wsgi:error] [pid 8937:tid 140629084694272] [remote 172.21.0.1:55674] Not Found: /favicon.ico
+[Thu Nov 11 22:19:56.038418 2021] [wsgi:error] [pid 8937:tid 140629084694272] [remote 172.21.0.1:55706] Not Found: /favicon.ico
+[Thu Nov 11 22:22:50.625038 2021] [wsgi:error] [pid 8937:tid 140629202192128] [remote 172.21.0.1:56058] Not Found: /public/teamaker/index.js
+[Thu Nov 11 22:24:01.250816 2021] [wsgi:error] [pid 8937:tid 140629084694272] [remote 172.21.0.1:56232] Not Found: /favicon.ico
+[Thu Nov 11 22:24:34.221162 2021] [wsgi:error] [pid 8937:tid 140629202192128] [remote 172.21.0.1:56324] Not Found: /favicon.ico
+[Fri Nov 12 21:15:23.633502 2021] [wsgi:error] [pid 8937:tid 140629084694272] [remote 172.21.0.1:48224] Not Found: /favicon.ico
+[Fri Nov 12 21:19:02.438095 2021] [wsgi:error] [pid 8937:tid 140629202192128] [remote 172.21.0.1:48662] Not Found: /favicon.ico
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Fri Nov 12 21:24:08.476933 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:24:08.477145 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:24:14.857199 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Fri Nov 12 21:24:14.869124 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:24:14.869193 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:24:18.328886 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:24:18.345294 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:24:18.345359 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:25:27.986504 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:25:28.044835 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:25:28.044926 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:26:29.786114 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] Internal Server Error: /teamaker/forms/member
+[Fri Nov 12 21:26:29.786177 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] Traceback (most recent call last):
+[Fri Nov 12 21:26:29.786186 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 66, in __getitem__
+[Fri Nov 12 21:26:29.786193 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     return self._engines[alias]
+[Fri Nov 12 21:26:29.786200 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] KeyError: 'django'
+[Fri Nov 12 21:26:29.786206 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] 
+[Fri Nov 12 21:26:29.786212 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] During handling of the above exception, another exception occurred:
+[Fri Nov 12 21:26:29.786219 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] 
+[Fri Nov 12 21:26:29.786225 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] Traceback (most recent call last):
+[Fri Nov 12 21:26:29.786232 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 121, in get_package_libraries
+[Fri Nov 12 21:26:29.786239 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     module = import_module(entry[1])
+[Fri Nov 12 21:26:29.786246 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+[Fri Nov 12 21:26:29.786252 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Nov 12 21:26:29.786259 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Fri Nov 12 21:26:29.786265 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Fri Nov 12 21:26:29.786272 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+[Fri Nov 12 21:26:29.786279 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+[Fri Nov 12 21:26:29.786285 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+[Fri Nov 12 21:26:29.786292 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[Fri Nov 12 21:26:29.786298 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django_jsx/templatetags/jsx.py", line 9, in <module>
+[Fri Nov 12 21:26:29.786305 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     from django.template.base import TOKEN_VAR, TOKEN_BLOCK, Variable, VariableDoesNotExist
+[Fri Nov 12 21:26:29.786311 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] ImportError: cannot import name 'TOKEN_VAR' from 'django.template.base' (/usr/local/lib/python3.9/site-packages/django/template/base.py)
+[Fri Nov 12 21:26:29.786318 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] 
+[Fri Nov 12 21:26:29.786324 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] The above exception was the direct cause of the following exception:
+[Fri Nov 12 21:26:29.786331 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] 
+[Fri Nov 12 21:26:29.786369 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] Traceback (most recent call last):
+[Fri Nov 12 21:26:29.786377 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Fri Nov 12 21:26:29.786384 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     response = get_response(request)
+[Fri Nov 12 21:26:29.786390 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+[Fri Nov 12 21:26:29.786397 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     response = response.render()
+[Fri Nov 12 21:26:29.786404 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+[Fri Nov 12 21:26:29.786410 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     self.content = self.rendered_content
+[Fri Nov 12 21:26:29.786416 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
+[Fri Nov 12 21:26:29.786423 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     template = self.resolve_template(self.template_name)
+[Fri Nov 12 21:26:29.786429 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
+[Fri Nov 12 21:26:29.786436 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     return select_template(template, using=self.using)
+[Fri Nov 12 21:26:29.786443 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 38, in select_template
+[Fri Nov 12 21:26:29.786449 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     engines = _engine_list(using)
+[Fri Nov 12 21:26:29.786456 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 66, in _engine_list
+[Fri Nov 12 21:26:29.786462 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     return engines.all() if using is None else [engines[using]]
+[Fri Nov 12 21:26:29.786469 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 90, in all
+[Fri Nov 12 21:26:29.786477 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     return [self[alias] for alias in self]
+[Fri Nov 12 21:26:29.786489 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 90, in <listcomp>
+[Fri Nov 12 21:26:29.786501 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     return [self[alias] for alias in self]
+[Fri Nov 12 21:26:29.786512 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 81, in __getitem__
+[Fri Nov 12 21:26:29.786521 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     engine = engine_cls(params)
+[Fri Nov 12 21:26:29.786527 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 25, in __init__
+[Fri Nov 12 21:26:29.786534 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     options['libraries'] = self.get_templatetag_libraries(libraries)
+[Fri Nov 12 21:26:29.786540 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 43, in get_templatetag_libraries
+[Fri Nov 12 21:26:29.786558 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     libraries = get_installed_libraries()
+[Fri Nov 12 21:26:29.786565 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 108, in get_installed_libraries
+[Fri Nov 12 21:26:29.786572 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     for name in get_package_libraries(pkg):
+[Fri Nov 12 21:26:29.786578 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 123, in get_package_libraries
+[Fri Nov 12 21:26:29.786585 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506]     raise InvalidTemplateLibrary(
+[Fri Nov 12 21:26:29.786592 2021] [wsgi:error] [pid 247:tid 139848175810304] [remote 172.22.0.1:43506] django.template.library.InvalidTemplateLibrary: Invalid template library specified. ImportError raised when trying to load 'django_jsx.templatetags.jsx': cannot import name 'TOKEN_VAR' from 'django.template.base' (/usr/local/lib/python3.9/site-packages/django/template/base.py)
+[Fri Nov 12 21:27:12.069493 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:27:12.274798 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:27:12.276137 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:27:15.668346 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] Internal Server Error: /teamaker/forms/member
+[Fri Nov 12 21:27:15.668398 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] Traceback (most recent call last):
+[Fri Nov 12 21:27:15.668407 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 66, in __getitem__
+[Fri Nov 12 21:27:15.668414 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     return self._engines[alias]
+[Fri Nov 12 21:27:15.668421 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] KeyError: 'django'
+[Fri Nov 12 21:27:15.668427 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] 
+[Fri Nov 12 21:27:15.668434 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] During handling of the above exception, another exception occurred:
+[Fri Nov 12 21:27:15.668441 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] 
+[Fri Nov 12 21:27:15.668447 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] Traceback (most recent call last):
+[Fri Nov 12 21:27:15.668453 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 121, in get_package_libraries
+[Fri Nov 12 21:27:15.668460 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     module = import_module(entry[1])
+[Fri Nov 12 21:27:15.668467 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+[Fri Nov 12 21:27:15.668474 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Nov 12 21:27:15.668480 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Fri Nov 12 21:27:15.668487 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Fri Nov 12 21:27:15.668528 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+[Fri Nov 12 21:27:15.668536 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+[Fri Nov 12 21:27:15.668543 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+[Fri Nov 12 21:27:15.668550 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[Fri Nov 12 21:27:15.668556 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django_jsx/templatetags/jsx.py", line 9, in <module>
+[Fri Nov 12 21:27:15.668563 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     from django.template.base import TOKEN_VAR, TOKEN_BLOCK, Variable, VariableDoesNotExist
+[Fri Nov 12 21:27:15.668570 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] ImportError: cannot import name 'TOKEN_VAR' from 'django.template.base' (/usr/local/lib/python3.9/site-packages/django/template/base.py)
+[Fri Nov 12 21:27:15.668576 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] 
+[Fri Nov 12 21:27:15.668582 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] The above exception was the direct cause of the following exception:
+[Fri Nov 12 21:27:15.668589 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] 
+[Fri Nov 12 21:27:15.668595 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] Traceback (most recent call last):
+[Fri Nov 12 21:27:15.668602 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Fri Nov 12 21:27:15.668608 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     response = get_response(request)
+[Fri Nov 12 21:27:15.668615 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+[Fri Nov 12 21:27:15.668621 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     response = response.render()
+[Fri Nov 12 21:27:15.668628 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+[Fri Nov 12 21:27:15.668634 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     self.content = self.rendered_content
+[Fri Nov 12 21:27:15.668641 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
+[Fri Nov 12 21:27:15.668647 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     template = self.resolve_template(self.template_name)
+[Fri Nov 12 21:27:15.668654 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
+[Fri Nov 12 21:27:15.668661 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     return select_template(template, using=self.using)
+[Fri Nov 12 21:27:15.668667 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 38, in select_template
+[Fri Nov 12 21:27:15.668674 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     engines = _engine_list(using)
+[Fri Nov 12 21:27:15.668681 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 66, in _engine_list
+[Fri Nov 12 21:27:15.668696 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     return engines.all() if using is None else [engines[using]]
+[Fri Nov 12 21:27:15.668704 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 90, in all
+[Fri Nov 12 21:27:15.668714 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     return [self[alias] for alias in self]
+[Fri Nov 12 21:27:15.668725 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 90, in <listcomp>
+[Fri Nov 12 21:27:15.668737 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     return [self[alias] for alias in self]
+[Fri Nov 12 21:27:15.668744 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 81, in __getitem__
+[Fri Nov 12 21:27:15.668751 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     engine = engine_cls(params)
+[Fri Nov 12 21:27:15.668757 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 25, in __init__
+[Fri Nov 12 21:27:15.668764 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     options['libraries'] = self.get_templatetag_libraries(libraries)
+[Fri Nov 12 21:27:15.668771 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 43, in get_templatetag_libraries
+[Fri Nov 12 21:27:15.668778 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     libraries = get_installed_libraries()
+[Fri Nov 12 21:27:15.668785 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 108, in get_installed_libraries
+[Fri Nov 12 21:27:15.668792 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     for name in get_package_libraries(pkg):
+[Fri Nov 12 21:27:15.668798 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 123, in get_package_libraries
+[Fri Nov 12 21:27:15.668805 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584]     raise InvalidTemplateLibrary(
+[Fri Nov 12 21:27:15.668812 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:43584] django.template.library.InvalidTemplateLibrary: Invalid template library specified. ImportError raised when trying to load 'django_jsx.templatetags.jsx': cannot import name 'TOKEN_VAR' from 'django.template.base' (/usr/local/lib/python3.9/site-packages/django/template/base.py)
+[Fri Nov 12 21:30:30.965986 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] Internal Server Error: /teamaker/forms/member
+[Fri Nov 12 21:30:30.966053 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] Traceback (most recent call last):
+[Fri Nov 12 21:30:30.966062 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 66, in __getitem__
+[Fri Nov 12 21:30:30.966069 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     return self._engines[alias]
+[Fri Nov 12 21:30:30.966075 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] KeyError: 'django'
+[Fri Nov 12 21:30:30.966082 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] 
+[Fri Nov 12 21:30:30.966089 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] During handling of the above exception, another exception occurred:
+[Fri Nov 12 21:30:30.966126 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] 
+[Fri Nov 12 21:30:30.966134 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] Traceback (most recent call last):
+[Fri Nov 12 21:30:30.966141 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 121, in get_package_libraries
+[Fri Nov 12 21:30:30.966147 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     module = import_module(entry[1])
+[Fri Nov 12 21:30:30.966154 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/importlib/__init__.py", line 127, in import_module
+[Fri Nov 12 21:30:30.966161 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     return _bootstrap._gcd_import(name[level:], package, level)
+[Fri Nov 12 21:30:30.966168 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+[Fri Nov 12 21:30:30.966174 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+[Fri Nov 12 21:30:30.966181 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+[Fri Nov 12 21:30:30.966187 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+[Fri Nov 12 21:30:30.966194 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+[Fri Nov 12 21:30:30.966200 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[Fri Nov 12 21:30:30.966207 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django_jsx/templatetags/jsx.py", line 9, in <module>
+[Fri Nov 12 21:30:30.966215 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     from django.template.base import TOKEN_VAR, TOKEN_BLOCK, Variable, VariableDoesNotExist
+[Fri Nov 12 21:30:30.966222 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] ImportError: cannot import name 'TOKEN_VAR' from 'django.template.base' (/usr/local/lib/python3.9/site-packages/django/template/base.py)
+[Fri Nov 12 21:30:30.966228 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] 
+[Fri Nov 12 21:30:30.966235 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] The above exception was the direct cause of the following exception:
+[Fri Nov 12 21:30:30.966241 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] 
+[Fri Nov 12 21:30:30.966247 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] Traceback (most recent call last):
+[Fri Nov 12 21:30:30.966254 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Fri Nov 12 21:30:30.966260 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     response = get_response(request)
+[Fri Nov 12 21:30:30.966267 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+[Fri Nov 12 21:30:30.966273 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     response = response.render()
+[Fri Nov 12 21:30:30.966280 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+[Fri Nov 12 21:30:30.966295 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     self.content = self.rendered_content
+[Fri Nov 12 21:30:30.966302 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
+[Fri Nov 12 21:30:30.966309 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     template = self.resolve_template(self.template_name)
+[Fri Nov 12 21:30:30.966316 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
+[Fri Nov 12 21:30:30.966322 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     return select_template(template, using=self.using)
+[Fri Nov 12 21:30:30.966329 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 38, in select_template
+[Fri Nov 12 21:30:30.966335 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     engines = _engine_list(using)
+[Fri Nov 12 21:30:30.966342 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 66, in _engine_list
+[Fri Nov 12 21:30:30.966348 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     return engines.all() if using is None else [engines[using]]
+[Fri Nov 12 21:30:30.966356 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 90, in all
+[Fri Nov 12 21:30:30.966368 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     return [self[alias] for alias in self]
+[Fri Nov 12 21:30:30.966379 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 90, in <listcomp>
+[Fri Nov 12 21:30:30.966390 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     return [self[alias] for alias in self]
+[Fri Nov 12 21:30:30.966400 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/utils.py", line 81, in __getitem__
+[Fri Nov 12 21:30:30.966407 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     engine = engine_cls(params)
+[Fri Nov 12 21:30:30.966413 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 25, in __init__
+[Fri Nov 12 21:30:30.966420 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     options['libraries'] = self.get_templatetag_libraries(libraries)
+[Fri Nov 12 21:30:30.966427 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 43, in get_templatetag_libraries
+[Fri Nov 12 21:30:30.966433 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     libraries = get_installed_libraries()
+[Fri Nov 12 21:30:30.966440 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 108, in get_installed_libraries
+[Fri Nov 12 21:30:30.966446 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     for name in get_package_libraries(pkg):
+[Fri Nov 12 21:30:30.966453 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 123, in get_package_libraries
+[Fri Nov 12 21:30:30.966460 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016]     raise InvalidTemplateLibrary(
+[Fri Nov 12 21:30:30.966476 2021] [wsgi:error] [pid 334:tid 139848075097856] [remote 172.22.0.1:44016] django.template.library.InvalidTemplateLibrary: Invalid template library specified. ImportError raised when trying to load 'django_jsx.templatetags.jsx': cannot import name 'TOKEN_VAR' from 'django.template.base' (/usr/local/lib/python3.9/site-packages/django/template/base.py)
+[Fri Nov 12 21:30:31.110422 2021] [wsgi:error] [pid 334:tid 139848175810304] [remote 172.22.0.1:44020] Not Found: /favicon.ico
+[Fri Nov 12 21:33:49.185940 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:33:49.392239 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:33:49.392305 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:35:25.328493 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:35:25.388398 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:35:25.388465 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:35:40.096811 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:35:40.162842 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:35:40.162912 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:36:47.181861 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:36:47.252767 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:36:47.252834 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:36:47.361409 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:36:47.423318 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:36:47.423382 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:36:50.780567 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:36:50.841628 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:36:50.841707 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:37:18.721304 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:37:18.782211 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:37:18.782270 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:38:13.993386 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:38:14.059134 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:38:14.059237 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:39:14.886345 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:39:14.948710 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:39:14.948783 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:39:56.388913 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:39:56.452279 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:39:56.452344 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:42:21.960261 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:42:22.024423 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:42:22.024509 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:42:41.137500 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:42:41.201740 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:42:41.202956 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:47:50.900195 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:47:50.966115 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:47:50.966180 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:47:54.504488 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:47:54.566279 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:47:54.566344 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:48:20.960186 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:48:21.021479 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:48:21.021571 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:48:25.772221 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:48:25.834243 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:48:25.834317 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:49:28.002063 2021] [wsgi:error] [pid 1696:tid 139848075097856] [remote 172.22.0.1:46114] Not Found: /public/rest_framework/css/prettify.css
+[Fri Nov 12 21:49:28.013777 2021] [wsgi:error] [pid 1696:tid 139848125454080] [remote 172.22.0.1:46118] Not Found: /public/rest_framework/css/default.css
+[Fri Nov 12 21:49:28.014424 2021] [wsgi:error] [pid 1696:tid 139848058312448] [remote 172.22.0.1:46102] Not Found: /public/rest_framework/css/bootstrap.min.css
+[Fri Nov 12 21:49:28.019161 2021] [wsgi:error] [pid 1696:tid 139848108668672] [remote 172.22.0.1:46126] Not Found: /public/rest_framework/js/ajax-form.js
+[Fri Nov 12 21:49:28.040423 2021] [wsgi:error] [pid 1696:tid 139848091883264] [remote 172.22.0.1:46122] Not Found: /public/rest_framework/js/jquery-3.5.1.min.js
+[Fri Nov 12 21:49:28.042755 2021] [wsgi:error] [pid 1696:tid 139848083490560] [remote 172.22.0.1:46110] Not Found: /public/rest_framework/css/bootstrap-tweaks.css
+[Fri Nov 12 21:49:28.052374 2021] [wsgi:error] [pid 1696:tid 139848175810304] [remote 172.22.0.1:46114] Not Found: /public/rest_framework/js/csrf.js
+[Fri Nov 12 21:49:28.082846 2021] [wsgi:error] [pid 1696:tid 139848075097856] [remote 172.22.0.1:46118] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Fri Nov 12 21:49:28.101066 2021] [wsgi:error] [pid 1696:tid 139848108668672] [remote 172.22.0.1:46102] Not Found: /public/rest_framework/js/prettify-min.js
+[Fri Nov 12 21:49:28.105482 2021] [wsgi:error] [pid 1696:tid 139848058312448] [remote 172.22.0.1:46126] Not Found: /public/rest_framework/js/default.js
+[Fri Nov 12 21:49:28.110077 2021] [wsgi:error] [pid 1696:tid 139848125454080] [remote 172.22.0.1:46110] Not Found: /public/rest_framework/js/jquery-3.5.1.min.js
+[Fri Nov 12 21:49:28.133434 2021] [wsgi:error] [pid 1696:tid 139848083490560] [remote 172.22.0.1:46110] Not Found: /public/rest_framework/js/ajax-form.js
+[Fri Nov 12 21:49:28.160048 2021] [wsgi:error] [pid 1696:tid 139848125454080] [remote 172.22.0.1:46110] Not Found: /public/rest_framework/js/csrf.js
+[Fri Nov 12 21:49:28.189832 2021] [wsgi:error] [pid 1696:tid 139848083490560] [remote 172.22.0.1:46110] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Fri Nov 12 21:49:28.211613 2021] [wsgi:error] [pid 1696:tid 139848125454080] [remote 172.22.0.1:46110] Not Found: /public/rest_framework/js/prettify-min.js
+[Fri Nov 12 21:49:28.232650 2021] [wsgi:error] [pid 1696:tid 139848083490560] [remote 172.22.0.1:46110] Not Found: /public/rest_framework/js/default.js
+[Fri Nov 12 21:49:28.257985 2021] [wsgi:error] [pid 1696:tid 139848125454080] [remote 172.22.0.1:46110] Not Found: /favicon.ico
+[Fri Nov 12 21:49:31.129807 2021] [wsgi:error] [pid 1696:tid 139848108668672] [remote 172.22.0.1:46126] Not Found: /public/rest_framework/css/default.css
+[Fri Nov 12 21:49:31.156483 2021] [wsgi:error] [pid 1696:tid 139848125454080] [remote 172.22.0.1:46122] Not Found: /public/rest_framework/css/bootstrap.min.css
+[Fri Nov 12 21:49:31.163621 2021] [wsgi:error] [pid 1696:tid 139848175810304] [remote 172.22.0.1:46138] Not Found: /public/rest_framework/js/ajax-form.js
+[Fri Nov 12 21:49:31.174106 2021] [wsgi:error] [pid 1696:tid 139848058312448] [remote 172.22.0.1:46114] Not Found: /public/rest_framework/css/prettify.css
+[Fri Nov 12 21:49:31.195556 2021] [wsgi:error] [pid 1696:tid 139848083490560] [remote 172.22.0.1:46118] Not Found: /public/rest_framework/css/bootstrap-tweaks.css
+[Fri Nov 12 21:49:31.208740 2021] [wsgi:error] [pid 1696:tid 139848075097856] [remote 172.22.0.1:46102] Not Found: /public/rest_framework/js/jquery-3.5.1.min.js
+[Fri Nov 12 21:49:31.212919 2021] [wsgi:error] [pid 1696:tid 139848125454080] [remote 172.22.0.1:46138] Not Found: /public/rest_framework/js/prettify-min.js
+[Fri Nov 12 21:49:31.217753 2021] [wsgi:error] [pid 1696:tid 139848091883264] [remote 172.22.0.1:46126] Not Found: /public/rest_framework/js/csrf.js
+[Fri Nov 12 21:49:31.233697 2021] [wsgi:error] [pid 1696:tid 139848175810304] [remote 172.22.0.1:46114] Not Found: /public/rest_framework/js/default.js
+[Fri Nov 12 21:49:31.237187 2021] [wsgi:error] [pid 1696:tid 139848108668672] [remote 172.22.0.1:46122] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Fri Nov 12 21:49:31.269189 2021] [wsgi:error] [pid 1696:tid 139848058312448] [remote 172.22.0.1:46118] Not Found: /public/rest_framework/js/ajax-form.js
+[Fri Nov 12 21:49:31.290527 2021] [wsgi:error] [pid 1696:tid 139848108668672] [remote 172.22.0.1:46118] Not Found: /public/rest_framework/js/csrf.js
+[Fri Nov 12 21:49:31.310310 2021] [wsgi:error] [pid 1696:tid 139848058312448] [remote 172.22.0.1:46118] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Fri Nov 12 21:49:31.334801 2021] [wsgi:error] [pid 1696:tid 139848108668672] [remote 172.22.0.1:46118] Not Found: /public/rest_framework/js/prettify-min.js
+[Fri Nov 12 21:49:31.358291 2021] [wsgi:error] [pid 1696:tid 139848058312448] [remote 172.22.0.1:46118] Not Found: /public/rest_framework/js/default.js
+[Fri Nov 12 21:50:11.437933 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:50:11.643324 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:50:11.643398 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:50:24.639595 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:50:24.700768 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:50:24.700831 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:51:21.606516 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:51:21.666063 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:51:21.666136 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:51:32.944120 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:51:33.005456 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:51:33.005545 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:51:37.918350 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:51:37.988237 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:51:37.988305 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:52:26.446158 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:52:26.507575 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:52:26.507643 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:52:29.669696 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:52:29.734585 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:52:29.734661 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:52:47.480595 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:52:47.545069 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:52:47.545132 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:52:50.764224 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:52:50.827696 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:52:50.827804 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:53:24.092750 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:53:24.153496 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:53:24.153566 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:53:34.046279 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:53:34.113083 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:53:34.114401 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:55:41.024433 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:55:41.107212 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:55:41.113369 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:55:41.240422 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:55:41.303957 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:55:41.304029 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:55:54.227631 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:55:54.292558 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:55:54.292622 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:56:00.115578 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:56:00.178825 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:56:00.178891 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:56:13.880980 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:56:13.939842 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:56:13.939911 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:56:16.988346 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:56:17.052198 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:56:17.052287 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:56:28.192667 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:56:28.253063 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:56:28.253169 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:56:57.099256 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:56:57.162929 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:56:57.162999 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:59:39.844518 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:59:39.904902 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:59:39.905283 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:59:53.670003 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:59:53.765339 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:59:53.765398 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 21:59:57.234027 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 21:59:57.299888 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 21:59:57.299963 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:00:27.413607 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:00:27.475314 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:00:27.475383 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:00:30.606718 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:00:30.679155 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:00:30.680312 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:00:43.126792 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:00:43.188192 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:00:43.189450 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:00:48.788830 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:00:48.850652 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:00:48.850721 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:00:54.242488 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:00:54.302799 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:00:54.302871 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:00:57.800608 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:00:57.863662 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:00:57.863735 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:01:22.104153 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:01:22.168115 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:01:22.168180 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:01:26.629371 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:01:26.691419 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:01:26.692723 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:01:30.998466 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:01:31.057983 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:01:31.058073 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:01:40.436423 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:01:40.500290 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:01:40.500358 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:02:16.380403 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:02:16.444955 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:02:16.445018 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:02:20.296369 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:02:20.356422 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:02:20.356499 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:02:48.227057 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:02:48.292157 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:02:48.292220 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:03:09.622148 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:03:09.684284 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:03:09.684357 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:03:24.001104 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:03:24.059207 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:03:24.059274 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:03:49.814495 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:03:49.879205 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:03:49.879276 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:03:57.459501 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:03:57.521760 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:03:57.521836 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:04:30.969176 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:04:31.030800 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:04:31.030895 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:04:52.190248 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:04:52.254711 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:04:52.254782 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:05:07.575704 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:05:07.640903 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:05:07.642142 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:05:08.928432 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:05:08.990794 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:05:08.990873 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:05:32.651895 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:05:32.713854 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:05:32.713918 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:05:54.456756 2021] [wsgi:error] [pid 5469:tid 139848125454080] [remote 172.22.0.1:48076] Not Found: /teamaker/members/10/
+[Fri Nov 12 22:07:18.516858 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:07:18.720950 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:07:18.721026 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:08:05.267601 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:08:05.331935 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:08:05.332010 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:08:10.323574 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:08:10.387851 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:08:10.387923 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:08:19.190005 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:08:19.254101 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:08:19.254175 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:10:53.769089 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:10:53.834530 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:10:53.834601 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:14:20.233976 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:14:20.299527 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:14:20.300812 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:15:36.338977 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:15:36.403827 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:15:36.403902 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:16:01.286143 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:16:01.344705 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:16:01.344774 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:17:23.789737 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:17:23.854589 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:17:23.854752 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:17:32.140527 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:17:32.203492 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:17:32.203584 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:18:05.310888 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:18:05.373011 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:18:05.373123 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:18:27.479689 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:18:27.541795 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:18:27.541868 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:19:04.083743 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:19:04.145067 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:19:04.145145 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:19:27.475584 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:19:27.537913 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:19:27.537987 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:19:33.647658 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:19:33.712578 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:19:33.712656 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:21:49.196833 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:21:49.261934 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:21:49.262022 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:21:53.814536 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:21:53.874293 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:21:53.874371 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:23:08.249094 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:23:08.308813 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:23:08.308882 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:23:10.620655 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:23:10.684291 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:23:10.685482 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:24:01.567289 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:24:01.630448 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:24:01.630547 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:24:13.236293 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:24:13.302464 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:24:13.303645 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:25:16.508679 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:25:16.569738 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:25:16.569844 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:25:36.337297 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:25:36.404504 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:25:36.406032 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:25:39.915080 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:25:39.973969 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:25:39.974036 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:25:44.580276 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:25:44.644442 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:25:44.644519 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:26:34.095914 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:26:34.159095 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:26:34.159176 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:27:23.965035 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:27:24.027276 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:27:24.027364 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:27:31.242643 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:27:31.306257 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:27:31.306327 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:27:49.032297 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:27:49.091658 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:27:49.091739 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:27:52.248359 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:27:52.309304 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:27:52.309384 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:29:14.464536 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:29:14.527302 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:29:14.527375 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:29:28.070827 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:29:28.135409 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:29:28.135483 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:29:30.905006 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:29:30.970217 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:29:30.970301 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:29:56.961348 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:29:57.021005 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:29:57.021097 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:30:38.186640 2021] [wsgi:error] [pid 8385:tid 139848175810304] [remote 172.22.0.1:50892] Not Found: /teamaker/members_list/
+[Fri Nov 12 22:30:38.269645 2021] [wsgi:error] [pid 8385:tid 139848100275968] [remote 172.22.0.1:50892] Not Found: /favicon.ico
+[Fri Nov 12 22:31:12.488442 2021] [wsgi:error] [pid 8385:tid 139848175810304] [remote 172.22.0.1:50984] Not Found: /teamaker/members/members_list/
+[Fri Nov 12 22:31:22.703840 2021] [wsgi:error] [pid 8385:tid 139848175810304] [remote 172.22.0.1:51004] Not Found: /public/rest_framework/css/bootstrap.min.css
+[Fri Nov 12 22:31:22.767644 2021] [wsgi:error] [pid 8385:tid 139848066705152] [remote 172.22.0.1:51018] Not Found: /public/rest_framework/css/default.css
+[Fri Nov 12 22:31:22.777117 2021] [wsgi:error] [pid 8385:tid 139848108668672] [remote 172.22.0.1:51014] Not Found: /public/rest_framework/css/prettify.css
+[Fri Nov 12 22:31:22.787628 2021] [wsgi:error] [pid 8385:tid 139848075097856] [remote 172.22.0.1:51004] Not Found: /public/rest_framework/js/ajax-form.js
+[Fri Nov 12 22:31:22.798528 2021] [wsgi:error] [pid 8385:tid 139848058312448] [remote 172.22.0.1:51022] Not Found: /public/rest_framework/js/jquery-3.5.1.min.js
+[Fri Nov 12 22:31:22.805329 2021] [wsgi:error] [pid 8385:tid 139848100275968] [remote 172.22.0.1:51010] Not Found: /public/rest_framework/css/bootstrap-tweaks.css
+[Fri Nov 12 22:31:22.809781 2021] [wsgi:error] [pid 8385:tid 139848175810304] [remote 172.22.0.1:51026] Not Found: /public/rest_framework/js/csrf.js
+[Fri Nov 12 22:31:22.839436 2021] [wsgi:error] [pid 8385:tid 139848108668672] [remote 172.22.0.1:51018] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Fri Nov 12 22:31:22.842899 2021] [wsgi:error] [pid 8385:tid 139848117061376] [remote 172.22.0.1:51014] Not Found: /public/rest_framework/js/prettify-min.js
+[Fri Nov 12 22:31:22.862881 2021] [wsgi:error] [pid 8385:tid 139848083490560] [remote 172.22.0.1:51004] Not Found: /public/rest_framework/js/default.js
+[Fri Nov 12 22:31:22.867010 2021] [wsgi:error] [pid 8385:tid 139848075097856] [remote 172.22.0.1:51010] Not Found: /public/rest_framework/js/jquery-3.5.1.min.js
+[Fri Nov 12 22:31:22.888937 2021] [wsgi:error] [pid 8385:tid 139848058312448] [remote 172.22.0.1:51010] Not Found: /public/rest_framework/js/ajax-form.js
+[Fri Nov 12 22:31:22.913447 2021] [wsgi:error] [pid 8385:tid 139848075097856] [remote 172.22.0.1:51010] Not Found: /public/rest_framework/js/csrf.js
+[Fri Nov 12 22:31:22.935449 2021] [wsgi:error] [pid 8385:tid 139848058312448] [remote 172.22.0.1:51010] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Fri Nov 12 22:31:22.956251 2021] [wsgi:error] [pid 8385:tid 139848075097856] [remote 172.22.0.1:51010] Not Found: /public/rest_framework/js/prettify-min.js
+[Fri Nov 12 22:31:22.978811 2021] [wsgi:error] [pid 8385:tid 139848058312448] [remote 172.22.0.1:51010] Not Found: /public/rest_framework/js/default.js
+[Fri Nov 12 22:31:28.178466 2021] [wsgi:error] [pid 8385:tid 139848058312448] [remote 172.22.0.1:51036] Not Found: /public/rest_framework/css/bootstrap.min.css
+[Fri Nov 12 22:31:28.184069 2021] [wsgi:error] [pid 8385:tid 139848083490560] [remote 172.22.0.1:51046] Not Found: /public/rest_framework/css/prettify.css
+[Fri Nov 12 22:31:28.217003 2021] [wsgi:error] [pid 8385:tid 139848100275968] [remote 172.22.0.1:51036] Not Found: /public/rest_framework/js/csrf.js
+[Fri Nov 12 22:31:28.234954 2021] [wsgi:error] [pid 8385:tid 139848175810304] [remote 172.22.0.1:51058] Not Found: /public/rest_framework/js/ajax-form.js
+[Fri Nov 12 22:31:28.242686 2021] [wsgi:error] [pid 8385:tid 139848108668672] [remote 172.22.0.1:51050] Not Found: /public/rest_framework/css/default.css
+[Fri Nov 12 22:31:28.249949 2021] [wsgi:error] [pid 8385:tid 139848117061376] [remote 172.22.0.1:51054] Not Found: /public/rest_framework/js/jquery-3.5.1.min.js
+[Fri Nov 12 22:31:28.269595 2021] [wsgi:error] [pid 8385:tid 139848075097856] [remote 172.22.0.1:51042] Not Found: /public/rest_framework/css/bootstrap-tweaks.css
+[Fri Nov 12 22:31:28.280322 2021] [wsgi:error] [pid 8385:tid 139848058312448] [remote 172.22.0.1:51036] Not Found: /public/rest_framework/js/prettify-min.js
+[Fri Nov 12 22:31:28.289703 2021] [wsgi:error] [pid 8385:tid 139848100275968] [remote 172.22.0.1:51046] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Fri Nov 12 22:31:28.301419 2021] [wsgi:error] [pid 8385:tid 139848083490560] [remote 172.22.0.1:51058] Not Found: /public/rest_framework/js/default.js
+[Fri Nov 12 22:31:28.328309 2021] [wsgi:error] [pid 8385:tid 139848117061376] [remote 172.22.0.1:51042] Not Found: /public/rest_framework/js/jquery-3.5.1.min.js
+[Fri Nov 12 22:31:28.353526 2021] [wsgi:error] [pid 8385:tid 139848083490560] [remote 172.22.0.1:51042] Not Found: /public/rest_framework/js/ajax-form.js
+[Fri Nov 12 22:31:28.382703 2021] [wsgi:error] [pid 8385:tid 139848117061376] [remote 172.22.0.1:51042] Not Found: /public/rest_framework/js/csrf.js
+[Fri Nov 12 22:31:28.409630 2021] [wsgi:error] [pid 8385:tid 139848083490560] [remote 172.22.0.1:51042] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Fri Nov 12 22:31:28.438308 2021] [wsgi:error] [pid 8385:tid 139848117061376] [remote 172.22.0.1:51042] Not Found: /public/rest_framework/js/prettify-min.js
+[Fri Nov 12 22:31:28.485460 2021] [wsgi:error] [pid 8385:tid 139848083490560] [remote 172.22.0.1:51042] Not Found: /public/rest_framework/js/default.js
+[Fri Nov 12 22:31:36.224457 2021] [wsgi:error] [pid 8385:tid 139848117061376] [remote 172.22.0.1:51078] Not Found: /public/rest_framework/css/bootstrap.min.css
+[Fri Nov 12 22:31:36.269981 2021] [wsgi:error] [pid 8385:tid 139848075097856] [remote 172.22.0.1:51078] Not Found: /public/rest_framework/js/jquery-3.5.1.min.js
+[Fri Nov 12 22:31:36.305534 2021] [wsgi:error] [pid 8385:tid 139848083490560] [remote 172.22.0.1:51084] Not Found: /public/rest_framework/css/bootstrap-tweaks.css
+[Fri Nov 12 22:31:36.323594 2021] [wsgi:error] [pid 8385:tid 139848058312448] [remote 172.22.0.1:51092] Not Found: /public/rest_framework/css/default.css
+[Fri Nov 12 22:31:36.326214 2021] [wsgi:error] [pid 8385:tid 139848100275968] [remote 172.22.0.1:51088] Not Found: /public/rest_framework/css/prettify.css
+[Fri Nov 12 22:31:36.347485 2021] [wsgi:error] [pid 8385:tid 139848117061376] [remote 172.22.0.1:51096] Not Found: /public/rest_framework/js/ajax-form.js
+[Fri Nov 12 22:31:36.355739 2021] [wsgi:error] [pid 8385:tid 139848108668672] [remote 172.22.0.1:51078] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Fri Nov 12 22:31:36.366435 2021] [wsgi:error] [pid 8385:tid 139848175810304] [remote 172.22.0.1:51100] Not Found: /public/rest_framework/js/csrf.js
+[Fri Nov 12 22:31:36.374878 2021] [wsgi:error] [pid 8385:tid 139848075097856] [remote 172.22.0.1:51084] Not Found: /public/rest_framework/js/prettify-min.js
+[Fri Nov 12 22:31:36.375940 2021] [wsgi:error] [pid 8385:tid 139848066705152] [remote 172.22.0.1:51092] Not Found: /public/rest_framework/js/default.js
+[Fri Nov 12 22:31:36.409211 2021] [wsgi:error] [pid 8385:tid 139848058312448] [remote 172.22.0.1:51084] Not Found: /public/rest_framework/js/jquery-3.5.1.min.js
+[Fri Nov 12 22:31:36.429462 2021] [wsgi:error] [pid 8385:tid 139848066705152] [remote 172.22.0.1:51084] Not Found: /public/rest_framework/js/ajax-form.js
+[Fri Nov 12 22:31:36.449948 2021] [wsgi:error] [pid 8385:tid 139848058312448] [remote 172.22.0.1:51084] Not Found: /public/rest_framework/js/csrf.js
+[Fri Nov 12 22:31:36.474125 2021] [wsgi:error] [pid 8385:tid 139848066705152] [remote 172.22.0.1:51084] Not Found: /public/rest_framework/js/bootstrap.min.js
+[Fri Nov 12 22:31:36.496536 2021] [wsgi:error] [pid 8385:tid 139848058312448] [remote 172.22.0.1:51084] Not Found: /public/rest_framework/js/prettify-min.js
+[Fri Nov 12 22:31:36.518026 2021] [wsgi:error] [pid 8385:tid 139848066705152] [remote 172.22.0.1:51084] Not Found: /public/rest_framework/js/default.js
+[Fri Nov 12 22:38:42.677100 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:38:42.880974 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:38:42.881049 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:39:06.204117 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:39:06.269839 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:39:06.269909 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:39:24.903919 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:39:24.965600 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:39:24.965666 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:39:28.453476 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:39:28.515328 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:39:28.515422 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:42:27.705235 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:42:27.766004 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:42:27.766076 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:42:39.295663 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:42:39.355089 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:42:39.355157 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:42:39.783770 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:42:39.846328 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:42:39.846399 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:42:43.152934 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:42:43.217267 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:42:43.218543 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:43:18.881841 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:43:18.948308 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:43:18.950112 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:43:25.778133 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:43:25.838051 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:43:25.838137 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:44:21.897590 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:44:21.961831 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:44:21.961904 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:44:25.495402 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:44:25.558741 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:44:25.558809 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:44:58.227920 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:44:58.291571 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:44:58.292770 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:47:35.059398 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:47:35.122297 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:47:35.122362 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:47:35.868001 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:47:35.926975 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:47:35.927044 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:47:45.147232 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:47:45.209396 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:47:45.209475 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:47:51.582296 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:47:51.645636 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:47:51.645712 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:47:57.621398 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:47:57.685730 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:47:57.685801 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:48:07.880712 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:48:07.941017 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:48:07.941085 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:48:46.877386 2021] [wsgi:error] [pid 10000:tid 139848108668672] [remote 172.22.0.1:53412] Not Found: /public/teamaker/index.js
+[Fri Nov 12 22:50:19.155588 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:50:19.363454 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:50:19.363559 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:50:32.825969 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] Internal Server Error: /teamaker/forms/team
+[Fri Nov 12 22:50:32.826063 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] Traceback (most recent call last):
+[Fri Nov 12 22:50:32.826085 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 1034, in find_library
+[Fri Nov 12 22:50:32.826102 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     return parser.libraries[name]
+[Fri Nov 12 22:50:32.826116 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] KeyError: 'jsx'
+[Fri Nov 12 22:50:32.826130 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] 
+[Fri Nov 12 22:50:32.826142 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] During handling of the above exception, another exception occurred:
+[Fri Nov 12 22:50:32.826155 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] 
+[Fri Nov 12 22:50:32.826166 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] Traceback (most recent call last):
+[Fri Nov 12 22:50:32.826238 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Fri Nov 12 22:50:32.826254 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     response = get_response(request)
+[Fri Nov 12 22:50:32.826265 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+[Fri Nov 12 22:50:32.826277 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     response = response.render()
+[Fri Nov 12 22:50:32.826290 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+[Fri Nov 12 22:50:32.826303 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     self.content = self.rendered_content
+[Fri Nov 12 22:50:32.826315 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
+[Fri Nov 12 22:50:32.826327 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     template = self.resolve_template(self.template_name)
+[Fri Nov 12 22:50:32.826338 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
+[Fri Nov 12 22:50:32.826351 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     return select_template(template, using=self.using)
+[Fri Nov 12 22:50:32.826363 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
+[Fri Nov 12 22:50:32.826373 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     return engine.get_template(template_name)
+[Fri Nov 12 22:50:32.826386 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+[Fri Nov 12 22:50:32.826398 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     return Template(self.engine.get_template(template_name), self)
+[Fri Nov 12 22:50:32.826410 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+[Fri Nov 12 22:50:32.826422 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     template, origin = self.find_template(template_name)
+[Fri Nov 12 22:50:32.826435 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+[Fri Nov 12 22:50:32.826448 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     template = loader.get_template(name, skip=skip)
+[Fri Nov 12 22:50:32.826460 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+[Fri Nov 12 22:50:32.826472 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     return Template(
+[Fri Nov 12 22:50:32.826483 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+[Fri Nov 12 22:50:32.826495 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     self.nodelist = self.compile_nodelist()
+[Fri Nov 12 22:50:32.826505 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+[Fri Nov 12 22:50:32.826545 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     return parser.parse()
+[Fri Nov 12 22:50:32.826560 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+[Fri Nov 12 22:50:32.826571 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     raise self.error(token, e)
+[Fri Nov 12 22:50:32.826581 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+[Fri Nov 12 22:50:32.826591 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     compiled_result = compile_func(self, token)
+[Fri Nov 12 22:50:32.826602 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 1091, in load
+[Fri Nov 12 22:50:32.826614 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     lib = find_library(parser, name)
+[Fri Nov 12 22:50:32.826626 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]   File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 1036, in find_library
+[Fri Nov 12 22:50:32.826637 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622]     raise TemplateSyntaxError(
+[Fri Nov 12 22:50:32.826648 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] django.template.exceptions.TemplateSyntaxError: 'jsx' is not a registered tag library. Must be one of:
+[Fri Nov 12 22:50:32.826660 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] admin_list
+[Fri Nov 12 22:50:32.826671 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] admin_modify
+[Fri Nov 12 22:50:32.826683 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] admin_urls
+[Fri Nov 12 22:50:32.826694 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] bootstrap4
+[Fri Nov 12 22:50:32.826704 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] cache
+[Fri Nov 12 22:50:32.826715 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] i18n
+[Fri Nov 12 22:50:32.826725 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] l10n
+[Fri Nov 12 22:50:32.826736 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] log
+[Fri Nov 12 22:50:32.826746 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] rest_framework
+[Fri Nov 12 22:50:32.826756 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] static
+[Fri Nov 12 22:50:32.826767 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53622] tz
+[Fri Nov 12 22:50:35.257521 2021] [wsgi:error] [pid 10087:tid 139848133846784] [remote 172.22.0.1:53630] Not Found: /teamaker/forms/teams
+[Fri Nov 12 22:50:38.825021 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] Internal Server Error: /teamaker/forms/team
+[Fri Nov 12 22:50:38.825077 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] Traceback (most recent call last):
+[Fri Nov 12 22:50:38.825086 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 1034, in find_library
+[Fri Nov 12 22:50:38.825093 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     return parser.libraries[name]
+[Fri Nov 12 22:50:38.825100 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] KeyError: 'jsx'
+[Fri Nov 12 22:50:38.825107 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] 
+[Fri Nov 12 22:50:38.825113 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] During handling of the above exception, another exception occurred:
+[Fri Nov 12 22:50:38.825152 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] 
+[Fri Nov 12 22:50:38.825159 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] Traceback (most recent call last):
+[Fri Nov 12 22:50:38.825166 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Fri Nov 12 22:50:38.825173 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     response = get_response(request)
+[Fri Nov 12 22:50:38.825180 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 204, in _get_response
+[Fri Nov 12 22:50:38.825186 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     response = response.render()
+[Fri Nov 12 22:50:38.825193 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 105, in render
+[Fri Nov 12 22:50:38.825200 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     self.content = self.rendered_content
+[Fri Nov 12 22:50:38.825206 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 81, in rendered_content
+[Fri Nov 12 22:50:38.825213 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     template = self.resolve_template(self.template_name)
+[Fri Nov 12 22:50:38.825219 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/response.py", line 63, in resolve_template
+[Fri Nov 12 22:50:38.825226 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     return select_template(template, using=self.using)
+[Fri Nov 12 22:50:38.825232 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/loader.py", line 42, in select_template
+[Fri Nov 12 22:50:38.825239 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     return engine.get_template(template_name)
+[Fri Nov 12 22:50:38.825245 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/backends/django.py", line 34, in get_template
+[Fri Nov 12 22:50:38.825252 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     return Template(self.engine.get_template(template_name), self)
+[Fri Nov 12 22:50:38.825258 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 143, in get_template
+[Fri Nov 12 22:50:38.825265 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     template, origin = self.find_template(template_name)
+[Fri Nov 12 22:50:38.825271 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/engine.py", line 125, in find_template
+[Fri Nov 12 22:50:38.825285 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     template = loader.get_template(name, skip=skip)
+[Fri Nov 12 22:50:38.825300 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/loaders/base.py", line 29, in get_template
+[Fri Nov 12 22:50:38.825312 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     return Template(
+[Fri Nov 12 22:50:38.825323 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 155, in __init__
+[Fri Nov 12 22:50:38.825348 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     self.nodelist = self.compile_nodelist()
+[Fri Nov 12 22:50:38.825360 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 193, in compile_nodelist
+[Fri Nov 12 22:50:38.825370 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     return parser.parse()
+[Fri Nov 12 22:50:38.825379 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 478, in parse
+[Fri Nov 12 22:50:38.825390 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     raise self.error(token, e)
+[Fri Nov 12 22:50:38.825401 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/base.py", line 476, in parse
+[Fri Nov 12 22:50:38.825413 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     compiled_result = compile_func(self, token)
+[Fri Nov 12 22:50:38.825423 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 1091, in load
+[Fri Nov 12 22:50:38.825435 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     lib = find_library(parser, name)
+[Fri Nov 12 22:50:38.825446 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]   File "/usr/local/lib/python3.9/site-packages/django/template/defaulttags.py", line 1036, in find_library
+[Fri Nov 12 22:50:38.825456 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630]     raise TemplateSyntaxError(
+[Fri Nov 12 22:50:38.825463 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] django.template.exceptions.TemplateSyntaxError: 'jsx' is not a registered tag library. Must be one of:
+[Fri Nov 12 22:50:38.825470 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] admin_list
+[Fri Nov 12 22:50:38.825476 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] admin_modify
+[Fri Nov 12 22:50:38.825482 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] admin_urls
+[Fri Nov 12 22:50:38.825489 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] bootstrap4
+[Fri Nov 12 22:50:38.825495 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] cache
+[Fri Nov 12 22:50:38.825501 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] i18n
+[Fri Nov 12 22:50:38.825508 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] l10n
+[Fri Nov 12 22:50:38.825514 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] log
+[Fri Nov 12 22:50:38.825520 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] rest_framework
+[Fri Nov 12 22:50:38.825526 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] static
+[Fri Nov 12 22:50:38.825533 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53630] tz
+[Fri Nov 12 22:51:03.447497 2021] [wsgi:error] [pid 10087:tid 139848150632192] [remote 172.22.0.1:53688] Not Found: /public/teamaker/index.js
+[Fri Nov 12 22:51:57.270989 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:51:57.477951 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:51:57.479190 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:52:42.980096 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:52:43.042605 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:52:43.042693 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:52:45.754563 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:52:45.820354 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:52:45.820438 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:53:56.179453 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:53:56.238728 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:53:56.238801 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:54:12.315756 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:54:12.373995 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:54:12.374059 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:55:07.907088 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:55:07.972681 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:55:07.972757 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:56:18.854981 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:56:18.918504 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:56:18.918596 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:56:26.280913 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:56:26.343098 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:56:26.343167 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:56:27.987418 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:56:28.045632 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:56:28.045723 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:56:33.472677 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:56:33.536472 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:56:33.537857 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:57:16.705636 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:57:16.764941 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:57:16.765045 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 22:57:20.481959 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 22:57:20.547236 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 22:57:20.547306 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:00:56.459273 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:00:56.517865 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:00:56.517937 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:01:15.309262 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:01:15.370976 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:01:15.371049 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:01:20.200649 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:01:20.264537 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:01:20.264597 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:01:25.247565 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:01:25.311789 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:01:25.311856 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:01:36.994363 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:01:37.052572 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:01:37.052655 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:02:14.901874 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:02:14.974214 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:02:14.976480 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:02:35.643936 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:02:35.706215 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:02:35.706293 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:02:42.073314 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:02:42.140309 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:02:42.140392 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:02:47.938924 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:02:48.004872 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:02:48.004964 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:03:06.424796 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:03:06.485723 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:03:06.485794 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:05:09.815342 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:05:09.875738 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:05:09.875813 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:05:12.953829 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:05:13.017988 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:05:13.018081 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:05:47.578439 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:05:47.641629 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:05:47.641695 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:06:03.758747 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:06:03.819376 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:06:03.819444 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:07:20.001635 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:07:20.067440 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:07:20.067503 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:08:11.785338 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:08:11.949545 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:08:11.949622 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:08:28.595143 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:08:28.656991 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:08:28.657056 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:08:32.778059 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:08:32.846114 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:08:32.847308 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:09:14.330959 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:09:14.397827 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:09:14.399110 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:10:43.287720 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:10:43.350342 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:10:43.350440 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:12:23.592909 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:12:23.656886 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:12:23.656956 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:12:27.521508 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:12:27.582992 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:12:27.584309 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:13:39.406769 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:13:39.470772 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:13:39.470842 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:14:09.078316 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:14:09.139593 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:14:09.139667 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:14:23.867300 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:14:23.932919 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:14:23.933006 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:15:08.954749 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:15:09.020750 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:15:09.020835 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:15:12.656530 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:15:12.720669 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:15:12.721858 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:17:31.057314 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:17:31.119205 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:17:31.119283 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:17:43.346762 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:17:43.413089 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:17:43.413165 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:18:01.839365 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:18:01.901533 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:18:01.901595 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:18:09.781496 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:18:09.845443 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:18:09.845508 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:20:32.209531 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:20:32.271997 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:20:32.272059 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:20:32.555450 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:20:32.621756 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:20:32.621826 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:20:32.854425 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:20:32.917968 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:20:32.918048 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:20:53.938984 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:20:54.003493 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:20:54.004670 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:20:56.079299 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:20:56.145786 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:20:56.147070 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:22:33.045654 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:22:33.107181 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:22:33.107253 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:22:46.232378 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:22:46.291475 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:22:46.291573 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:23:30.253858 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:23:30.323127 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:23:30.323195 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:23:43.423653 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:23:43.485700 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:23:43.485766 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:23:47.130675 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:23:47.190030 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:23:47.190094 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:24:21.180552 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:24:21.249381 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:24:21.249465 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:29:44.882683 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:29:44.952073 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:29:44.952149 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:29:48.747347 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:29:48.811787 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:29:48.811858 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:29:54.734257 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:29:54.796140 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:29:54.796225 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:29:54.878733 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:29:54.944363 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:29:54.944431 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:30:08.764679 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:30:08.826795 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:30:08.826869 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:30:15.261697 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:30:15.331165 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:30:15.332356 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:30:47.200327 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:30:47.258910 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:30:47.258976 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:30:50.864418 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:30:50.923539 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:30:50.923610 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:31:41.801103 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:31:41.861911 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:31:41.861977 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:31:47.648333 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:31:47.714823 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:31:47.715330 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:33:49.546276 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:33:49.609786 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:33:49.609862 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:34:09.917519 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:34:09.978127 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:34:09.978194 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:34:25.059069 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:34:25.124906 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:34:25.124976 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:34:30.912966 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:34:30.974264 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:34:30.974342 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:34:41.704544 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:34:41.768706 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:34:41.768773 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:35:01.037905 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:35:01.100168 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:35:01.100252 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:35:21.162725 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:35:21.228868 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:35:21.230075 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:35:25.067146 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:35:25.125780 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:35:25.127713 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:36:16.107199 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:36:16.168977 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:36:16.170193 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:36:18.360573 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:36:18.426545 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:36:18.427716 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:36:56.990345 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:36:57.054455 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:36:57.054547 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:37:34.201531 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:37:34.260049 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:37:34.260122 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:37:40.137686 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:37:40.217944 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:37:40.218006 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:39:12.809637 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:39:12.871422 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:39:12.871489 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:39:25.220084 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:39:25.282168 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:39:25.282240 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:39:53.384740 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:39:53.443004 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:39:53.443073 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:40:24.943595 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:40:25.004623 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:40:25.004722 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:40:36.339706 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:40:36.400299 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:40:36.400374 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:40:43.491201 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:40:43.555544 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:40:43.555615 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:40:56.540340 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:40:56.604574 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:40:56.604658 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:41:10.376152 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:41:10.455482 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:41:10.455635 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:41:13.337767 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:41:13.401752 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:41:13.401817 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:41:40.265822 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:41:40.334064 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:41:40.334136 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:41:43.574531 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:41:43.637239 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:41:43.637308 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:42:06.038930 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:42:06.100880 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:42:06.100945 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:42:10.440731 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:42:10.504231 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:42:10.504292 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:42:37.030855 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:42:37.094156 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:42:37.094230 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:42:55.948850 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:42:56.013108 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:42:56.013193 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:43:21.848147 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:43:21.912079 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:43:21.912145 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:43:22.910061 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:43:22.972280 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:43:22.972343 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:43:28.311176 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:43:28.371111 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:43:28.371178 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:43:31.232317 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:43:31.293956 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:43:31.294026 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:43:49.119959 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:43:49.185995 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:43:49.186056 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:43:54.032874 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:43:54.093185 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:43:54.093251 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:43:58.231838 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:43:58.295384 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:43:58.295820 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:44:12.814134 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:44:12.873074 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:44:12.873150 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:44:47.876495 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:44:47.935581 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:44:47.935653 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:45:03.681762 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:45:03.743776 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:45:03.743844 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:45:33.193985 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:45:33.253690 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:45:33.253769 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:45:37.818178 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:45:37.882069 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:45:37.883560 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:48:09.556727 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:48:09.621890 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:48:09.621956 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:48:34.415041 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:48:34.480283 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:48:34.482035 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:48:41.451625 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:48:41.537215 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:48:41.537278 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:49:30.477893 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:49:30.537330 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:49:30.537392 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:49:35.153593 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:49:35.213568 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:49:35.213644 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:49:59.718462 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:49:59.783561 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:49:59.783645 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:50:03.571671 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:50:03.642190 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:50:03.642254 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:51:21.905913 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:51:21.969571 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:51:21.969636 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:51:30.439014 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:51:30.504317 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:51:30.504391 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:54:22.880284 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:54:22.945618 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:54:22.945697 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:54:26.514517 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:54:26.576017 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:54:26.576094 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:55:57.673090 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:55:57.735502 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:55:57.735609 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:56:10.706169 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:56:10.766235 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:56:10.766305 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 12 23:56:12.928063 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 12 23:56:12.991025 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 12 23:56:12.991101 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:00:40.448401 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:00:40.512526 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:00:40.512602 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:00:46.965322 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:00:47.030672 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:00:47.030756 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:03:04.227655 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:03:04.287357 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:03:04.287432 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:03:07.628116 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:03:07.692325 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:03:07.692439 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:03:25.716923 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:03:25.783987 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:03:25.784070 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:03:31.906306 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:03:31.966601 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:03:31.966671 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:03:35.503959 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:03:35.571624 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:03:35.571690 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:04:17.065939 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:04:17.130961 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:04:17.131035 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:04:21.111001 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:04:21.173651 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:04:21.174843 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:05:20.339074 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:05:20.401119 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:05:20.401186 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:05:32.857319 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:05:32.918957 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:05:32.919025 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:05:47.247430 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:05:47.310780 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:05:47.310853 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:06:06.583356 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:06:06.649788 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:06:06.649859 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:06:11.085259 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:06:11.151804 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:06:11.152974 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sat Nov 13 00:07:35.565416 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00494: SIGHUP received.  Attempting to restart
+[Sat Nov 13 00:07:35.631710 2021] [mpm_event:notice] [pid 8:tid 139848202489152] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Sat Nov 13 00:07:35.631781 2021] [core:notice] [pid 8:tid 139848202489152] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

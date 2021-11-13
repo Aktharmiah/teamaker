@@ -61,7 +61,6 @@ class User( AbstractUser ):
 
 
     skill_level = models.PositiveIntegerField(
-        max_length=1, 
         choices=skillLevelChoices, 
         default=Skill_level.JUNIOR
     )

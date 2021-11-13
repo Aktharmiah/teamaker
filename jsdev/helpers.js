@@ -1,4 +1,3 @@
-import { resolve } from "path/posix";
 
 /**
  * A fetch function that also triggers a custom 'fetch' event
@@ -38,7 +37,7 @@ import { resolve } from "path/posix";
 
 export function getPage(url){
 
-  return Promise((resolve, reject)=>{
+  return new Promise((resolve, reject)=>{
 
     fetch(url)
     .then(res=>res.text())

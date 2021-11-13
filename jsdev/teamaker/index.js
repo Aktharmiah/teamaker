@@ -31,8 +31,8 @@ export default (props=null)=>{
                     
                     <div className="d-inline-flex justify-content-between" style={css.inherit_width}>
                         <button onClick={(e)=>dispatch({type:"setComponent", component:Teamaker}) } className="btn btn-warning">Select tea maker</button>
-                        <button onClick={(e)=>dispatch({type:"setComponent", component:Members}) } className="btn btn-secondary">Create new team</button>
-                        <button onClick={(e)=>dispatch({type:"setComponent", component:AddTeam}) } className="btn btn-secondary">Add team member</button>
+                        <button onClick={(e)=>dispatch({type:"setComponent", component:AddTeam}) } className="btn btn-secondary">Create new team</button>
+                        <button onClick={(e)=>dispatch({type:"setComponent", component:AddTeamMember}) } className="btn btn-secondary">Add team member</button>
                     </div>
                     <hr />                    
                     
