@@ -1,22 +1,7 @@
-{% load static %}
 {% load bootstrap4 %}
+<form action="{% url 'teamaker:teams_list' %}?format=json" >
+    {% csrf_token %}
+    {% bootstrap_form form layout='horizontal' %}
+    {% buttons %}<button type="submit" class="btn btn-primary">Add team</button>{% endbuttons %}
 
-{% block body %}
-
-<div class="container my-3">
-
-    <form class="inputForms" method="post" action="{% url 'teamaker:teams_list' %}?format=json" >
-
-        {% csrf_token %}
-        {% bootstrap_form form layout='horizontal' %}
-        {% buttons %}
-            <button type="submit" class="btn btn-primary">Submit</button>
-        {% endbuttons %}
-
-    </form>
-
-</div>
-
-<script src="{% static '/teamaker/index.js' %}"></script>
-{% endblock %}
-
+</form>

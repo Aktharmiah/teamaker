@@ -1,10 +1,10 @@
-from django.http import Http404
+from django.http import Http404, request
 from django.urls import reverse
 
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
 
-from django.views.generic.edit import FormView
+from django.views.generic import edit
 
 from rest_framework import serializers, status
 from rest_framework.views import APIView
@@ -32,7 +32,7 @@ class TeamMembersSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = models.User
-        fields = ['first_name', 'last_name', 'email', 'skill_level', 'team']
+        fields = ['pk', 'first_name', 'last_name', 'email', 'skill_level', 'team']
 
 # # ViewSets define the view behavior.
 # class TeamMembersViewSet(viewsets.ModelViewSet):
@@ -96,7 +96,7 @@ class UserList(APIView):
         
         return Response(serializer.data)
 
-    @csrf_exempt
+    # @csrf_exempt
     def post(self, request, format=None):
 
         serializer = TeamMembersSerializer(data=request.data)
@@ -165,7 +165,7 @@ class TeamList(APIView):
         
         return Response(serializer.data)
 
-    @csrf_exempt
+    # @csrf_exempt
     def post(self, request, format=None):
 
         serializer = TeamSerializer(data=request.data)
@@ -181,43 +181,27 @@ class TeamList(APIView):
 
 
 
-class TeamFormView(FormView):
-
+class TeamFormView(edit.FormView):
     form_class = models_forms.TeamsForm   
     template_name = 'teamaker/forms/teams.html'
     success_url = '#'
 
-    # def form_valid(self, form):
-    #     # This method is called when valid form data has been POSTed.
-    #     # It should return an HttpResponse.
-    #     form.send_email()
-    #     return super().form_valid(form)
+class TeamFormUpdateView(edit.UpdateView):
+    form_class = TeamFormView.form_class  
+    template_name = TeamFormView.template_name
+    success_url = TeamFormView.success_url
+    model=models.Teams
 
-
-class UserFormView(FormView):
-
+class UserFormView(edit.FormView):
     form_class = models_forms.UserForm   
     template_name = 'teamaker/forms/members.html'
     success_url = '#'
 
-    # def form_valid(self, form):
-    #     # This method is called when valid form data has been POSTed.
-    #     # It should return an HttpResponse.
-    #     form.send_email()
-    #     return super().form_valid(form)
-        
+class UserFormUpdateView(edit.UpdateView):
+    form_class = UserFormView.form_class  
+    template_name = UserFormView.template_name
+    success_url = UserFormView.success_url
+    model=models.User
 
 def index(request):
-
     return render(request, 'index.html')
-
-
-# def checkTeamExistance():
-
-#     teamsQueryset = models.Teams.objects.all()
-
-#     if teamsQueryset.count == 0:
-
-#         return ObjectDoesNotExist
-
-#     return True

@@ -1,5 +1,21 @@
 export default {
 
+    status : {
+
+        display: 'fixed',
+        bottom : '0px',
+        height:'30px',
+        width:'100%',
+        backgroundColor:'red'
+
+    },
+
+    members_list:{
+
+        display : 'block',
+        overflowX : 'scroll',
+        height:'80vh'
+    },
     
 
     container : {
@@ -18,6 +34,13 @@ export default {
 
         width:'100%',
         height: '100%'
+    },
+
+    vCentered:{
+        display:'inlineBlock',
+        width:'100%',
+        height: 'auto',
+        margin: 'auto'
     },
 
     left:{

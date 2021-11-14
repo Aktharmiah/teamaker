@@ -11,6 +11,9 @@ urlpatterns = [
     path('forms/team', views.TeamFormView.as_view(), name='team_form'),
     path('forms/member', views.UserFormView.as_view(), name='user_form'),
     
+    path('forms/team/<int:pk>/', views.TeamFormUpdateView.as_view(), name='team_form'),
+    path('forms/member/<int:pk>/', views.UserFormUpdateView.as_view(), name='user_form'),
+
     ##apis
 
 

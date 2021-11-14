@@ -1,15 +1,16 @@
 from . import models
-from django.forms import ModelForm
 from django import forms
 
 
-class TeamsForm(ModelForm):
+
+
+class TeamsForm(forms.ModelForm):
     class Meta:
         model = models.Teams
         fields = ['team_name', 'team_description']
 
 
-class UserForm(ModelForm):
+class UserForm(forms.ModelForm):
 
     #Here we want to get the team names dynamically from a queryset instead of a static choice list
     team = forms.ModelChoiceField(

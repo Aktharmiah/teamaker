@@ -146,7 +146,6 @@ class MembersApiTests(APITestCase, URLPatternsTestCase):
 
 
     #Override middleware settings, as above
-    @override_settings(MIDDLEWARE=MIDDLEWARE)
     def test_retrieve_team_details(self):
         '''
             Retrieve the team created earlier

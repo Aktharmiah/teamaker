@@ -3,6 +3,9 @@
 echo "Shutting down running docker containers...."
 docker-compose down
 
+echo "Shutting down postgres on host machine"
+sudo systemctl stop postgresql
+
 
 
 #Check for the --build flag. If it is provided then build the main docker image (the one with django in it)
