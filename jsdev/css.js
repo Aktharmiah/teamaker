@@ -2,11 +2,15 @@ export default {
 
     status : {
 
-        display: 'fixed',
-        bottom : '0px',
         height:'30px',
         width:'100%',
         backgroundColor:'#ffffff'
+
+    },
+
+    teamaker:{
+
+        height:'80vh'
 
     },
 
@@ -14,7 +18,7 @@ export default {
 
         display : 'block',
         overflowX : 'scroll',
-        height:'80vh'
+        height:'80%'
     },
     
 
@@ -39,7 +43,7 @@ export default {
     vCentered:{
         display:'inlineBlock',
         width:'100%',
-        height: 'auto',
+        height: '100%',
         margin: 'auto'
     },
 
@@ -54,6 +58,7 @@ export default {
         width:'35vh',
         height: '100%'
     }
+
 
 
 

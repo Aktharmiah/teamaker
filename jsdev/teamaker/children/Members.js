@@ -14,21 +14,13 @@ const skillLevels = [null, 'Junior', 'Intermediate', 'Senior']
 export default ()=>{
 
     var memberChange = useSelector((state)=>state.member_change)
+    var statusChange = useSelector((state)=>state.status_change)
 
 
     const dispatch  = useDispatch()
 
     //this list stores html elements
     const [membersList, setMembersList] = useState([]);
-
-    const editMember = (pk)=>{
-
-        dispatch({
-            type:'edit_member',
-            member_form_url : `http://localhost:8080/teamaker/forms/member/${pk}/`,
-            component: AddTeamMember
-        })
-    }
 
     const deleteMember = (pk)=>{
 
@@ -103,17 +95,33 @@ export default ()=>{
 
                 setMembersList( createDisplayList(res.data) );
             })
+            .catch(e=>{
+
+                dispatch({
+                    type:'members_load_error', 
+                    status: {
+                        type:'error',
+                        message:'Error loading member'
+                    },
+                    status_change: ++statusChange
+                })                
+            })
 
     }, [memberChange])
 
 
     return (
 
-        <div className="" >
-            <h5>Team members ({membersList.length})</h5>
-            <button onClick={(e)=>addTeamMember(e) } className="btn btn-secondary">Add team member</button>
-            <div style={css.members_list}>
+        <div className="d-block" >
 
+            <div className=" d-flex justify-content-between">
+
+                <h5>Team members ({membersList.length})</h5>
+                <button onClick={(e)=>addTeamMember(e) } className="btn btn-secondary">Add</button>
+
+            </div>
+
+            <div style={css.members_list}>
                 {membersList}
             </div>
         </div>

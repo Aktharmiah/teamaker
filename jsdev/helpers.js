@@ -15,7 +15,11 @@ export const getFormUriError = new URIError("No url has been supplied")
 
 /**
  * 
- * This function 
+ * This function fetches a form, described in the formUrl and creates a React element out of it
+ * so that the code can be injected directly into JSX
+ * 
+ * @param {String} formUrl: The URL the form can be found at
+ * @return {ReactElement} : A react element
  * 
  */
 export function getReactForm(formUrl = null){
@@ -72,50 +76,19 @@ export function getReactForm(formUrl = null){
           //   },
           //   processNode: (node, children)=>{
 
-          //     //replace with <option defaultValue="...">
-          //     node.attribs['defaultValue'] = node.attribs.value
+          //     console.log("Selected found", node);
+
+             
+              
               
           //     delete node.attribs['selected']
+          //     node.children[0].data = 'ddd'
+          //     console.log('modified node', node);
 
           //     return React.createElement(node.name, node.attribs);
           //   }
 
           // },
-          // {
-          //   // class should be renamed to className
-          //   shouldProcessNode: (node)=>{
-
-          //     return typeof(node.attribs) !== 'undefined' && 
-          //       typeof(node.attribs.class) !=='undefined';
-          //   },
-          //   processNode: (node, children)=>{
-          //     console.log('filtering class', node);
-          //     //replace with <option defaultValue="...">
-          //     node.attribs['className'] = node.attribs.class
-          //     delete node.attribs['class']
-
-          //     return React.createElement(node.name, node.attribs);
-          //   }
-
-          // },
-          {
-
-            // class should be renamed to className
-            shouldProcessNode: (node)=>{
-
-              return (node.type === 'tag' && node.name === 'input') &&
-                typeof(node.attribs.maxlength) !='undefined';
-            },
-            processNode: (node, children)=>{
-
-              //replace with <option defaultValue="...">
-              node.attribs['maxLength'] = node.attribs.maxlength
-              delete node.attribs['maxlength']
-
-              return React.createElement(node.name, node.attribs);
-            }
-
-          },
           {
 
             // Anything else
@@ -127,12 +100,17 @@ export function getReactForm(formUrl = null){
           },
         ];
 
+
+        //rename 'class' to 'classname' -- the parser will cammel case it automatically 
+        var strHTMLForm = res.data.replaceAll('class', 'classname');
+
+
         const htmlToReactParser = new HtmlToReactParser();
-        const reactComponent = htmlToReactParser.parseWithInstructions(res.data, isValidNode, processingInstructions);
+        const reactComponent = htmlToReactParser.parseWithInstructions(strHTMLForm, isValidNode, processingInstructions);
         
         
-        // const reactHtml = ReactDOMServer.renderToStaticMarkup(reactComponent);
-        console.log("getReactForm", reactComponent);
+        const reactHtml = ReactDOMServer.renderToStaticMarkup(reactComponent);
+        console.log("getReactForm", reactHtml);
         
         resolve(reactComponent)
 
@@ -197,9 +175,9 @@ export function getForm(formUrl = null){
  */
 export function submitForm(e, method = 'post'){
 
+  e.preventDefault();
 
   const formData = new FormData(e.target);
-  console.log("Form submitted", );
 
   const config = {
 

@@ -1,6 +1,6 @@
 import Teamaker from "./teamaker/children/Teamaker";
-import Members from "./teamaker/children/Members";
-var initialState = {
+
+export var initialState = {
 
     //Members component watches this as a trigger for update
     member_change : 0,
@@ -15,10 +15,6 @@ var initialState = {
     //stores the location of the form, with or without params
     //set this before changing the component
     member_form_url : "http://localhost:8080/teamaker/forms/member",
-
-    //stores the location of the form, with or without params
-    //set this before changing the component
-    team_form_url : "http://localhost:8080/teamaker/forms/team",
 
     //store the pk of the last teamaker
     selected_teamaker_pk  : null,

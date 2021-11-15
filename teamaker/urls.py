@@ -6,15 +6,17 @@ app_name = 'teamaker'
 
 urlpatterns = [
 
+    #FORMS
 
     # path('forms/user', views.userFormSelector, 'new_user'),
     path('forms/team', views.TeamFormView.as_view(), name='team_form'),
     path('forms/member', views.UserFormView.as_view(), name='user_form'),
     
+    #These are for editing a single user or team
     path('forms/team/<int:pk>/', views.TeamFormUpdateView.as_view(), name='team_form'),
     path('forms/member/<int:pk>/', views.UserFormUpdateView.as_view(), name='user_form'),
 
-    ##apis
+    ##CRUD
 
 
     #get, view, put or delete a single member

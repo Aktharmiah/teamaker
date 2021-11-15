@@ -2,9 +2,6 @@ import React, { useEffect } from "react";
 import css from "../../css"
 import { useSelector, useDispatch } from 'react-redux'
 import { createProbabilities } from "../../helpers";
-import axios from "axios";
-
-
 
 const url = "http://localhost:8080/teamaker/members/?format=json"
 
@@ -86,9 +83,9 @@ export default (props=null)=>{
     return(
 
 
-        <div style={css.inherit}>
+        <div style={css.teamaker} className="d-flex align-items-center text-center" >
             
-            <h1 style={css.vCentered}>And the unlucky winner is ... {selectedTeamaker.first_name} {selectedTeamaker.last_name}</h1>
+            <h1 style={css.inherit_width}>And the unlucky winner is ...<br />{selectedTeamaker.first_name} {selectedTeamaker.last_name}</h1>
         </div>
 
     )

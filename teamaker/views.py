@@ -6,7 +6,7 @@ from django.views.decorators.csrf import csrf_exempt
 
 from django.views.generic import edit
 
-from rest_framework import serializers, status
+from rest_framework import serializers, status, generics
 from rest_framework.views import APIView
 from rest_framework.response import Response
 
@@ -76,39 +76,18 @@ class UserDetails(APIView):
         queryset.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
-class UserList(APIView):
-    """
-        List all snippets, or create a new team member.
-    """
+
+class UserList(generics.ListCreateAPIView):
+    '''
+        The base class is a mixed in version of APIView that allows us the GET and POST methods 
+    '''
 
     authentication_classes = [] #disables authentication
     permission_classes = [] #disables permission
 
-    def get_queryset(self):
-        try:
-            return models.User.objects.all()
-        except models.User.DoesNotExist:
-            raise Http404
-
-    def get(self, request, format=None):
-
-        snippets = self.get_queryset()
-        serializer = TeamMembersSerializer(snippets, many=True)
-        
-        return Response(serializer.data)
-
-    # @csrf_exempt
-    def post(self, request, format=None):
-
-        serializer = TeamMembersSerializer(data=request.data)
-
-        if serializer.is_valid():
-            serializer.save()
-
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
+    queryset = models.User.objects.all()
+    serializer_class = TeamMembersSerializer 
+ 
 
 class TeamDetails(APIView):
     """
@@ -145,41 +124,14 @@ class TeamDetails(APIView):
         queryset.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
 
-class TeamList(APIView):
-    """
-        List all snippets, or create a new team member.
-    """
+
+class TeamList(generics.ListCreateAPIView):
 
     authentication_classes = [] #disables authentication
     permission_classes = [] #disables permission
 
-    def get_queryset(self):
-        try:
-            return models.Teams.objects.all()
-        except models.Teams.DoesNotExist:
-            raise Http404
-
-    def get(self, request, format=None):
-
-        snippets = self.get_queryset()
-        serializer = TeamSerializer(snippets, many=True)
-        
-        return Response(serializer.data)
-
-    # @csrf_exempt
-    def post(self, request, format=None):
-
-        serializer = TeamSerializer(data=request.data)
-
-        if serializer.is_valid():
-            serializer.save()
-
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
-        
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-
-
-
+    queryset = models.Teams.objects.all()
+    serializer_class = TeamSerializer 
 
 
 class TeamFormView(edit.FormView):

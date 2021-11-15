@@ -5,7 +5,7 @@ from django.db.models.deletion import CASCADE
 
 from django.contrib.auth.models import AbstractUser
 
-
+#Room for scaling?
 class Teams(models.Model):
 
     team_name = models.CharField(
@@ -65,6 +65,7 @@ class User( AbstractUser ):
         default=Skill_level.JUNIOR
     )
 
+    #Room for scaling?
     # team = models.ForeignKey(
     #     Teams,
     #     verbose_name="Name of team",

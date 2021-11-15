@@ -20,5 +20,5 @@ export default (props=null)=>{
 
     }, [statusChange])
  
-    return( <div style={css.status}>{status}</div> );
+    return( <div className="fixed-bottom container" style={css.status}>{status}</div> );
 }

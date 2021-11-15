@@ -3,6 +3,8 @@ import { useSelector, useDispatch } from 'react-redux'
 import { useEffect } from "react";
 import { submitForm, getReactForm} from '../../helpers'
 
+import { initialState } from "../../reducer";
+
 const $ = require('jquery')
 
 export default (props=null)=>{
@@ -19,9 +21,10 @@ export default (props=null)=>{
     $('body').on('submit', 'form', (e)=>{
 
         //stop the default (redirect) behaviour of forms on submission
-        e.preventDefault();
         
-        submitForm(e, 'post')
+        
+        //submit the form with the event
+        submitForm(e)
             .then(res=>{
     
                 //we want to increse the 'member_change' state by 1. This update should be picked up 
@@ -32,12 +35,19 @@ export default (props=null)=>{
                     status_change : ++statusChange,
                     status : {type:'success', message: res.statusText}
                 })
-    
+
+                //reset the form
+                  dispatch({
+                    type:'member_change', 
+                    member_change: ++memberAdded,
+                    status_change : ++statusChange,
+                    status : {type:'success', message: res.statusText}
+                })  
             })
             .catch(e=>{
 
                 //dispatch state so that the Status component can action it
-                dispatch({type:'status_changed', status: {type:'error', message:e.statusText} })
+                dispatch({type:'form_reset', member_form_url: initialState.member_form_url})
 
             })
     })
