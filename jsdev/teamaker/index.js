@@ -18,29 +18,6 @@ export default (props=null)=>{
     var teamakerChange = useSelector(state=>state.teamaker_change);
     var status = useSelector(state=>state.status);
 
-    const addTeamMember = (e)=>{
-
-        dispatch({
-            type:"add_team_member", 
-            
-            //set it to a balnk form address
-            component:AddTeamMember,
-            member_form_url : "http://localhost:8080/teamaker/forms/member",
-        })
-
-    }
-
-    const addTeam = (e)=>{
-
-        dispatch({
-            type:"add_team", 
-            
-            //set it to a balnk form address
-            member_form_url : "http://localhost:8080/teamaker/forms/team",
-            component:AddTeam,
-        })
-    }
-
     const selectTeamaker = (e)=>{
 
         dispatch({
@@ -59,10 +36,8 @@ export default (props=null)=>{
 
                 <div className="d-block" style={css.inherit_width}>
                     
-                    <div className="d-inline-flex justify-content-between" style={css.inherit_width}>
+                    <div className="d-inline-flex justify-content-start" style={css.inherit_width}>
                         <button onClick={(e)=>selectTeamaker(e) } className="btn btn-warning">Select tea maker</button>
-                        {/* <button onClick={(e)=>addTeam(e) } className="btn btn-secondary">Create new team</button> */}
-                        <button onClick={(e)=>addTeamMember(e) } className="btn btn-secondary">Add team member</button>
                     </div>
                     <hr />                    
                     

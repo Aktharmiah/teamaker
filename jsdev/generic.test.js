@@ -1,12 +1,8 @@
-import { createProbabilities, getForm, getFormUriError } from "./helpers"
-
-
-// import 'regenerator-runtime/runtime'
-
+import { createProbabilities, getReactForm, getFormUriError } from "./helpers"
 
 test('Testing fetching of form where no url has been supplied', () => {
 
-    return getForm()
+    return getReactForm()
         .catch(e=>{
             
             expect.assertions(1);
@@ -15,33 +11,16 @@ test('Testing fetching of form where no url has been supplied', () => {
 });
 
 
-test('Test for team form', () => {
-
-    const url = "http://localhost:8080/teamaker/forms/team";
-
-    return getForm(url)
-        .then(res=>{
-
-            let hasFormElement = res.indexOf("<form") !== -1
-          
-            expect( hasFormElement ).toBe(true)
-        })
-        
-
-}, 30000);
-
 test('Testing for members', () => {
 
     const url = "http://localhost:8080/teamaker/forms/member";
 
-    return getForm(url)
+    return getReactForm(url)
         .then(res=>{
 
-            let hasFormElement = res.indexOf("<form") !== -1
-          
-            expect( hasFormElement ).toBe(true)
+            let reactElementArr = res[1];
+            expect( reactElementArr.type ).toBe('form')
         })
-        
 
 }, 30000);
 

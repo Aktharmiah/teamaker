@@ -45,6 +45,20 @@ export default ()=>{
             })
     }
 
+
+    const addTeamMember = (e)=>{
+
+        dispatch({
+            type:"add_team_member", 
+            
+            //set it to a balnk form address
+            component:AddTeamMember,
+            member_form_url : "http://localhost:8080/teamaker/forms/member",
+        })
+
+    }
+
+
     const createDisplayList = (data)=>{
 
         var arr = [];
@@ -97,6 +111,7 @@ export default ()=>{
 
         <div className="" >
             <h5>Team members ({membersList.length})</h5>
+            <button onClick={(e)=>addTeamMember(e) } className="btn btn-secondary">Add team member</button>
             <div style={css.members_list}>
 
                 {membersList}

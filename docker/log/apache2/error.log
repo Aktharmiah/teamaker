@@ -12222,3 +12222,18 @@ AH00112: Warning: DocumentRoot [/var/www/html] does not exist
 [Mon Nov 15 03:02:18.705900 2021] [wsgi:error] [pid 1223:tid 139694416942848] [remote 172.23.0.1:46042] django.db.utils.IntegrityError: duplicate key value violates unique constraint "teamaker_user_email_72c4a2cd_uniq"
 [Mon Nov 15 03:02:18.705912 2021] [wsgi:error] [pid 1223:tid 139694416942848] [remote 172.23.0.1:46042] DETAIL:  Key (email)=(kj@sfdsfe.com) already exists.
 [Mon Nov 15 03:02:18.705922 2021] [wsgi:error] [pid 1223:tid 139694416942848] [remote 172.23.0.1:46042] 
+[Mon Nov 15 03:03:57.049543 2021] [mpm_event:notice] [pid 9:tid 139694535941440] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 03:03:57.424278 2021] [mpm_event:notice] [pid 9:tid 139694535941440] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 03:03:57.424362 2021] [core:notice] [pid 9:tid 139694535941440] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 03:03:57.774998 2021] [mpm_event:notice] [pid 9:tid 139694535941440] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 03:03:57.840800 2021] [mpm_event:notice] [pid 9:tid 139694535941440] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 03:03:57.840889 2021] [core:notice] [pid 9:tid 139694535941440] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 03:04:03.608873 2021] [mpm_event:notice] [pid 9:tid 139694535941440] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 03:04:03.685293 2021] [mpm_event:notice] [pid 9:tid 139694535941440] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 03:04:03.691410 2021] [core:notice] [pid 9:tid 139694535941440] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 03:04:03.977668 2021] [mpm_event:notice] [pid 9:tid 139694535941440] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 03:04:04.044550 2021] [mpm_event:notice] [pid 9:tid 139694535941440] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 03:04:04.044640 2021] [core:notice] [pid 9:tid 139694535941440] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 03:04:04.201822 2021] [mpm_event:notice] [pid 9:tid 139694535941440] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 03:04:04.265083 2021] [mpm_event:notice] [pid 9:tid 139694535941440] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 03:04:04.266370 2021] [core:notice] [pid 9:tid 139694535941440] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

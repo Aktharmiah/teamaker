@@ -12,20 +12,6 @@ const HtmlToReactParser = require('html-to-react').Parser;
 export const getFormUriError = new URIError("No url has been supplied")
 
 
-function fetchMessages(e=null){
-
-fetch('/api/messages/')
-.then(res=>{ return res.json() })
-.then(res=>{  
-  for (let envelope of res.messages){
-    
-        console.log("message envelope", envelope);
-        postMessage(envelope.message, envelope.type);
-    }
-
-  })
-}
-  
 
 /**
  * 
@@ -146,7 +132,7 @@ export function getReactForm(formUrl = null){
         
         
         // const reactHtml = ReactDOMServer.renderToStaticMarkup(reactComponent);
-        // console.log("getReactForm", reactHtml);
+        console.log("getReactForm", reactComponent);
         
         resolve(reactComponent)
 
