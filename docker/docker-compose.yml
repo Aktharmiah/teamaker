@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-      
+
     web:
         
         container_name: lmc_web
@@ -48,11 +48,10 @@ services:
             POSTGRES_USER: ${POSTGRES_USER}
             POSTGRES_PASSWORD: ${POSTGRES_PASSWORD} 
             PGPORT: ${PGPORT}         
+
     db:
         container_name: lmc_db
-
-        # Postgress v10 postgis v2.5
-        image: postgis/postgis:10-2.5
+        image: lmc/db
 
         environment:
             POSTGRES_DB: ${POSTGRES_DB}
@@ -61,10 +60,10 @@ services:
             PGPORT: ${PGPORT}
 
         ports: 
-        - 5432:5432
+        - ${PGPORT}:${PGPORT}
 
         volumes: 
-        - lmc_dbdata:/var/lib/postgresql/data
+        - lmc_dbdata:/var/lib/postgresql/data    
 
   
     

@@ -84,8 +84,12 @@ export default (props=null)=>{
 
 
         <div style={css.teamaker} className="d-flex align-items-center text-center" >
-            
-            <h1 style={css.inherit_width}>And the unlucky winner is ...<br />{selectedTeamaker.first_name} {selectedTeamaker.last_name}</h1>
+            <div className='d-block'>
+
+            <h1 style={css.inherit_width}>And the unlucky winner is ...</h1><br />
+            <h2 className="text-warning">{selectedTeamaker.first_name} {selectedTeamaker.last_name}</h2>
+
+            </div>
         </div>
 
     )

@@ -40,12 +40,17 @@ export default ()=>{
 
     const addTeamMember = (e)=>{
 
+        //We generate a timestamp and add it as part of the form url.
+        //This will cause the form to re-render with a fresh form
+        var timestamp = Date.now()
+
+
         dispatch({
             type:"add_team_member", 
             
             //set it to a balnk form address
             component:AddTeamMember,
-            member_form_url : "http://localhost:8080/teamaker/forms/member",
+            member_form_url : `http://localhost:8080/teamaker/forms/member#${timestamp}`,
         })
 
     }

@@ -15,12 +15,13 @@ if [ "$1" == "--build" ]; then
     echo "Building/rebuilding the main docker image .... 
     "
     docker build -f base.dockerfile -t lmc/base .   
+    docker build -f db.dockerfile -t lmc/db .   
 
 fi
 
 
 #launch the containers
-echo "Building docker containers ....
+echo "Initializing containers ....
 "
 docker-compose up -d
 

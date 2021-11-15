@@ -100,17 +100,19 @@ export function getReactForm(formUrl = null){
           },
         ];
 
+        //<option value="1" selected> -- the selected causes a problem for React
+        var strHTMLForm = res.data.replaceAll('selected>', '>');
 
         //rename 'class' to 'classname' -- the parser will cammel case it automatically 
-        var strHTMLForm = res.data.replaceAll('class', 'classname');
+        strHTMLForm = strHTMLForm.replaceAll('class', 'classname');
 
 
         const htmlToReactParser = new HtmlToReactParser();
         const reactComponent = htmlToReactParser.parseWithInstructions(strHTMLForm, isValidNode, processingInstructions);
         
         
-        const reactHtml = ReactDOMServer.renderToStaticMarkup(reactComponent);
-        console.log("getReactForm", reactHtml);
+        // const reactHtml = ReactDOMServer.renderToStaticMarkup(reactComponent);
+        // console.log("getReactForm", reactHtml);
         
         resolve(reactComponent)
 
