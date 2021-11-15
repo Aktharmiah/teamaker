@@ -14,6 +14,8 @@ const skillLevels = [null, 'Junior', 'Intermediate', 'Senior']
 export default ()=>{
 
     var memberChange = useSelector((state)=>state.member_change)
+
+
     const dispatch  = useDispatch()
 
     //this list stores html elements
@@ -27,7 +29,6 @@ export default ()=>{
             component: AddTeamMember
         })
     }
-
 
     const deleteMember = (pk)=>{
 
@@ -44,6 +45,33 @@ export default ()=>{
             })
     }
 
+    const createDisplayList = (data)=>{
+
+        var arr = [];
+        for (let i=0; i<data.length; i++){
+
+            let member = data[i]
+
+            //push list of members into the the arr array
+            arr.push(
+
+                <div className="card my-1 py-0" key={i}>
+                    <div className="card-body p-2">
+                        <h5 className="card-title">{member.first_name} {member.last_name}</h5>
+                        <p className="card-text">{skillLevels[member.skill_level]}</p>
+                    </div>
+                    <div className="card-footer bg-transparent border-0 px-2 d-flex justify-content-end">
+                        {/* <a href='#' onClick={(e)=>editMember(member.pk) } className='mr-2'>Edit</a> */}
+                        <a href="#" onClick={(e)=>deleteMember(member.pk) }>Delete</a>
+                    </div>
+                </div>
+
+            )
+        }
+
+        return arr;
+    }
+
     //Keep an eye out for when the 'member_change' state has changed
     useEffect(()=>{
 
@@ -51,34 +79,15 @@ export default ()=>{
         axios.get(url)
             .then(res=>{
 
-                //save the members list as a state
+                //save the members list so that it can be accessed by other 
+                //componenets without fetching from the server
+                dispatch({
+                    type:'set_members_list', 
+                    members_list: res.data,
+                })
 
-                console.log('membes list', res.data);
 
-                var arr = [];
-
-                for (let i=0; i<res.data.length; i++){
-
-                    let member = res.data[i]
-
-                    //push list of members into the the arr array
-                    arr.push(
-
-                        <div className="card my-1 py-0" key={i}>
-                            <div className="card-body p-2">
-                                <h5 className="card-title">{member.first_name} {member.last_name}</h5>
-                                <p className="card-text">{skillLevels[member.skill_level]}</p>
-                            </div>
-                            <div className="card-footer bg-transparent border-0 px-2 d-flex justify-content-end">
-                                <a href='#' onClick={(e)=>editMember(member.pk) } className='mr-2'>Edit</a>
-                                <a href="#" onClick={(e)=>deleteMember(member.pk) }>Delete</a>
-                            </div>
-                        </div>
-
-                    )
-                }
-
-                setMembersList(arr);
+                setMembersList( createDisplayList(res.data) );
             })
 
     }, [memberChange])

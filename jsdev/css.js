@@ -6,7 +6,7 @@ export default {
         bottom : '0px',
         height:'30px',
         width:'100%',
-        backgroundColor:'red'
+        backgroundColor:'#ffffff'
 
     },
 

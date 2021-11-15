@@ -65,14 +65,14 @@ class User( AbstractUser ):
         default=Skill_level.JUNIOR
     )
 
-    team = models.ForeignKey(
-        Teams,
-        verbose_name="Name of team",
-        help_text="Which team does this member belong to?",
-        blank=False, 
-        null=False,
-        on_delete=CASCADE
-    )
+    # team = models.ForeignKey(
+    #     Teams,
+    #     verbose_name="Name of team",
+    #     help_text="Which team does this member belong to?",
+    #     blank=False, 
+    #     null=False,
+    #     on_delete=CASCADE
+    # )
 
     #===== END OF FIELDS ====================
 

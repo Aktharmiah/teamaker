@@ -9,6 +9,7 @@ import Teamaker from "./children/Teamaker";
 import Members from "./children/Members";
 import AddTeamMember from "./children/AddTeamMember";
 import AddTeam from "./children/AddTeam";
+import Status from "./children/Status";
 
 export default (props=null)=>{
 
@@ -36,16 +37,14 @@ export default (props=null)=>{
             
             //set it to a balnk form address
             member_form_url : "http://localhost:8080/teamaker/forms/team",
-            component:AddTeamMember,
+            component:AddTeam,
         })
     }
 
     const selectTeamaker = (e)=>{
 
         dispatch({
-            type:"select_teamaker", 
-
-            
+            type:"select_teamaker",            
             teamaker_change : ++teamakerChange,
             component : Teamaker
         })
@@ -53,8 +52,6 @@ export default (props=null)=>{
 
 
     return(
-
-
         <>
         <div className="my-3 container p-2 shadow" >
             
@@ -64,7 +61,7 @@ export default (props=null)=>{
                     
                     <div className="d-inline-flex justify-content-between" style={css.inherit_width}>
                         <button onClick={(e)=>selectTeamaker(e) } className="btn btn-warning">Select tea maker</button>
-                        <button onClick={(e)=>addTeam(e) } className="btn btn-secondary">Create new team</button>
+                        {/* <button onClick={(e)=>addTeam(e) } className="btn btn-secondary">Create new team</button> */}
                         <button onClick={(e)=>addTeamMember(e) } className="btn btn-secondary">Add team member</button>
                     </div>
                     <hr />                    
@@ -76,11 +73,9 @@ export default (props=null)=>{
                 <div className="col-3">
                     <Members />
                 </div>
-            
             </div>
         </div>
-
-        <div id='status' className='p-2'>{status.message}</div>
+        <Status />
         </>
 
     )

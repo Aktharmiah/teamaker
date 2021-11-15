@@ -32,7 +32,8 @@ class TeamMembersSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = models.User
-        fields = ['pk', 'first_name', 'last_name', 'email', 'skill_level', 'team']
+        # fields = ['pk', 'first_name', 'last_name', 'email', 'skill_level', 'team']
+        fields = ['pk', 'first_name', 'last_name', 'email', 'skill_level']
 
 # # ViewSets define the view behavior.
 # class TeamMembersViewSet(viewsets.ModelViewSet):

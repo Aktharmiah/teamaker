@@ -1,7 +1,7 @@
 import axios from "axios";
 import tojsx from "./tojsx";
 
-import {React} from 'react'
+import React from "react";
 
 const ReactDOMServer = require('react-dom/server');
 const HtmlToReact = require('html-to-react');
@@ -57,7 +57,80 @@ export function getReactForm(formUrl = null){
 
         // Order matters. Instructions are processed in the order they're defined
         const processNodeDefinitions = new HtmlToReact.ProcessNodeDefinitions(React);
-        const processingInstructions = [{
+        const processingInstructions = [
+          {
+
+            // Custom <input> processing.
+            shouldProcessNode: (node)=>{
+
+              return (node.type === 'tag' && node.name === 'input') &&
+                typeof(node.attribs.value) !='undefined';
+            },
+            processNode: (node, children)=>{
+
+              //We want to rename all input tags value attribute to 'defaultValue' so that its editable
+              node.attribs['defaultValue'] = node.attribs.value
+              delete node.attribs['value']
+
+              return React.createElement(node.name, node.attribs);
+            }
+
+          },
+          // {
+
+          //   // Find instances such as <option value="1" selected="">
+          //   shouldProcessNode: (node)=>{
+
+          //     return (node.type === 'tag' && node.name === 'option') &&
+          //       typeof(node.attribs.selected) !='undefined';
+          //   },
+          //   processNode: (node, children)=>{
+
+          //     //replace with <option defaultValue="...">
+          //     node.attribs['defaultValue'] = node.attribs.value
+              
+          //     delete node.attribs['selected']
+
+          //     return React.createElement(node.name, node.attribs);
+          //   }
+
+          // },
+          // {
+          //   // class should be renamed to className
+          //   shouldProcessNode: (node)=>{
+
+          //     return typeof(node.attribs) !== 'undefined' && 
+          //       typeof(node.attribs.class) !=='undefined';
+          //   },
+          //   processNode: (node, children)=>{
+          //     console.log('filtering class', node);
+          //     //replace with <option defaultValue="...">
+          //     node.attribs['className'] = node.attribs.class
+          //     delete node.attribs['class']
+
+          //     return React.createElement(node.name, node.attribs);
+          //   }
+
+          // },
+          {
+
+            // class should be renamed to className
+            shouldProcessNode: (node)=>{
+
+              return (node.type === 'tag' && node.name === 'input') &&
+                typeof(node.attribs.maxlength) !='undefined';
+            },
+            processNode: (node, children)=>{
+
+              //replace with <option defaultValue="...">
+              node.attribs['maxLength'] = node.attribs.maxlength
+              delete node.attribs['maxlength']
+
+              return React.createElement(node.name, node.attribs);
+            }
+
+          },
+          {
 
             // Anything else
             shouldProcessNode: (node)=>{
@@ -65,32 +138,17 @@ export function getReactForm(formUrl = null){
             },
             processNode: processNodeDefinitions.processDefaultNode
 
-          },{
-
-            // Custom <input> processing
-            shouldProcessNode: function (node) {
-              return node.parent && node.parent.name && node.parent.name === 'input';
-            },
-            processNode: (node, children)=>{
-
-              console.log('processing node', node, children);
-
-              // return node.data.toUpperCase();
-              return;
-            }
-
-          }
+          },
         ];
 
         const htmlToReactParser = new HtmlToReactParser();
-
         const reactComponent = htmlToReactParser.parseWithInstructions(res.data, isValidNode, processingInstructions);
-        const reactHtml = ReactDOMServer.renderToStaticMarkup(reactComponent);
         
         
-        console.log("getReactForm", reactComponent);
+        // const reactHtml = ReactDOMServer.renderToStaticMarkup(reactComponent);
+        // console.log("getReactForm", reactHtml);
         
-        resolve(reactHtml)
+        resolve(reactComponent)
 
       })
       .catch(e=>reject(e) )
@@ -151,7 +209,7 @@ export function getForm(formUrl = null){
  * @param {Event} e
  * @returns {Promise} promise
  */
-export function submitForm(e){
+export function submitForm(e, method = 'post'){
 
 
   const formData = new FormData(e.target);
@@ -159,8 +217,7 @@ export function submitForm(e){
 
   const config = {
 
-      url: e.target.action,
-      method:'post',
+      method:method,
       data:formData
   }
 

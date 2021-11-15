@@ -13,73 +13,73 @@ export default (props=null)=>{
 
     const dispatch = useDispatch();
 
-    const lastTeamakerPk = useSelector((state)=>state.selected_teamaker_pk)
-    const teamakerChange = useSelector((state)=>state.teamaker_change)
-    const selectedTeamaker = useSelector((state)=>state.selected_teamaker_object)
+    const membersList       = useSelector((state)=>state.members_list)
+    const lastTeamakerPk    = useSelector((state)=>state.selected_teamaker_pk)
+    const teamakerChange    = useSelector((state)=>state.teamaker_change)
+    const selectedTeamaker  = useSelector((state)=>state.selected_teamaker_object)
+    var statusChange      = useSelector((state)=>state.status_change) 
 
     const pickTeamaker = ()=>{
+   
+        var probabilities = createProbabilities(membersList);       
+        var selectedTeaMakerPk = null;
 
-        return new Promise((resolve, reject)=>{
+        //limit the number of loops
+        var counter = 0;
+        //pick as member who was not the last teamaker
+        do{
 
-            axios.get(url)
-            .then(res=>{
-    
-                var probabilities = createProbabilities(res.data);
-                console.log("probabilities are ", probabilities);
-                
-                var selectedTeaMakerPk = null;
-    
-                //pick as member who was not the last teamaker
-                do{
-    
-                    selectedTeaMakerPk = probabilities[Math.floor(Math.random()*probabilities.length)];
-    
-                }while(lastTeamakerPk == selectedTeaMakerPk)
-    
+            selectedTeaMakerPk = probabilities[Math.floor(Math.random()*probabilities.length)];
+            counter++;
+
+        }while(
             
-    
-                //go through the results and find the correspoding member
-    
-                var memberDetails = null;
-                for(let member of res.data){
-    
-                    if(member.pk == selectedTeaMakerPk){
-    
-                        memberDetails = member;
-                        break;
-                    }
-                }
-    
-                resolve(memberDetails);
+            (lastTeamakerPk == selectedTeaMakerPk) &&
+            counter < 10        
+        )
 
-                console.log("and the winner is ", memberDetails);
     
-            })
-            .catch(e=>{
-    
-                reject("Error picking teamaker")
-            })
 
-        })
+        //go through the results and find the correspoding member
 
+        var memberDetails = null;
+        for(let member of membersList){
 
+            if(member.pk == selectedTeaMakerPk){
 
+                memberDetails = member;
+                break;
+            }
+        }
 
+        return memberDetails;
     };
 
 
     useEffect(()=>{
 
-        pickTeamaker()
-            .then(member=>{
+        //when the members list is empty, prompt the user to create a member
+        if(membersList.length ==0){
 
-                dispatch({
-                    type:'teamaker_chaged', 
-                    selected_teamaker_pk: member.pk,
-                    selected_teamaker_object : member,
-                })
+            dispatch({
+                type:'status_change', 
+                status_change : ++statusChange,
+                selected_teamaker_object : {first_name:'No', last_name:'Body'},
+                status : {type:'warning', message: "There's nobody to make tea :(  . Add a member to get started."}
             })
 
+        }else{
+
+            var member = pickTeamaker();
+            
+            dispatch({
+                type:'teamaker_chaged', 
+                selected_teamaker_pk: member.pk,
+                selected_teamaker_object : member,
+                status:{type:'info', message:`${member.first_name} ${member.last_name} is making tea!!`},
+                status_change: ++statusChange               
+            })
+        }
 
     }, [teamakerChange])
 

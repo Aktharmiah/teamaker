@@ -2,11 +2,13 @@ import Teamaker from "./teamaker/children/Teamaker";
 import Members from "./teamaker/children/Members";
 var initialState = {
 
-    //simple counter. This is useful for keeping a track of when new members are added and member list updated
+    //Members component watches this as a trigger for update
     member_change : 0,
 
-    //Teamaker keeps and eye on this an triggers a selection when this is updated
+    //Teamaker component watches this as a trigger for update
     teamaker_change : 0,
+
+    status_change : 0,
 
     status : {type:'info', message:'Welcome to Teamaker v0.1'},
 
@@ -23,6 +25,10 @@ var initialState = {
     selected_teamaker_object : {},
 
 
+    //stores the members list as an array
+    members_list : [],
+
+
     foo : 'bar',
     component : Teamaker
 }
@@ -31,8 +37,5 @@ var initialState = {
 export default (state = initialState, action)=>{
 
     delete action['type'];
-
-    console.log("in reducer", action);
-
     return {...state, ...{...action}}
 }
