@@ -15025,3 +15025,614 @@ AH00112: Warning: DocumentRoot [/var/www/html] does not exist
 [Mon Nov 15 17:17:54.579829 2021] [wsgi:error] [pid 93:tid 139687440832256] [remote 172.22.0.1:49594] DETAIL:  Key (email)=(cakehatcsh@cakehatch.com) already exists.
 [Mon Nov 15 17:17:54.579845 2021] [wsgi:error] [pid 93:tid 139687440832256] [remote 172.22.0.1:49594] 
 [Mon Nov 15 17:23:02.962562 2021] [wsgi:error] [pid 93:tid 139687356905216] [remote 172.22.0.1:50374] Not Found: /favicon.ico
+[Mon Nov 15 17:33:00.197060 2021] [mpm_event:notice] [pid 9:tid 139687484296512] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 17:33:00.591104 2021] [mpm_event:notice] [pid 9:tid 139687484296512] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 17:33:00.591192 2021] [core:notice] [pid 9:tid 139687484296512] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 17:33:05.412000 2021] [mpm_event:notice] [pid 9:tid 139687484296512] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 17:33:05.478092 2021] [mpm_event:notice] [pid 9:tid 139687484296512] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 17:33:05.479465 2021] [core:notice] [pid 9:tid 139687484296512] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 17:34:11.169324 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] Internal Server Error: /teamaker/members/
+[Mon Nov 15 17:34:11.169395 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] Traceback (most recent call last):
+[Mon Nov 15 17:34:11.169411 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:34:11.169424 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:34:11.169436 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "teamaker_user_email_72c4a2cd_uniq"
+[Mon Nov 15 17:34:11.169448 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] DETAIL:  Key (email)=(sdfs@sdf.com) already exists.
+[Mon Nov 15 17:34:11.169460 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] 
+[Mon Nov 15 17:34:11.169472 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] 
+[Mon Nov 15 17:34:11.169483 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] The above exception was the direct cause of the following exception:
+[Mon Nov 15 17:34:11.169493 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] 
+[Mon Nov 15 17:34:11.169503 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] Traceback (most recent call last):
+[Mon Nov 15 17:34:11.169513 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Mon Nov 15 17:34:11.169523 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     response = get_response(request)
+[Mon Nov 15 17:34:11.169535 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Mon Nov 15 17:34:11.169547 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Mon Nov 15 17:34:11.169560 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Mon Nov 15 17:34:11.169574 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return view_func(*args, **kwargs)
+[Mon Nov 15 17:34:11.169586 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+[Mon Nov 15 17:34:11.169638 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return self.dispatch(request, *args, **kwargs)
+[Mon Nov 15 17:34:11.169652 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+[Mon Nov 15 17:34:11.169663 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     response = self.handle_exception(exc)
+[Mon Nov 15 17:34:11.169674 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Mon Nov 15 17:34:11.169685 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     self.raise_uncaught_exception(exc)
+[Mon Nov 15 17:34:11.169697 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Mon Nov 15 17:34:11.169709 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     raise exc
+[Mon Nov 15 17:34:11.169721 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+[Mon Nov 15 17:34:11.169731 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     response = handler(request, *args, **kwargs)
+[Mon Nov 15 17:34:11.169741 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/rest_framework/generics.py", line 242, in post
+[Mon Nov 15 17:34:11.169752 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return self.create(request, *args, **kwargs)
+[Mon Nov 15 17:34:11.169764 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+[Mon Nov 15 17:34:11.169776 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     self.perform_create(serializer)
+[Mon Nov 15 17:34:11.169789 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+[Mon Nov 15 17:34:11.169801 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     serializer.save()
+[Mon Nov 15 17:34:11.169820 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 205, in save
+[Mon Nov 15 17:34:11.169833 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     self.instance = self.create(validated_data)
+[Mon Nov 15 17:34:11.169843 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 939, in create
+[Mon Nov 15 17:34:11.169854 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     instance = ModelClass._default_manager.create(**validated_data)
+[Mon Nov 15 17:34:11.169864 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+[Mon Nov 15 17:34:11.169875 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Mon Nov 15 17:34:11.169885 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 453, in create
+[Mon Nov 15 17:34:11.169897 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     obj.save(force_insert=True, using=self.db)
+[Mon Nov 15 17:34:11.169929 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 67, in save
+[Mon Nov 15 17:34:11.169942 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     super().save(*args, **kwargs)
+[Mon Nov 15 17:34:11.169953 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 726, in save
+[Mon Nov 15 17:34:11.169964 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     self.save_base(using=using, force_insert=force_insert,
+[Mon Nov 15 17:34:11.169974 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 763, in save_base
+[Mon Nov 15 17:34:11.169983 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     updated = self._save_table(
+[Mon Nov 15 17:34:11.169994 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 868, in _save_table
+[Mon Nov 15 17:34:11.170004 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+[Mon Nov 15 17:34:11.170015 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 906, in _do_insert
+[Mon Nov 15 17:34:11.170027 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return manager._insert(
+[Mon Nov 15 17:34:11.170037 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+[Mon Nov 15 17:34:11.170048 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Mon Nov 15 17:34:11.170067 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1270, in _insert
+[Mon Nov 15 17:34:11.170079 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return query.get_compiler(using=using).execute_sql(returning_fields)
+[Mon Nov 15 17:34:11.170090 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+[Mon Nov 15 17:34:11.170109 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     cursor.execute(sql, params)
+[Mon Nov 15 17:34:11.170120 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+[Mon Nov 15 17:34:11.170129 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return super().execute(sql, params)
+[Mon Nov 15 17:34:11.170139 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+[Mon Nov 15 17:34:11.170149 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Mon Nov 15 17:34:11.170159 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+[Mon Nov 15 17:34:11.170170 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return executor(sql, params, many, context)
+[Mon Nov 15 17:34:11.170181 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:34:11.170211 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:34:11.170235 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+[Mon Nov 15 17:34:11.170246 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Mon Nov 15 17:34:11.170256 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:34:11.170266 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:34:11.170277 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] django.db.utils.IntegrityError: duplicate key value violates unique constraint "teamaker_user_email_72c4a2cd_uniq"
+[Mon Nov 15 17:34:11.170288 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] DETAIL:  Key (email)=(sdfs@sdf.com) already exists.
+[Mon Nov 15 17:34:11.170297 2021] [wsgi:error] [pid 263:tid 139687457617664] [remote 172.22.0.1:51840] 
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Mon Nov 15 17:35:35.134253 2021] [mpm_event:notice] [pid 8:tid 140017412894016] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 17:35:35.134465 2021] [core:notice] [pid 8:tid 140017412894016] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 17:35:35.686586 2021] [mpm_event:notice] [pid 8:tid 140017412894016] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 17:35:35.698255 2021] [mpm_event:notice] [pid 8:tid 140017412894016] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 17:35:35.698325 2021] [core:notice] [pid 8:tid 140017412894016] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 17:37:53.607054 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] Internal Server Error: /teamaker/members/
+[Mon Nov 15 17:37:53.607123 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] Traceback (most recent call last):
+[Mon Nov 15 17:37:53.607140 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:53.607180 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:53.607191 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] psycopg2.errors.UndefinedTable: relation "teamaker_user" does not exist
+[Mon Nov 15 17:37:53.607201 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:37:53.607210 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]                                                              ^
+[Mon Nov 15 17:37:53.607219 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] 
+[Mon Nov 15 17:37:53.607227 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] 
+[Mon Nov 15 17:37:53.607236 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] The above exception was the direct cause of the following exception:
+[Mon Nov 15 17:37:53.607245 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] 
+[Mon Nov 15 17:37:53.607254 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] Traceback (most recent call last):
+[Mon Nov 15 17:37:53.607264 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Mon Nov 15 17:37:53.607323 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     response = get_response(request)
+[Mon Nov 15 17:37:53.607335 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Mon Nov 15 17:37:53.607345 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Mon Nov 15 17:37:53.607356 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Mon Nov 15 17:37:53.607365 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     return view_func(*args, **kwargs)
+[Mon Nov 15 17:37:53.607375 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+[Mon Nov 15 17:37:53.607385 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     return self.dispatch(request, *args, **kwargs)
+[Mon Nov 15 17:37:53.607395 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+[Mon Nov 15 17:37:53.607406 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     response = self.handle_exception(exc)
+[Mon Nov 15 17:37:53.607416 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Mon Nov 15 17:37:53.607428 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     self.raise_uncaught_exception(exc)
+[Mon Nov 15 17:37:53.607439 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Mon Nov 15 17:37:53.607449 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     raise exc
+[Mon Nov 15 17:37:53.607459 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+[Mon Nov 15 17:37:53.607470 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     response = handler(request, *args, **kwargs)
+[Mon Nov 15 17:37:53.607480 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/rest_framework/generics.py", line 239, in get
+[Mon Nov 15 17:37:53.607490 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     return self.list(request, *args, **kwargs)
+[Mon Nov 15 17:37:53.607500 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+[Mon Nov 15 17:37:53.607510 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     return Response(serializer.data)
+[Mon Nov 15 17:37:53.607520 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 745, in data
+[Mon Nov 15 17:37:53.607531 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     ret = super().data
+[Mon Nov 15 17:37:53.607542 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 246, in data
+[Mon Nov 15 17:37:53.607554 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     self._data = self.to_representation(self.instance)
+[Mon Nov 15 17:37:53.607565 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 663, in to_representation
+[Mon Nov 15 17:37:53.607593 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     return [
+[Mon Nov 15 17:37:53.607605 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 280, in __iter__
+[Mon Nov 15 17:37:53.607616 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     self._fetch_all()
+[Mon Nov 15 17:37:53.607626 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+[Mon Nov 15 17:37:53.607639 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     self._result_cache = list(self._iterable_class(self))
+[Mon Nov 15 17:37:53.607650 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 51, in __iter__
+[Mon Nov 15 17:37:53.607661 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+[Mon Nov 15 17:37:53.607672 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+[Mon Nov 15 17:37:53.607683 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     cursor.execute(sql, params)
+[Mon Nov 15 17:37:53.607694 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+[Mon Nov 15 17:37:53.607705 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     return super().execute(sql, params)
+[Mon Nov 15 17:37:53.607716 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+[Mon Nov 15 17:37:53.607727 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Mon Nov 15 17:37:53.607739 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+[Mon Nov 15 17:37:53.607751 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     return executor(sql, params, many, context)
+[Mon Nov 15 17:37:53.607762 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:53.607773 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:53.607784 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+[Mon Nov 15 17:37:53.607796 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Mon Nov 15 17:37:53.607807 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:53.607818 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:53.607829 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] django.db.utils.ProgrammingError: relation "teamaker_user" does not exist
+[Mon Nov 15 17:37:53.607840 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:37:53.607865 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782]                                                              ^
+[Mon Nov 15 17:37:53.607877 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39782] 
+[Mon Nov 15 17:37:53.609380 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] Internal Server Error: /teamaker/members/
+[Mon Nov 15 17:37:53.609419 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] Traceback (most recent call last):
+[Mon Nov 15 17:37:53.609432 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:53.609444 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:53.609455 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] psycopg2.errors.UndefinedTable: relation "teamaker_user" does not exist
+[Mon Nov 15 17:37:53.609466 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:37:53.609477 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]                                                              ^
+[Mon Nov 15 17:37:53.609487 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] 
+[Mon Nov 15 17:37:53.609497 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] 
+[Mon Nov 15 17:37:53.609507 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] The above exception was the direct cause of the following exception:
+[Mon Nov 15 17:37:53.609517 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] 
+[Mon Nov 15 17:37:53.609527 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] Traceback (most recent call last):
+[Mon Nov 15 17:37:53.609537 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Mon Nov 15 17:37:53.609547 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     response = get_response(request)
+[Mon Nov 15 17:37:53.609557 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Mon Nov 15 17:37:53.609568 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Mon Nov 15 17:37:53.609579 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Mon Nov 15 17:37:53.609591 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     return view_func(*args, **kwargs)
+[Mon Nov 15 17:37:53.609602 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+[Mon Nov 15 17:37:53.609613 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     return self.dispatch(request, *args, **kwargs)
+[Mon Nov 15 17:37:53.609624 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+[Mon Nov 15 17:37:53.609635 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     response = self.handle_exception(exc)
+[Mon Nov 15 17:37:53.609646 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Mon Nov 15 17:37:53.609697 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     self.raise_uncaught_exception(exc)
+[Mon Nov 15 17:37:53.609711 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Mon Nov 15 17:37:53.609722 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     raise exc
+[Mon Nov 15 17:37:53.609732 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+[Mon Nov 15 17:37:53.609743 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     response = handler(request, *args, **kwargs)
+[Mon Nov 15 17:37:53.609754 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/rest_framework/generics.py", line 239, in get
+[Mon Nov 15 17:37:53.609764 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     return self.list(request, *args, **kwargs)
+[Mon Nov 15 17:37:53.609775 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+[Mon Nov 15 17:37:53.609785 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     return Response(serializer.data)
+[Mon Nov 15 17:37:53.609796 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 745, in data
+[Mon Nov 15 17:37:53.609807 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     ret = super().data
+[Mon Nov 15 17:37:53.609818 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 246, in data
+[Mon Nov 15 17:37:53.609829 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     self._data = self.to_representation(self.instance)
+[Mon Nov 15 17:37:53.609841 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 663, in to_representation
+[Mon Nov 15 17:37:53.609852 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     return [
+[Mon Nov 15 17:37:53.609862 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 280, in __iter__
+[Mon Nov 15 17:37:53.609874 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     self._fetch_all()
+[Mon Nov 15 17:37:53.609883 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+[Mon Nov 15 17:37:53.609894 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     self._result_cache = list(self._iterable_class(self))
+[Mon Nov 15 17:37:53.609904 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 51, in __iter__
+[Mon Nov 15 17:37:53.609915 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+[Mon Nov 15 17:37:53.609926 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+[Mon Nov 15 17:37:53.609937 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     cursor.execute(sql, params)
+[Mon Nov 15 17:37:53.609948 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+[Mon Nov 15 17:37:53.609976 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     return super().execute(sql, params)
+[Mon Nov 15 17:37:53.609987 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+[Mon Nov 15 17:37:53.609998 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Mon Nov 15 17:37:53.610008 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+[Mon Nov 15 17:37:53.610018 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     return executor(sql, params, many, context)
+[Mon Nov 15 17:37:53.610028 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:53.610044 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:53.610054 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+[Mon Nov 15 17:37:53.610066 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Mon Nov 15 17:37:53.610076 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:53.610087 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:53.610096 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] django.db.utils.ProgrammingError: relation "teamaker_user" does not exist
+[Mon Nov 15 17:37:53.610106 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:37:53.610115 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788]                                                              ^
+[Mon Nov 15 17:37:53.610124 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39788] 
+[Mon Nov 15 17:37:56.933091 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] Internal Server Error: /teamaker/members/
+[Mon Nov 15 17:37:56.938244 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] Traceback (most recent call last):
+[Mon Nov 15 17:37:56.943385 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:56.948766 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:56.949426 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] psycopg2.errors.UndefinedTable: relation "teamaker_user" does not exist
+[Mon Nov 15 17:37:56.949478 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:37:56.949496 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]                                                              ^
+[Mon Nov 15 17:37:56.949513 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] 
+[Mon Nov 15 17:37:56.949529 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] 
+[Mon Nov 15 17:37:56.949543 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] The above exception was the direct cause of the following exception:
+[Mon Nov 15 17:37:56.949624 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] 
+[Mon Nov 15 17:37:56.949649 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] Traceback (most recent call last):
+[Mon Nov 15 17:37:56.949661 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Mon Nov 15 17:37:56.949671 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     response = get_response(request)
+[Mon Nov 15 17:37:56.949690 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Mon Nov 15 17:37:56.949714 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Mon Nov 15 17:37:56.949724 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Mon Nov 15 17:37:56.949735 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     return view_func(*args, **kwargs)
+[Mon Nov 15 17:37:56.949747 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+[Mon Nov 15 17:37:56.949772 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     return self.dispatch(request, *args, **kwargs)
+[Mon Nov 15 17:37:56.949791 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+[Mon Nov 15 17:37:56.949802 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     response = self.handle_exception(exc)
+[Mon Nov 15 17:37:56.949813 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Mon Nov 15 17:37:56.949834 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     self.raise_uncaught_exception(exc)
+[Mon Nov 15 17:37:56.949850 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Mon Nov 15 17:37:56.949865 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     raise exc
+[Mon Nov 15 17:37:56.949879 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+[Mon Nov 15 17:37:56.949894 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     response = handler(request, *args, **kwargs)
+[Mon Nov 15 17:37:56.949909 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/rest_framework/generics.py", line 239, in get
+[Mon Nov 15 17:37:56.949933 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     return self.list(request, *args, **kwargs)
+[Mon Nov 15 17:37:56.949944 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+[Mon Nov 15 17:37:56.949956 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     return Response(serializer.data)
+[Mon Nov 15 17:37:56.949967 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 745, in data
+[Mon Nov 15 17:37:56.949977 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     ret = super().data
+[Mon Nov 15 17:37:56.949987 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 246, in data
+[Mon Nov 15 17:37:56.950015 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     self._data = self.to_representation(self.instance)
+[Mon Nov 15 17:37:56.950028 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 663, in to_representation
+[Mon Nov 15 17:37:56.950039 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     return [
+[Mon Nov 15 17:37:56.950050 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 280, in __iter__
+[Mon Nov 15 17:37:56.950061 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     self._fetch_all()
+[Mon Nov 15 17:37:56.950083 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+[Mon Nov 15 17:37:56.950100 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     self._result_cache = list(self._iterable_class(self))
+[Mon Nov 15 17:37:56.950124 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 51, in __iter__
+[Mon Nov 15 17:37:56.950148 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+[Mon Nov 15 17:37:56.950164 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+[Mon Nov 15 17:37:56.950189 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     cursor.execute(sql, params)
+[Mon Nov 15 17:37:56.950200 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+[Mon Nov 15 17:37:56.950211 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     return super().execute(sql, params)
+[Mon Nov 15 17:37:56.950221 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+[Mon Nov 15 17:37:56.950232 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Mon Nov 15 17:37:56.950244 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+[Mon Nov 15 17:37:56.950266 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     return executor(sql, params, many, context)
+[Mon Nov 15 17:37:56.950282 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:56.950299 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:56.950321 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+[Mon Nov 15 17:37:56.950333 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Mon Nov 15 17:37:56.950356 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:56.950373 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:56.950414 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] django.db.utils.ProgrammingError: relation "teamaker_user" does not exist
+[Mon Nov 15 17:37:56.950433 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:37:56.950456 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798]                                                              ^
+[Mon Nov 15 17:37:56.950467 2021] [wsgi:error] [pid 92:tid 140017369429760] [remote 172.23.0.1:39798] 
+[Mon Nov 15 17:37:56.953255 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] Internal Server Error: /teamaker/members/
+[Mon Nov 15 17:37:56.953303 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] Traceback (most recent call last):
+[Mon Nov 15 17:37:56.953317 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:56.953328 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:56.953339 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] psycopg2.errors.UndefinedTable: relation "teamaker_user" does not exist
+[Mon Nov 15 17:37:56.953350 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:37:56.953361 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]                                                              ^
+[Mon Nov 15 17:37:56.953371 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] 
+[Mon Nov 15 17:37:56.953382 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] 
+[Mon Nov 15 17:37:56.953392 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] The above exception was the direct cause of the following exception:
+[Mon Nov 15 17:37:56.953401 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] 
+[Mon Nov 15 17:37:56.953411 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] Traceback (most recent call last):
+[Mon Nov 15 17:37:56.953421 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Mon Nov 15 17:37:56.953430 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     response = get_response(request)
+[Mon Nov 15 17:37:56.953440 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Mon Nov 15 17:37:56.953450 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Mon Nov 15 17:37:56.953461 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Mon Nov 15 17:37:56.953472 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     return view_func(*args, **kwargs)
+[Mon Nov 15 17:37:56.953481 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+[Mon Nov 15 17:37:56.953493 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     return self.dispatch(request, *args, **kwargs)
+[Mon Nov 15 17:37:56.953502 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+[Mon Nov 15 17:37:56.953551 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     response = self.handle_exception(exc)
+[Mon Nov 15 17:37:56.953564 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Mon Nov 15 17:37:56.953574 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     self.raise_uncaught_exception(exc)
+[Mon Nov 15 17:37:56.953585 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Mon Nov 15 17:37:56.953595 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     raise exc
+[Mon Nov 15 17:37:56.953606 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+[Mon Nov 15 17:37:56.953617 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     response = handler(request, *args, **kwargs)
+[Mon Nov 15 17:37:56.953627 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/rest_framework/generics.py", line 239, in get
+[Mon Nov 15 17:37:56.953637 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     return self.list(request, *args, **kwargs)
+[Mon Nov 15 17:37:56.953648 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+[Mon Nov 15 17:37:56.953659 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     return Response(serializer.data)
+[Mon Nov 15 17:37:56.953669 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 745, in data
+[Mon Nov 15 17:37:56.953687 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     ret = super().data
+[Mon Nov 15 17:37:56.953697 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 246, in data
+[Mon Nov 15 17:37:56.953707 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     self._data = self.to_representation(self.instance)
+[Mon Nov 15 17:37:56.953717 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 663, in to_representation
+[Mon Nov 15 17:37:56.953728 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     return [
+[Mon Nov 15 17:37:56.953739 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 280, in __iter__
+[Mon Nov 15 17:37:56.953750 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     self._fetch_all()
+[Mon Nov 15 17:37:56.953760 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+[Mon Nov 15 17:37:56.953772 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     self._result_cache = list(self._iterable_class(self))
+[Mon Nov 15 17:37:56.953783 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 51, in __iter__
+[Mon Nov 15 17:37:56.953793 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+[Mon Nov 15 17:37:56.953805 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+[Mon Nov 15 17:37:56.953835 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     cursor.execute(sql, params)
+[Mon Nov 15 17:37:56.953849 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+[Mon Nov 15 17:37:56.953861 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     return super().execute(sql, params)
+[Mon Nov 15 17:37:56.953871 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+[Mon Nov 15 17:37:56.953883 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Mon Nov 15 17:37:56.953894 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+[Mon Nov 15 17:37:56.953905 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     return executor(sql, params, many, context)
+[Mon Nov 15 17:37:56.953916 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:56.953929 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:56.953941 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+[Mon Nov 15 17:37:56.953953 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Mon Nov 15 17:37:56.953963 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:37:56.953972 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:37:56.953982 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] django.db.utils.ProgrammingError: relation "teamaker_user" does not exist
+[Mon Nov 15 17:37:56.953992 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:37:56.954002 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806]                                                              ^
+[Mon Nov 15 17:37:56.954011 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39806] 
+[Mon Nov 15 17:38:03.226000 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] Internal Server Error: /teamaker/members/
+[Mon Nov 15 17:38:03.226088 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] Traceback (most recent call last):
+[Mon Nov 15 17:38:03.226103 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:38:03.226116 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:38:03.226128 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] psycopg2.errors.UndefinedTable: relation "teamaker_user" does not exist
+[Mon Nov 15 17:38:03.226141 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:38:03.226153 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]                                                              ^
+[Mon Nov 15 17:38:03.226212 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] 
+[Mon Nov 15 17:38:03.226225 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] 
+[Mon Nov 15 17:38:03.226236 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] The above exception was the direct cause of the following exception:
+[Mon Nov 15 17:38:03.226247 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] 
+[Mon Nov 15 17:38:03.226257 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] Traceback (most recent call last):
+[Mon Nov 15 17:38:03.226268 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Mon Nov 15 17:38:03.226280 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     response = get_response(request)
+[Mon Nov 15 17:38:03.226291 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Mon Nov 15 17:38:03.226303 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Mon Nov 15 17:38:03.226314 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Mon Nov 15 17:38:03.226326 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     return view_func(*args, **kwargs)
+[Mon Nov 15 17:38:03.226337 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+[Mon Nov 15 17:38:03.226348 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     return self.dispatch(request, *args, **kwargs)
+[Mon Nov 15 17:38:03.226359 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+[Mon Nov 15 17:38:03.226370 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     response = self.handle_exception(exc)
+[Mon Nov 15 17:38:03.226382 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Mon Nov 15 17:38:03.226412 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     self.raise_uncaught_exception(exc)
+[Mon Nov 15 17:38:03.226433 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Mon Nov 15 17:38:03.226453 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     raise exc
+[Mon Nov 15 17:38:03.226472 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+[Mon Nov 15 17:38:03.226498 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     response = handler(request, *args, **kwargs)
+[Mon Nov 15 17:38:03.226508 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/rest_framework/generics.py", line 239, in get
+[Mon Nov 15 17:38:03.226518 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     return self.list(request, *args, **kwargs)
+[Mon Nov 15 17:38:03.226528 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+[Mon Nov 15 17:38:03.226537 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     return Response(serializer.data)
+[Mon Nov 15 17:38:03.226562 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 745, in data
+[Mon Nov 15 17:38:03.226571 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     ret = super().data
+[Mon Nov 15 17:38:03.226594 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 246, in data
+[Mon Nov 15 17:38:03.226606 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     self._data = self.to_representation(self.instance)
+[Mon Nov 15 17:38:03.226617 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 663, in to_representation
+[Mon Nov 15 17:38:03.226635 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     return [
+[Mon Nov 15 17:38:03.226652 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 280, in __iter__
+[Mon Nov 15 17:38:03.226682 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     self._fetch_all()
+[Mon Nov 15 17:38:03.226705 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+[Mon Nov 15 17:38:03.226716 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     self._result_cache = list(self._iterable_class(self))
+[Mon Nov 15 17:38:03.226727 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 51, in __iter__
+[Mon Nov 15 17:38:03.226737 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+[Mon Nov 15 17:38:03.226749 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+[Mon Nov 15 17:38:03.226759 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     cursor.execute(sql, params)
+[Mon Nov 15 17:38:03.226769 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+[Mon Nov 15 17:38:03.226779 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     return super().execute(sql, params)
+[Mon Nov 15 17:38:03.226789 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+[Mon Nov 15 17:38:03.226798 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Mon Nov 15 17:38:03.226808 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+[Mon Nov 15 17:38:03.226818 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     return executor(sql, params, many, context)
+[Mon Nov 15 17:38:03.226829 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:38:03.226840 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:38:03.226848 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+[Mon Nov 15 17:38:03.226869 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Mon Nov 15 17:38:03.226896 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:38:03.226907 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:38:03.226917 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] django.db.utils.ProgrammingError: relation "teamaker_user" does not exist
+[Mon Nov 15 17:38:03.226927 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:38:03.226937 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826]                                                              ^
+[Mon Nov 15 17:38:03.226951 2021] [wsgi:error] [pid 92:tid 140017268717312] [remote 172.23.0.1:39826] 
+[Mon Nov 15 17:38:03.229328 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] Internal Server Error: /teamaker/members/
+[Mon Nov 15 17:38:03.229377 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] Traceback (most recent call last):
+[Mon Nov 15 17:38:03.229390 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:38:03.229401 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:38:03.229413 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] psycopg2.errors.UndefinedTable: relation "teamaker_user" does not exist
+[Mon Nov 15 17:38:03.229424 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:38:03.229436 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]                                                              ^
+[Mon Nov 15 17:38:03.229448 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] 
+[Mon Nov 15 17:38:03.229459 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] 
+[Mon Nov 15 17:38:03.229470 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] The above exception was the direct cause of the following exception:
+[Mon Nov 15 17:38:03.229481 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] 
+[Mon Nov 15 17:38:03.229492 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] Traceback (most recent call last):
+[Mon Nov 15 17:38:03.229503 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Mon Nov 15 17:38:03.229515 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     response = get_response(request)
+[Mon Nov 15 17:38:03.229526 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Mon Nov 15 17:38:03.229887 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Mon Nov 15 17:38:03.229913 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Mon Nov 15 17:38:03.229926 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     return view_func(*args, **kwargs)
+[Mon Nov 15 17:38:03.229938 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+[Mon Nov 15 17:38:03.229987 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     return self.dispatch(request, *args, **kwargs)
+[Mon Nov 15 17:38:03.230001 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+[Mon Nov 15 17:38:03.230012 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     response = self.handle_exception(exc)
+[Mon Nov 15 17:38:03.230024 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Mon Nov 15 17:38:03.230036 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     self.raise_uncaught_exception(exc)
+[Mon Nov 15 17:38:03.230047 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Mon Nov 15 17:38:03.230059 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     raise exc
+[Mon Nov 15 17:38:03.230071 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+[Mon Nov 15 17:38:03.230081 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     response = handler(request, *args, **kwargs)
+[Mon Nov 15 17:38:03.230090 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/rest_framework/generics.py", line 239, in get
+[Mon Nov 15 17:38:03.230099 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     return self.list(request, *args, **kwargs)
+[Mon Nov 15 17:38:03.230110 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 46, in list
+[Mon Nov 15 17:38:03.230119 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     return Response(serializer.data)
+[Mon Nov 15 17:38:03.230129 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 745, in data
+[Mon Nov 15 17:38:03.230140 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     ret = super().data
+[Mon Nov 15 17:38:03.230150 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 246, in data
+[Mon Nov 15 17:38:03.230161 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     self._data = self.to_representation(self.instance)
+[Mon Nov 15 17:38:03.230172 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 663, in to_representation
+[Mon Nov 15 17:38:03.230183 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     return [
+[Mon Nov 15 17:38:03.230194 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 280, in __iter__
+[Mon Nov 15 17:38:03.230206 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     self._fetch_all()
+[Mon Nov 15 17:38:03.230216 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+[Mon Nov 15 17:38:03.230229 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     self._result_cache = list(self._iterable_class(self))
+[Mon Nov 15 17:38:03.230239 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 51, in __iter__
+[Mon Nov 15 17:38:03.230268 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+[Mon Nov 15 17:38:03.230281 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1175, in execute_sql
+[Mon Nov 15 17:38:03.230293 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     cursor.execute(sql, params)
+[Mon Nov 15 17:38:03.230304 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+[Mon Nov 15 17:38:03.230315 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     return super().execute(sql, params)
+[Mon Nov 15 17:38:03.230326 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+[Mon Nov 15 17:38:03.230337 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Mon Nov 15 17:38:03.230357 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+[Mon Nov 15 17:38:03.230370 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     return executor(sql, params, many, context)
+[Mon Nov 15 17:38:03.230382 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:38:03.230393 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:38:03.230404 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+[Mon Nov 15 17:38:03.230416 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Mon Nov 15 17:38:03.230427 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:38:03.230439 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:38:03.230450 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] django.db.utils.ProgrammingError: relation "teamaker_user" does not exist
+[Mon Nov 15 17:38:03.230461 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] LINE 1: ...r"."username", "teamaker_user"."skill_level" FROM "teamaker_...
+[Mon Nov 15 17:38:03.230472 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820]                                                              ^
+[Mon Nov 15 17:38:03.230481 2021] [wsgi:error] [pid 92:tid 140017361037056] [remote 172.23.0.1:39820] 
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Mon Nov 15 17:38:42.833978 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 17:38:42.834214 2021] [core:notice] [pid 9:tid 140468763221312] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 17:38:45.931407 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00494: SIGHUP received.  Attempting to restart
+AH00112: Warning: DocumentRoot [/var/www/html] does not exist
+[Mon Nov 15 17:38:45.946434 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 17:38:45.947703 2021] [core:notice] [pid 9:tid 140468763221312] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 17:38:48.120636 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 17:38:48.135182 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 17:38:48.136529 2021] [core:notice] [pid 9:tid 140468763221312] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 17:39:06.956054 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] Internal Server Error: /teamaker/members/
+[Mon Nov 15 17:39:06.956119 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] Traceback (most recent call last):
+[Mon Nov 15 17:39:06.956134 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:39:06.956147 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:39:06.956159 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "teamaker_user_email_key"
+[Mon Nov 15 17:39:06.956171 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] DETAIL:  Key (email)=(Aktharmiah@gmail.com) already exists.
+[Mon Nov 15 17:39:06.956183 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] 
+[Mon Nov 15 17:39:06.956194 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] 
+[Mon Nov 15 17:39:06.956205 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] The above exception was the direct cause of the following exception:
+[Mon Nov 15 17:39:06.956217 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] 
+[Mon Nov 15 17:39:06.956226 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] Traceback (most recent call last):
+[Mon Nov 15 17:39:06.956235 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Mon Nov 15 17:39:06.956246 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     response = get_response(request)
+[Mon Nov 15 17:39:06.956257 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Mon Nov 15 17:39:06.956268 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Mon Nov 15 17:39:06.956279 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Mon Nov 15 17:39:06.956291 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return view_func(*args, **kwargs)
+[Mon Nov 15 17:39:06.956302 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+[Mon Nov 15 17:39:06.956314 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return self.dispatch(request, *args, **kwargs)
+[Mon Nov 15 17:39:06.956325 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+[Mon Nov 15 17:39:06.956336 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     response = self.handle_exception(exc)
+[Mon Nov 15 17:39:06.956348 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Mon Nov 15 17:39:06.956395 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     self.raise_uncaught_exception(exc)
+[Mon Nov 15 17:39:06.956408 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Mon Nov 15 17:39:06.956420 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     raise exc
+[Mon Nov 15 17:39:06.956430 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+[Mon Nov 15 17:39:06.956441 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     response = handler(request, *args, **kwargs)
+[Mon Nov 15 17:39:06.956452 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/rest_framework/generics.py", line 242, in post
+[Mon Nov 15 17:39:06.956462 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return self.create(request, *args, **kwargs)
+[Mon Nov 15 17:39:06.956471 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+[Mon Nov 15 17:39:06.956481 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     self.perform_create(serializer)
+[Mon Nov 15 17:39:06.956492 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+[Mon Nov 15 17:39:06.956503 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     serializer.save()
+[Mon Nov 15 17:39:06.956515 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 205, in save
+[Mon Nov 15 17:39:06.956526 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     self.instance = self.create(validated_data)
+[Mon Nov 15 17:39:06.956537 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 939, in create
+[Mon Nov 15 17:39:06.956549 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     instance = ModelClass._default_manager.create(**validated_data)
+[Mon Nov 15 17:39:06.956560 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+[Mon Nov 15 17:39:06.956580 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Mon Nov 15 17:39:06.956592 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 453, in create
+[Mon Nov 15 17:39:06.956603 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     obj.save(force_insert=True, using=self.db)
+[Mon Nov 15 17:39:06.956614 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 67, in save
+[Mon Nov 15 17:39:06.956624 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     super().save(*args, **kwargs)
+[Mon Nov 15 17:39:06.956634 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 726, in save
+[Mon Nov 15 17:39:06.956643 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     self.save_base(using=using, force_insert=force_insert,
+[Mon Nov 15 17:39:06.956654 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 763, in save_base
+[Mon Nov 15 17:39:06.956681 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     updated = self._save_table(
+[Mon Nov 15 17:39:06.956692 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 868, in _save_table
+[Mon Nov 15 17:39:06.956703 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+[Mon Nov 15 17:39:06.956714 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 906, in _do_insert
+[Mon Nov 15 17:39:06.956725 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return manager._insert(
+[Mon Nov 15 17:39:06.956736 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+[Mon Nov 15 17:39:06.956747 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Mon Nov 15 17:39:06.956758 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1270, in _insert
+[Mon Nov 15 17:39:06.956769 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return query.get_compiler(using=using).execute_sql(returning_fields)
+[Mon Nov 15 17:39:06.956779 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+[Mon Nov 15 17:39:06.956789 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     cursor.execute(sql, params)
+[Mon Nov 15 17:39:06.956799 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+[Mon Nov 15 17:39:06.956810 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return super().execute(sql, params)
+[Mon Nov 15 17:39:06.956821 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+[Mon Nov 15 17:39:06.956832 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Mon Nov 15 17:39:06.956843 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+[Mon Nov 15 17:39:06.956855 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return executor(sql, params, many, context)
+[Mon Nov 15 17:39:06.956866 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:39:06.956877 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:39:06.956888 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+[Mon Nov 15 17:39:06.956899 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Mon Nov 15 17:39:06.956910 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:39:06.956937 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:39:06.956949 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] django.db.utils.IntegrityError: duplicate key value violates unique constraint "teamaker_user_email_key"
+[Mon Nov 15 17:39:06.956961 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] DETAIL:  Key (email)=(Aktharmiah@gmail.com) already exists.
+[Mon Nov 15 17:39:06.956976 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:59122] 
+[Mon Nov 15 17:50:56.000474 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:60896] Not Found: /favicon.ico
+[Mon Nov 15 17:53:15.004329 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] Internal Server Error: /teamaker/members/
+[Mon Nov 15 17:53:15.004384 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] Traceback (most recent call last):
+[Mon Nov 15 17:53:15.004398 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:53:15.004409 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:53:15.004418 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "teamaker_user_email_key"
+[Mon Nov 15 17:53:15.004427 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] DETAIL:  Key (email)=(meghna@gmail.com) already exists.
+[Mon Nov 15 17:53:15.004437 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] 
+[Mon Nov 15 17:53:15.004446 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] 
+[Mon Nov 15 17:53:15.004455 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] The above exception was the direct cause of the following exception:
+[Mon Nov 15 17:53:15.004464 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] 
+[Mon Nov 15 17:53:15.004473 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] Traceback (most recent call last):
+[Mon Nov 15 17:53:15.004482 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+[Mon Nov 15 17:53:15.004492 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     response = get_response(request)
+[Mon Nov 15 17:53:15.004501 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+[Mon Nov 15 17:53:15.004511 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     response = wrapped_callback(request, *callback_args, **callback_kwargs)
+[Mon Nov 15 17:53:15.004521 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+[Mon Nov 15 17:53:15.004531 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return view_func(*args, **kwargs)
+[Mon Nov 15 17:53:15.004541 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/views/generic/base.py", line 70, in view
+[Mon Nov 15 17:53:15.004550 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return self.dispatch(request, *args, **kwargs)
+[Mon Nov 15 17:53:15.004560 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 509, in dispatch
+[Mon Nov 15 17:53:15.004570 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     response = self.handle_exception(exc)
+[Mon Nov 15 17:53:15.004618 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 469, in handle_exception
+[Mon Nov 15 17:53:15.004630 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     self.raise_uncaught_exception(exc)
+[Mon Nov 15 17:53:15.004640 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+[Mon Nov 15 17:53:15.004650 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     raise exc
+[Mon Nov 15 17:53:15.004660 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/rest_framework/views.py", line 506, in dispatch
+[Mon Nov 15 17:53:15.004670 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     response = handler(request, *args, **kwargs)
+[Mon Nov 15 17:53:15.004680 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/rest_framework/generics.py", line 242, in post
+[Mon Nov 15 17:53:15.004690 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return self.create(request, *args, **kwargs)
+[Mon Nov 15 17:53:15.004701 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+[Mon Nov 15 17:53:15.004710 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     self.perform_create(serializer)
+[Mon Nov 15 17:53:15.004719 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+[Mon Nov 15 17:53:15.004727 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     serializer.save()
+[Mon Nov 15 17:53:15.004739 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 205, in save
+[Mon Nov 15 17:53:15.004750 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     self.instance = self.create(validated_data)
+[Mon Nov 15 17:53:15.004760 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/rest_framework/serializers.py", line 939, in create
+[Mon Nov 15 17:53:15.004770 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     instance = ModelClass._default_manager.create(**validated_data)
+[Mon Nov 15 17:53:15.004780 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+[Mon Nov 15 17:53:15.004790 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Mon Nov 15 17:53:15.004801 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 453, in create
+[Mon Nov 15 17:53:15.004811 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     obj.save(force_insert=True, using=self.db)
+[Mon Nov 15 17:53:15.004822 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 67, in save
+[Mon Nov 15 17:53:15.004833 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     super().save(*args, **kwargs)
+[Mon Nov 15 17:53:15.004844 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 726, in save
+[Mon Nov 15 17:53:15.004871 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     self.save_base(using=using, force_insert=force_insert,
+[Mon Nov 15 17:53:15.004882 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 763, in save_base
+[Mon Nov 15 17:53:15.004893 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     updated = self._save_table(
+[Mon Nov 15 17:53:15.004903 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 868, in _save_table
+[Mon Nov 15 17:53:15.004915 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+[Mon Nov 15 17:53:15.004926 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/models/base.py", line 906, in _do_insert
+[Mon Nov 15 17:53:15.004937 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return manager._insert(
+[Mon Nov 15 17:53:15.004947 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+[Mon Nov 15 17:53:15.004959 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return getattr(self.get_queryset(), name)(*args, **kwargs)
+[Mon Nov 15 17:53:15.004970 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/models/query.py", line 1270, in _insert
+[Mon Nov 15 17:53:15.004981 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return query.get_compiler(using=using).execute_sql(returning_fields)
+[Mon Nov 15 17:53:15.004992 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1416, in execute_sql
+[Mon Nov 15 17:53:15.005003 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     cursor.execute(sql, params)
+[Mon Nov 15 17:53:15.005014 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 98, in execute
+[Mon Nov 15 17:53:15.005026 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return super().execute(sql, params)
+[Mon Nov 15 17:53:15.005036 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 66, in execute
+[Mon Nov 15 17:53:15.005047 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+[Mon Nov 15 17:53:15.005058 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 75, in _execute_with_wrappers
+[Mon Nov 15 17:53:15.005070 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return executor(sql, params, many, context)
+[Mon Nov 15 17:53:15.005081 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:53:15.005092 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:53:15.005103 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/utils.py", line 90, in __exit__
+[Mon Nov 15 17:53:15.005117 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     raise dj_exc_value.with_traceback(traceback) from exc_value
+[Mon Nov 15 17:53:15.005147 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]   File "/usr/local/lib/python3.9/site-packages/django/db/backends/utils.py", line 84, in _execute
+[Mon Nov 15 17:53:15.005157 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972]     return self.cursor.execute(sql, params)
+[Mon Nov 15 17:53:15.005167 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] django.db.utils.IntegrityError: duplicate key value violates unique constraint "teamaker_user_email_key"
+[Mon Nov 15 17:53:15.005180 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] DETAIL:  Key (email)=(meghna@gmail.com) already exists.
+[Mon Nov 15 17:53:15.005191 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] 

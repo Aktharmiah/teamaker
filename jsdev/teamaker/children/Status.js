@@ -19,6 +19,9 @@ export default (props=null)=>{
         return ()=>setStatus(null)
 
     }, [statusChange])
+
+
+
  
-    return( <div className="fixed-bottom container" style={css.status}>{status}</div> );
+    return( <div className={`fixed-bottom container text-${pStatus.type}`} style={css.status}>{status}</div> );
 }

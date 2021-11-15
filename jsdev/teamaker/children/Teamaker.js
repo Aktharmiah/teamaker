@@ -14,10 +14,19 @@ export default (props=null)=>{
     const lastTeamakerPk    = useSelector((state)=>state.selected_teamaker_pk)
     const teamakerChange    = useSelector((state)=>state.teamaker_change)
     const selectedTeamaker  = useSelector((state)=>state.selected_teamaker_object)
-    var statusChange      = useSelector((state)=>state.status_change) 
+    var statusChange        = useSelector((state)=>state.status_change) 
 
     const pickTeamaker = ()=>{
    
+        
+        //When theres only 1 member, its not possible to pick a teamaker as the same member
+        //is not allowed to appear twice in a row. At least 2 members required
+        if(membersList.length < 2){
+
+s            throw new Error("More than 1 member is required. Add more memebers");
+        }
+
+
         var probabilities = createProbabilities(membersList);       
         var selectedTeaMakerPk = null;
 
@@ -67,15 +76,29 @@ export default (props=null)=>{
 
         }else{
 
-            var member = pickTeamaker();
-            
-            dispatch({
-                type:'teamaker_chaged', 
-                selected_teamaker_pk: member.pk,
-                selected_teamaker_object : member,
-                status:{type:'info', message:`${member.first_name} ${member.last_name} is making tea!!`},
-                status_change: ++statusChange               
-            })
+
+            try{
+
+                var member = pickTeamaker();
+                
+                dispatch({
+                    type:'teamaker_changed', 
+                    selected_teamaker_pk: member.pk,
+                    selected_teamaker_object : member,
+                    status:{type:'info', message:`${member.first_name} ${member.last_name} is making tea!!`},
+                    status_change: ++statusChange               
+                })
+
+            }catch(e){
+
+                dispatch({
+                    type:'status_changed', 
+                    status_change : ++statusChange,
+                    status : {type:'error', message: e.message}             
+                })             
+            };
+
+
         }
 
     }, [teamakerChange])
