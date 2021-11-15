@@ -52,7 +52,7 @@ class MembersApiTests(APITestCase, URLPatternsTestCase):
             first_name = 'John',
             last_name='Doe',
             email="johnDoe@example.com",
-            team=self.team,
+            # team=self.team,
             skill_level=models.User.Skill_level.JUNIOR
         )
 

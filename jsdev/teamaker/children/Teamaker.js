@@ -23,7 +23,7 @@ export default (props=null)=>{
         //is not allowed to appear twice in a row. At least 2 members required
         if(membersList.length < 2){
 
-s            throw new Error("More than 1 member is required. Add more memebers");
+           throw new Error("More than 1 member is required. Add more memebers");
         }
 
 

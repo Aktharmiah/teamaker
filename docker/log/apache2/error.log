@@ -15636,3 +15636,15 @@ AH00112: Warning: DocumentRoot [/var/www/html] does not exist
 [Mon Nov 15 17:53:15.005167 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] django.db.utils.IntegrityError: duplicate key value violates unique constraint "teamaker_user_email_key"
 [Mon Nov 15 17:53:15.005180 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] DETAIL:  Key (email)=(meghna@gmail.com) already exists.
 [Mon Nov 15 17:53:15.005191 2021] [wsgi:error] [pid 164:tid 140468644222720] [remote 172.24.0.1:32972] 
+[Mon Nov 15 18:00:37.553891 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 18:00:37.806578 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 18:00:37.806639 2021] [core:notice] [pid 9:tid 140468763221312] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 18:00:43.834054 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 18:00:43.900175 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 18:00:43.900234 2021] [core:notice] [pid 9:tid 140468763221312] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 18:00:58.521987 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 18:00:58.587123 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 18:00:58.587208 2021] [core:notice] [pid 9:tid 140468763221312] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Mon Nov 15 18:01:01.300211 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00494: SIGHUP received.  Attempting to restart
+[Mon Nov 15 18:01:01.367595 2021] [mpm_event:notice] [pid 9:tid 140468763221312] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Mon Nov 15 18:01:01.367658 2021] [core:notice] [pid 9:tid 140468763221312] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
