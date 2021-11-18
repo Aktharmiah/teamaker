@@ -13,7 +13,7 @@ Please provide documentation on how to run the application.
 
 
 
-===========================================================================================
+======================================================================================
 
 **ASSUMPTIONS**
 
@@ -34,7 +34,7 @@ Please provide documentation on how to run the application.
 
 **RUNNING THE APP**
 
-1)  `cd` into the docker directory and run `./run`. 
+1)  `cd` into the `docker` directory and run `./run`. 
     This step can be omitted if you've already run `run --build`
 
 This will launch the Docker containers. Wait for the launch process to finish.
@@ -47,13 +47,14 @@ This will launch the Docker containers. Wait for the launch process to finish.
 Backend testing:
 
 From the `docker` directory run `docker exec -it lmc_web bash`
-Cd into `/var/www`
+Cd into `/var/www/backend`
 Run `./manage.py test`
 
 
 Frontend testing:
 
-Ensure that you have all the necessary NPM packages. To do this `cd` into `jsdev`.
+
+Ensure that you have all the necessary NPM packages. To do this `cd` into `frontend/dev/js`.
 Then run `npm install`. This will install all necssary packages, as listed in `package.json`
 
-Run `npm test`
+Then, from the same directory, run `npm test`
