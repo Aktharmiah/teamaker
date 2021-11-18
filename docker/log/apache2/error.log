@@ -2590,3 +2590,8 @@ AH00112: Warning: DocumentRoot [/var/www/html] does not exist
 [Thu Nov 18 02:32:04.852750 2021] [wsgi:error] [pid 92:tid 139915565446912] [remote 192.168.128.1:56908]     conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
 [Thu Nov 18 02:32:04.852765 2021] [wsgi:error] [pid 92:tid 139915565446912] [remote 192.168.128.1:56908] django.db.utils.OperationalError: connection to server at "db" (192.168.128.2), port 5432 failed: FATAL:  password authentication failed for user "tea_db_user"
 [Thu Nov 18 02:32:04.852782 2021] [wsgi:error] [pid 92:tid 139915565446912] [remote 192.168.128.1:56908] 
+[Thu Nov 18 02:44:58.943092 2021] [mpm_event:notice] [pid 8:tid 140336690699584] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 18 02:44:58.943311 2021] [core:notice] [pid 8:tid 140336690699584] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Thu Nov 18 02:45:00.609265 2021] [mpm_event:notice] [pid 8:tid 140336690699584] AH00494: SIGHUP received.  Attempting to restart
+[Thu Nov 18 02:45:00.623847 2021] [mpm_event:notice] [pid 8:tid 140336690699584] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Thu Nov 18 02:45:00.623909 2021] [core:notice] [pid 8:tid 140336690699584] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
