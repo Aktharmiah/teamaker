@@ -27,7 +27,6 @@ class Teams(models.Model):
     class Meta:
         pass
 
-
 class User( AbstractUser ):
     '''
         Team members model    

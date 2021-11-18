@@ -1,9 +1,10 @@
 # INTRO
 
-This is a small web based app that uses an API using Django Rest Framework and React.
+This small app allows the user to to randomly pick a team, accoring to the selection criteria as outlined below.
 
-## Requirements - Tea making selection
-This is a web application that has a team with a list of members. Each member of the team must have a skill level of either junior, intermediate or senior. The application must allow the user to randomly select the next team member to make the tea during a working day. The tea making selection algorithm must use these rules.
+Each member of the team must have a skill level of either junior, intermediate or senior. The application must allow the user to randomly select the next team member to make the tea during a working day. The tea making selection algorithm uses these rules.
+
+**Member section criteria**
 
 - A junior must be 3 times more likely to make the tea than a senior
 - A intermediate must be 2 times more likely to make the tea than a senior
@@ -39,7 +40,7 @@ This will launch the Docker containers. Wait for the launch process to finish.
 2) Point your browser to http://localhost:8080 to launch the app
 
 
-**TESTGIN**
+**TESTING**
 
 Backend testing:
 

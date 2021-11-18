@@ -7,7 +7,7 @@ if [ "$1" == "--build" ]; then
     echo "Migrating PostGres database tables..."
 
     #go to the main folder
-    cd /var/www
+    cd /var/www/backend
 
     ./manage.py makemigrations
     ./manage.py migrate

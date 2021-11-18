@@ -1,9 +1,6 @@
 import axios from "axios";
-import tojsx from "./tojsx";
-
 import React from "react";
 
-const ReactDOMServer = require('react-dom/server');
 const HtmlToReact = require('html-to-react');
 const HtmlToReactParser = require('html-to-react').Parser;
 
@@ -100,11 +97,14 @@ export function getReactForm(formUrl = null){
           },
         ];
 
+        console.log(res.data);
+
         //<option value="1" selected> -- the selected causes a problem for React
-        var strHTMLForm = res.data.replaceAll('selected>', '>');
+        //the '/g' replaces all
+        var strHTMLForm = res.data.replace(/selected>/g, '>');
 
         //rename 'class' to 'classname' -- the parser will cammel case it automatically 
-        strHTMLForm = strHTMLForm.replaceAll('class', 'classname');
+        strHTMLForm = strHTMLForm.replace(/class/g, 'classname');
 
 
         const htmlToReactParser = new HtmlToReactParser();
