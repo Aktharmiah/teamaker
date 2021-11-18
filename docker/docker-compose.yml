@@ -4,8 +4,8 @@ services:
 
     web:
         
-        container_name: lmc_web
-        image: lmc/base
+        container_name: tea_web
+        image: tea/web
 
         entrypoint: "apachectl -D FOREGROUND"
 
@@ -21,8 +21,9 @@ services:
 
         volumes: 
 
-        #The main app payload
-        - ../:${APP_ENTRYPOINT}      
+        #document root for webserver
+        - ../frontend/dist/:${DOCUMENT_ROOT}/frontend
+        - ../backend/:${DOCUMENT_ROOT}/backend      
                 
         #sync host machine timezone with container
         - "/etc/timezone:/etc/timezone:ro"
@@ -39,33 +40,39 @@ services:
         - ./log/apache2:/var/log/apache2
 
         environment: 
-            APP_ENTRYPOINT: ${APP_ENTRYPOINT}
-            WSGIDIR: ${APP_ENTRYPOINT}/${WSGIDIR}
+            DOCUMENT_ROOT: ${DOCUMENT_ROOT}
+            BACKEND_ROOT: ${BACKEND_ROOT}
+            DJANGO_SETTINGS_MODULE: ${DJANGO_SETTINGS_MODULE}     
+            STATIC_ROOT: ${STATIC_ROOT}    
+            WSGIDIR: ${WSGIDIR}
             WSGIFILE: ${WSGIFILE}
 
-            #Make the postgres credentils available to django as well so that it can be accessed
-            POSTGRES_DB: ${POSTGRES_DB}
-            POSTGRES_USER: ${POSTGRES_USER}
-            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD} 
-            PGPORT: ${PGPORT}         
+            #Make the database credentils available to django to enable access the database
+            DB_PORT: ${DB_PORT}
+            DB_NAME: ${DB_NAME}
+            DB_USER: ${DB_USER}
+            DB_PASSWORD: ${DB_PASSWORD}
+
 
     db:
-        container_name: lmc_db
-        image: lmc/db
+        container_name: tea_db
+        image: tea/db
 
         environment:
-            POSTGRES_DB: ${POSTGRES_DB}
-            POSTGRES_USER: ${POSTGRES_USER}
-            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-            PGPORT: ${PGPORT}
+
+            #postgres expects these envirnment variables to be set.
+            #these are PostGres specific. Others will vary
+            PGPORT: ${DB_PORT}
+            POSTGRES_DB: ${DB_NAME}
+            POSTGRES_USER: ${DB_USER}
+            POSTGRES_PASSWORD: ${DB_PASSWORD} 
+
 
         ports: 
-        - ${PGPORT}:${PGPORT}
+        - ${DB_PORT}:${DB_PORT}
 
         volumes: 
-        - lmc_dbdata:/var/lib/postgresql/data    
-
-  
+        - tea_dbdata:/var/lib/postgresql/data    
     
 volumes: 
-    lmc_dbdata :
+    tea_dbdata :

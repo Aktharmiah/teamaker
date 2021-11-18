@@ -6,10 +6,10 @@ DATABASES = {
 
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': os.environ["POSTGRES_DB"] ,
-        'USER': os.environ["POSTGRES_USER"] ,
-        'PASSWORD': os.environ["POSTGRES_PASSWORD"] ,
-        'PORT': os.environ["PGPORT"],
+        'NAME': os.environ["DB_NAME"] ,
+        'USER': os.environ["DB_USER"] ,
+        'PASSWORD': os.environ["DB_PASSWORD"] ,
+        'PORT': os.environ["DB_PORT"],
         'HOST': 'db',
     }
 }

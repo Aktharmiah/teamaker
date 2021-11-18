@@ -8,7 +8,7 @@ from rest_framework.test import APITestCase, URLPatternsTestCase
 
 from . import models
 
-from lmc.urls import urlpatterns
+from root.urls import urlpatterns
 
 # Create your tests here.
 

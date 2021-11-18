@@ -14,8 +14,8 @@ if [ "$1" == "--build" ]; then
 
     echo "Building/rebuilding the main docker image .... 
     "
-    docker build -f base.dockerfile -t lmc/base .   
-    docker build -f db.dockerfile -t lmc/db .   
+    docker build -f base.dockerfile -t tea/web .   
+    docker build -f db.dockerfile -t tea/db .   
 
 fi
 
@@ -28,12 +28,12 @@ docker-compose up -d
 if [ "$1" == "--build" ]; then
 
     #run on build script inside the main container
-    docker exec -it lmc_web bash -c "/docker-onbuild.sh --build"
+    docker exec -it tea_web bash -c "/docker-onbuild.sh --build"
 
 else
 
     #run on build script inside the main container
-    docker exec -it lmc_web bash -c "/docker-onbuild.sh"
+    docker exec -it tea_web bash -c "/docker-onbuild.sh"
 
 fi
 
