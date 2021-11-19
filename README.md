@@ -1,6 +1,6 @@
 # INTRO
 
-This small app allows the user to randomly pick a team member, accoring to the selection criteria as outlined below, to make tea!!
+This small app allows the user to randomly pick a team member, according to the selection criteria as outlined below, to make tea!!
 
 Each member of the team has a skill level of either junior, intermediate or senior. The application allows the user to randomly select the next team member to make the tea during a working day.
 
