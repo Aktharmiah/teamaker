@@ -9410,3 +9410,8 @@ AH00112: Warning: DocumentRoot [/var/www/html] does not exist
 [Fri Nov 19 17:29:09.148251 2021] [wsgi:error] [pid 91:tid 139822012065536] [remote 172.18.0.1:55912] Bad Request: /teamaker/members/
 [Fri Nov 19 17:29:09.341204 2021] [wsgi:error] [pid 91:tid 139822003672832] [remote 172.18.0.1:55918] Bad Request: /teamaker/members/
 [Fri Nov 19 17:29:09.557989 2021] [wsgi:error] [pid 91:tid 139822012065536] [remote 172.18.0.1:55924] Bad Request: /teamaker/members/
+[Fri Nov 19 18:09:02.553374 2021] [mpm_event:notice] [pid 8:tid 139863380434240] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 19 18:09:02.553589 2021] [core:notice] [pid 8:tid 139863380434240] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Fri Nov 19 18:09:09.592551 2021] [mpm_event:notice] [pid 8:tid 139863380434240] AH00494: SIGHUP received.  Attempting to restart
+[Fri Nov 19 18:09:09.604544 2021] [mpm_event:notice] [pid 8:tid 139863380434240] AH00489: Apache/2.4.51 (Debian) mod_wsgi/4.7.1 Python/3.9 configured -- resuming normal operations
+[Fri Nov 19 18:09:09.604603 2021] [core:notice] [pid 8:tid 139863380434240] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

@@ -17,6 +17,10 @@ if [ "$1" == "--build" ]; then
     docker build -f base.dockerfile -t tea/web .   
     docker build -f db.dockerfile -t tea/db .   
 
+    echo "Installing Node.js dependencies .... 
+    "
+    npm install --prefix ../frontend/dev/js ../frontend/dev/js
+
 fi
 
 
