@@ -1,4 +1,6 @@
-import { createProbabilities, getReactForm, getFormUriError } from "./helpers"
+import { createProbabilities, getReactForm, getFormUriError, setStatus } from "./helpers"
+
+import reducer from './reducer'
 
 test('Testing fetching of form where no url has been supplied', () => {
 
@@ -64,4 +66,79 @@ test('Testing probability array - returns a non-empty array', () => {
 }, 30000);
 
 
+
+test('Reducer - test to see if a url is changes with a unique hash value', () => {
+
+    const initialState = {
+
+        url: "http://someRandomUrl.com",
+        foo: true,
+        bar: false
+    }
+
+    var payload = {
+
+        type:'url_change',
+        url:'http://changedUrl.com/something/something'
+    }
+
+    var returnedState = reducer(initialState, payload)
+
+    expect(typeof(returnedState.url) !== 'undefined' ).toBe(true)
+
+
+    var segments = returnedState.url.split('#')
+
+    expect( segments.length ).toBeGreaterThan(1)
+
+
+}, 3000);
+
+
+
+
+
+test('Helper function setStatus - check to see if the correct JSON object is returned', () => {
+
+    var returnedObject = setStatus();
+
+    expect(returnedObject.type).toBe('set_status')
+
+
+    expect(returnedObject.type).toBe('info')
+    expect(returnedObject.message).toBe('')
+
+    returnedObject = setStatus(123455)
+
+    expect(returnedObject.type).toBe('info')
+    expect(returnedObject.message).toBe('')
+    expect(returnedObject.status_change).toBeGreaterThan(0)
+
+    returnedObject = setStatus(true, 'danger')
+
+    expect(returnedObject.type).toBe('danger')
+    expect(returnedObject.message).toBe('')
+    expect(returnedObject.status_change).toBeGreaterThan(0)
+
+    returnedObject = setStatus(20.15, true)
+
+    expect(returnedObject.type).toBe('info')
+    expect(returnedObject.message).toBe('')
+    expect(returnedObject.status_change).toBeGreaterThan(0)
+
+    returnedObject = setStatus('message', true)
+
+    expect(returnedObject.type).toBe('info')
+    expect(returnedObject.message).toBe('message')
+    expect(returnedObject.status_change).toBeGreaterThan(0)
+
+    returnedObject = setStatus('message', 'danger')
+
+    expect(returnedObject.type).toBe('danger')
+    expect(returnedObject.message).toBe('message')
+    expect(returnedObject.status_change).toBeGreaterThan(0)
+
+
+
+}, 3000);
 

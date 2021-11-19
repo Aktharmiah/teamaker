@@ -4,9 +4,10 @@ import React from "react";
 const HtmlToReact = require('html-to-react');
 const HtmlToReactParser = require('html-to-react').Parser;
 
-
-
 export const getFormUriError = new URIError("No url has been supplied")
+
+
+const messageTypeArray = ['info' , 'success', 'warning' , 'error' , 'danger'];
 
 
 
@@ -97,8 +98,6 @@ export function getReactForm(formUrl = null){
           },
         ];
 
-        console.log(res.data);
-
         //<option value="1" selected> -- the selected causes a problem for React
         //the '/g' replaces all
         var strHTMLForm = res.data.replace(/selected>/g, '>');
@@ -120,9 +119,61 @@ export function getReactForm(formUrl = null){
       .catch(e=>reject(e) )
 
   });
+}
 
 
+export function setComponenet(componentName){
 
+  return {type:'set_componenet', component: componentName, component_change: Date.now()}
+}
+
+
+/**
+ * Quickly dispatch a status change without creating the JSON object manually.
+ * Type defaults to 'info' if not supplied
+ * 
+ * Usage : dispatch(setState("New status message"))
+ * 
+ * 
+ * @param {String} message  - The message
+ * @param {String} type - [info | warning | error | danger]
+ * @returns 
+ */
+export function setStatus(message, type='info'){
+
+  //lowercase type
+  if(type instanceof String){
+    type = type.toLowerCase()
+  }
+
+  //if the message is not a string, force it to be a blank string
+  if (typeof(message) != 'string'){
+
+    message = '';
+  }
+
+  //if the message is not a string, or its a valid type, force it to be a string 'info'
+  if (typeof(type) != 'string'){
+
+    type = 'info';
+  }
+
+  //if an invalid message type has been given, default to 'info'
+  if(messageTypeArray.indexOf(type) == -1){
+
+    type = 'info';
+  }
+
+  const status = {
+
+    type:type,
+    message : message
+
+  }
+
+
+  //check that the type is in
+  return {type:'set_status', status:status, status_change:Date.now()}
 }
 
 
@@ -178,6 +229,7 @@ export function getForm(formUrl = null){
 export function submitForm(e, method = 'post'){
 
   e.preventDefault();
+  e.stopPropagation();
 
   const formData = new FormData(e.target);
 

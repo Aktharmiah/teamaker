@@ -1,20 +1,19 @@
 import React from "react";
-import css from "../../css";
+import css from "../../../css/css";
 import axios from "axios";
 import { useSelector, useDispatch } from 'react-redux'
 import { useEffect, useState } from "react";
-import AddTeamMember from "./AddTeamMember";
+import { setStatus } from "../../helpers";
+import { initialState } from "../../reducer";
 
 const url = "http://localhost:8080/teamaker/members/?format=json"
 
 //Skill level value (int) corresponds to the array indexes of this array
 const skillLevels = [null, 'Junior', 'Intermediate', 'Senior']
 
-
 export default ()=>{
 
     var memberChange = useSelector((state)=>state.member_change)
-    var statusChange = useSelector((state)=>state.status_change)
 
 
     const dispatch  = useDispatch()
@@ -22,17 +21,20 @@ export default ()=>{
     //this list stores html elements
     const [membersList, setMembersList] = useState([]);
 
-    const deleteMember = (pk)=>{
+    const deleteMember = (pk, e)=>{
+
+        e.preventDefault();
+        e.stopPropagation();
 
         axios.delete(`http://localhost:8080/teamaker/members/${pk}/`)
             .then(res=>{
-
-                console.log("deleted", res.data);
 
                 dispatch({
                     type:'member_change',
                     member_change : ++memberChange
                 })
+
+                dispatch(setStatus("Member has been deleted", "error"))
 
             })
     }
@@ -40,17 +42,12 @@ export default ()=>{
 
     const addTeamMember = (e)=>{
 
-        //We generate a timestamp and add it as part of the form url.
-        //This will cause the form to re-render with a fresh form
-        var timestamp = Date.now()
-
+        e.preventDefault();
+        e.stopPropagation();
 
         dispatch({
             type:"add_team_member", 
-            
-            //set it to a balnk form address
-            component:AddTeamMember,
-            member_form_url : `http://localhost:8080/teamaker/forms/member#${timestamp}`,
+            url : initialState.member_form_url,
         })
 
     }
@@ -73,10 +70,9 @@ export default ()=>{
                     </div>
                     <div className="card-footer bg-transparent border-0 px-2 d-flex justify-content-end">
                         {/* <a href='#' onClick={(e)=>editMember(member.pk) } className='mr-2'>Edit</a> */}
-                        <a href="#" onClick={(e)=>deleteMember(member.pk) }>Delete</a>
+                        <a href="#" onClick={(e)=>{deleteMember(member.pk, e)} }>Delete</a>
                     </div>
                 </div>
-
             )
         }
 
@@ -97,20 +93,13 @@ export default ()=>{
                     members_list: res.data,
                 })
 
-
                 setMembersList( createDisplayList(res.data) );
             })
             .catch(e=>{
 
-                dispatch({
-                    type:'members_load_error', 
-                    status: {
-                        type:'error',
-                        message:'Error loading member'
-                    },
-                    status_change: ++statusChange
-                })                
+                dispatch(setStatus("Error loading members", "error"))                
             })
+
 
     }, [memberChange])
 
@@ -122,7 +111,7 @@ export default ()=>{
             <div className=" d-flex justify-content-between">
 
                 <h5>Team members ({membersList.length})</h5>
-                <button onClick={(e)=>addTeamMember(e) } className="btn btn-secondary">Add</button>
+                <button onClick={(e)=>{addTeamMember(e)} } className="btn btn-secondary">Add</button>
 
             </div>
 

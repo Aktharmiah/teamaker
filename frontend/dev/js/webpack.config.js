@@ -15,7 +15,7 @@ module.exports = {
     output: {
 
         // options related to how webpack emits results
-        path:path.resolve(__dirname, "../public"), // string (default)
+        path:path.resolve(__dirname, "../../dist/"), // string (default)
         
         // the target directory for all output files
         // must be an absolute path (use the Node.js path module)

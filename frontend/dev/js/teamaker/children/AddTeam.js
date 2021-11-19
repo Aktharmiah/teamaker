@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector, useDispatch } from 'react-redux'
 import { useState } from "react";
-import {getForm, submitForm} from '../../helpers'
+import {getForm} from '../../helpers'
 
 const $ = require('jquery')
 const url = "http://localhost:8080/teamaker/forms/team";
@@ -14,29 +14,6 @@ export default (props=null)=>{
 
     var memberAdded = useSelector((state)=>state.member_change)
     var url = useSelector((state)=>state.team_form_url)
-
-    //Becuase we are loading the form dynamically from HTML string we need to 
-    //use jquery to intercept it at sumbission to that the user is not redirected
-    $('body').on('submit', 'form', (e)=>{
-
-        e.preventDefault();
-        
-        submitForm(e)
-        .then(res=>{
-
-            console.log("response", res)
-  
-            //we want to increse the 'member_change' state by 1. This update should be picked up 
-            //and actioned by the Members component
-            dispatch({type:'member_change', member_change: ++memberAdded})
-  
-        })
-        .catch(e=>{
-
-            dispatch({type:'status_changed', status: {type:'error', message:e.statusText} })
-
-        })
-    })
 
     //ensure this is only done once otherwise we'll have an inifinate loop
     if(!form){

@@ -1,8 +1,8 @@
 # INTRO
 
-This small app allows the user to to randomly pick a team, accoring to the selection criteria as outlined below.
+This small app allows the user to to randomly pick a team member, accoring to the selection criteria as outlined below, to make tea!!
 
-Each member of the team must have a skill level of either junior, intermediate or senior. The application must allow the user to randomly select the next team member to make the tea during a working day. The tea making selection algorithm uses these rules.
+Each member of the team has a skill level of either junior, intermediate or senior. The application allows the user to randomly select the next team member to make the tea during a working day. The tea making selection algorithm uses these rules.
 
 **Member section criteria**
 

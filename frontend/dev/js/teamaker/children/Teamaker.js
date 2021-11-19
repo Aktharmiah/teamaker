@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import css from "../../css"
+import css from "../../../css/css"
 import { useSelector, useDispatch } from 'react-redux'
-import { createProbabilities } from "../../helpers";
+import { createProbabilities, setStatus } from "../../helpers";
 
 const url = "http://localhost:8080/teamaker/members/?format=json"
 
@@ -31,7 +31,9 @@ export default (props=null)=>{
         var selectedTeaMakerPk = null;
 
         //limit the number of loops
-        var counter = 0;
+        var     counter     = 0;
+        const   maxCount    = 10
+
         //pick as member who was not the last teamaker
         do{
 
@@ -41,13 +43,12 @@ export default (props=null)=>{
         }while(
             
             (lastTeamakerPk == selectedTeaMakerPk) &&
-            counter < 10        
+            counter < maxCount        
         )
 
     
 
         //go through the results and find the correspoding member
-
         var memberDetails = null;
         for(let member of membersList){
 
@@ -65,14 +66,14 @@ export default (props=null)=>{
     useEffect(()=>{
 
         //when the members list is empty, prompt the user to create a member
-        if(membersList.length ==0){
+        if(membersList.length == 0){
 
             dispatch({
-                type:'status_change', 
-                status_change : ++statusChange,
+                type:'select_teamaker', 
                 selected_teamaker_object : {first_name:'No', last_name:'Body'},
-                status : {type:'warning', message: "There's nobody to make tea :(  . Add a member to get started."}
             })
+
+            dispatch(setStatus("There's nobody to make tea :(  . Add a member to get started.", "warning"))
 
         }else{
 
@@ -85,17 +86,15 @@ export default (props=null)=>{
                     type:'teamaker_changed', 
                     selected_teamaker_pk: member.pk,
                     selected_teamaker_object : member,
-                    status:{type:'info', message:`${member.first_name} ${member.last_name} is making tea!!`},
-                    status_change: ++statusChange               
                 })
+
+
+                dispatch(setStatus(`${member.first_name} ${member.last_name} is making tea!!`, 'info'))
 
             }catch(e){
 
-                dispatch({
-                    type:'status_changed', 
-                    status_change : ++statusChange,
-                    status : {type:'error', message: e.message}             
-                })             
+                dispatch(setStatus(e.message, "error"))
+          
             };
 
 
@@ -106,11 +105,11 @@ export default (props=null)=>{
     return(
 
 
-        <div style={css.teamaker} className="d-flex align-items-center text-center" >
+        <div style={css.teamaker} className="d-flex align-items-center justify-content-center" >
             <div className='d-block'>
 
-            <h1 style={css.inherit_width}>And the unlucky winner is ...</h1><br />
-            <h2 className="text-warning">{selectedTeamaker.first_name} {selectedTeamaker.last_name}</h2>
+                <h1 style={css.inherit_width}>And the unlucky winner is ...</h1><br />
+                <h2 className="text-warning">{selectedTeamaker.first_name} {selectedTeamaker.last_name}</h2>
 
             </div>
         </div>
